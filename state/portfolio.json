@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "as_of": "2026-08-16T23:53:00Z",
+  "account": {
+    "broker": "Robinhood",
+    "account_number_last4": "7524",
+    "type": "cash",
+    "nickname": "Agentic"
+  },
+  "cash": {
+    "currency": "USD",
+    "available": 100.00,
+    "settled": 100.00,
+    "unsettled": 0.00
+  },
+  "positions": [],
+  "equity_value": 0.00,
+  "options_value": 0.00,
+  "crypto_value": 0.00,
+  "total_portfolio_value": 100.00,
+  "notes": "Launch snapshot. No positions. Capital ready."
+}
