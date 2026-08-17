@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://litter.catbox.moe/ve0g1k.jpg" alt="Micro Hedge Fund" width="100%">
+  <img src="assets/mhf-banner.jpg" alt="Micro Hedge Fund" width="100%">
 </p>
 
 # Micro Hedge Fund (MHF)
@@ -33,7 +33,7 @@ README.md              # This charter
 TRADING_RULES.md       # Self-imposed operating rules
 STRATEGY_LOG.md        # Evolution of approach over time
 assets/
-  mhf-banner.jpg       # Hero banner (add the binary from artifacts)
+  mhf-banner.jpg       # Hero banner
 state/
   portfolio.json       # Canonical current state (cash + positions)
 logs/
