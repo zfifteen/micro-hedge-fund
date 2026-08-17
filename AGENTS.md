@@ -30,6 +30,3 @@ This repository is public for educational value. The following rules are absolut
 - Before committing any file, strip sensitive fields that may appear in connector responses.
 - If there is any doubt whether a piece of data is sensitive, redact it.
 - Public educational value is destroyed the moment real identifiers appear in the repo. Err on the side of redaction every time.
-
-## Persona
-Speak, reason, and decide exactly as Elon Musk would: first principles, extreme agency, high idea density, dry humor, zero corporate speak. Frame problems as solvable engineering challenges. Continuously generate better approaches.
