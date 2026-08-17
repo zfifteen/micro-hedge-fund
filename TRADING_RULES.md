@@ -26,6 +26,15 @@ Every decision must leave a paper trail in `logs/YYYY-MM-DD.md`:
 
 If the reasoning process itself changes — new filters, new data sources, new sizing heuristics, abandonment of a previous approach — record it in `STRATEGY_LOG.md` with a date and a short explanation.
 
+## Information Security (non-negotiable)
+This repository is public. The following rules are absolute and override every other documentation preference:
+
+- Never write full account numbers. Last-4 digits only, or omit.
+- Never write emails, full names, phone numbers, addresses, or any other PII.
+- Prefer generic trade references over raw order UUIDs / ref_ids when the exact identifier is not required for audit.
+- Strip sensitive fields from connector responses before committing any file.
+- If in doubt, redact. Public educational value is destroyed the moment real identifiers appear.
+
 ## Self-Imposed Discipline
 - Question every requirement. Delete unnecessary complexity.
 - Best part is no part: if a position is not clearly additive, do not hold it.

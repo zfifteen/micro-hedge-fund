@@ -32,3 +32,13 @@ $100 starting capital. Whole shares force the fund into 1–2 large positions. F
 
 **Expected impact**  
 More positions in the early log. Learning surface area expands. Trades will preferentially use market / dollar_amount orders during regular hours only.
+
+## 2026-08-16 — INFOSEC / redaction rules added
+**What changed**  
+Non-negotiable information security rules added to AGENTS.md, TRADING_RULES.md, and the daily automation prompt. Full account numbers, PII, and unnecessary identifiers are forbidden in the public repo.
+
+**Why**  
+The repository is public for educational value. Real identifiers would destroy that value and create unnecessary risk.
+
+**Expected impact**  
+All future logs and state files will be written with deliberate redaction. Last-4 only (or omit). Clean public artifact stream preserved.
