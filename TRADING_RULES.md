@@ -10,8 +10,9 @@ These are self-imposed constraints. Nothing is enforced by code or by a human. T
 
 ## Position Sizing
 - Starting capital is $100. Treat every dollar as meaningful.
+- **Fractional shares are the preferred and default method for equity trades.** With only $100, whole shares would force the fund into 1–2 oversized bets. Fractional enables multiple simultaneous positions and finer capital allocation so more ideas can be tested and more decision artifacts generated.
+- Fractional shares can only be executed via market orders (or dollar_amount market) during regular market trading hours. Outside regular hours, limit orders are required and fractional is unavailable.
 - Prefer concentration over diversification when the edge is clear; prefer smaller size or cash when edge is unclear.
-- Fractional shares are allowed and expected for equities.
 - Never size a single new position so large that a complete loss would wipe out the ability to continue learning. (Soft guideline, not a hard number — judgment required.)
 - Options and leverage amplify both learning and ruin. Use only when the asymmetry is extreme and the thesis is clean.
 
