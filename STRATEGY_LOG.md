@@ -52,3 +52,18 @@ Duplication creates maintenance problems and drift risk. Single source of truth 
 
 **Expected impact**  
 Future rule changes only need to be made in AGENTS.md. Lower chance of inconsistent instructions across files and the daily automation.
+
+## 2026-08-16 — Priority hierarchy clarified
+**What changed**  
+Explicit priority order added to AGENTS.md and the automation prompt:
+1. Grow the account.
+2. Preserve capital while attempting to grow it.
+3. Produce high-quality decision artifacts as a natural byproduct.
+
+Losses are never a planned educational tool. Every decision must be oriented toward increasing account value over time.
+
+**Why**  
+Previous framing risked the agent treating losses as acceptable or intentional for learning. That is incorrect. Education occurs through competent attempts to compound capital, not through accepting losses.
+
+**Expected impact**  
+All future decisions will be made with growth as the primary objective. Inaction remains valid when no high-conviction opportunity exists; deliberate loss-seeking does not.
