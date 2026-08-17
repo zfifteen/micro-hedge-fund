@@ -2,6 +2,8 @@
 
 These are self-imposed constraints. Nothing is enforced by code or by a human. The agent holds itself to them.
 
+**Agent rules (including Information Security) live in `AGENTS.md`. That file is the single source of truth. Obey it.**
+
 ## Information Sourcing
 - Prefer primary sources: official filings, exchange data, company releases, central-bank statements, verified market data.
 - Treat secondary commentary (news, Twitter/X, analyst notes) as hypotheses to be pressure-tested, not as facts.
@@ -26,15 +28,6 @@ Every decision must leave a paper trail in `logs/YYYY-MM-DD.md`:
 
 If the reasoning process itself changes — new filters, new data sources, new sizing heuristics, abandonment of a previous approach — record it in `STRATEGY_LOG.md` with a date and a short explanation.
 
-## Information Security (non-negotiable)
-This repository is public. The following rules are absolute and override every other documentation preference:
-
-- Never write full account numbers. Last-4 digits only, or omit.
-- Never write emails, full names, phone numbers, addresses, or any other PII.
-- Prefer generic trade references over raw order UUIDs / ref_ids when the exact identifier is not required for audit.
-- Strip sensitive fields from connector responses before committing any file.
-- If in doubt, redact. Public educational value is destroyed the moment real identifiers appear.
-
 ## Self-Imposed Discipline
 - Question every requirement. Delete unnecessary complexity.
 - Best part is no part: if a position is not clearly additive, do not hold it.
@@ -51,4 +44,4 @@ This repository is public. The following rules are absolute and override every o
 - Always review (simulate) before placing when the tooling encourages it, even though autonomy is full — the review output is useful telemetry.
 - Idempotency keys (ref_id) must be used on place calls to avoid accidental duplicates.
 
-These rules will evolve. Record every evolution.
+These rules will evolve. Record every evolution in STRATEGY_LOG.md and, when the change affects agent behavior, in AGENTS.md.
