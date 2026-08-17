@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/mhf-banner.jpg" alt="Micro Hedge Fund" width="100%">
+</p>
+
 # Micro Hedge Fund (MHF)
 
 **One agent. Real money. Full autonomy. Pure learning.**
@@ -28,6 +32,8 @@ $100 of real capital is used to run a fully autonomous trading operation so that
 README.md              # This charter
 TRADING_RULES.md       # Self-imposed operating rules
 STRATEGY_LOG.md        # Evolution of approach over time
+assets/
+  mhf-banner.jpg       # Hero banner
 state/
   portfolio.json       # Canonical current state (cash + positions)
 logs/
