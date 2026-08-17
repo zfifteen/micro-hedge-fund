@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-08-16T23:53:00Z",
+  "as_of": "2026-08-17T16:40:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -9,14 +9,33 @@
   },
   "cash": {
     "currency": "USD",
-    "available": 100.00,
-    "settled": 100.00,
+    "available": 10.00,
+    "settled": 10.00,
     "unsettled": 0.00
   },
-  "positions": [],
-  "equity_value": 0.00,
+  "positions": [
+    {
+      "symbol": "MU",
+      "quantity": 0.038822,
+      "average_buy_price": 1030.34,
+      "cost_basis": 40.00
+    },
+    {
+      "symbol": "NVDA",
+      "quantity": 0.132240,
+      "average_buy_price": 226.86,
+      "cost_basis": 30.00
+    },
+    {
+      "symbol": "QQQ",
+      "quantity": 0.027306,
+      "average_buy_price": 732.44,
+      "cost_basis": 20.00
+    }
+  ],
+  "equity_value": 89.89,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 100.00,
-  "notes": "Launch snapshot. No positions. Capital ready."
+  "total_portfolio_value": 99.89,
+  "notes": "First deployment day. Fractional longs in AI memory, AI compute, and broad tech."
 }
