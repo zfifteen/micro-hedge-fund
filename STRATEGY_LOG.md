@@ -42,3 +42,13 @@ The repository is public for educational value. Real identifiers would destroy t
 
 **Expected impact**  
 All future logs and state files will be written with deliberate redaction. Last-4 only (or omit). Clean public artifact stream preserved.
+
+## 2026-08-16 — AGENTS.md made single source of truth
+**What changed**  
+Removed duplicated INFOSEC and operating rules from TRADING_RULES.md and slimmed the automation prompt. AGENTS.md is now the canonical location for all standing agent rules (including INFOSEC). Other documents and the automation prompt reference it instead of repeating content.
+
+**Why**  
+Duplication creates maintenance problems and drift risk. Single source of truth is cleaner and more reliable.
+
+**Expected impact**  
+Future rule changes only need to be made in AGENTS.md. Lower chance of inconsistent instructions across files and the daily automation.
