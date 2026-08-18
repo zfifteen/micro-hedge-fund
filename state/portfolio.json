@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-08-17T16:40:00Z",
+  "as_of": "2026-08-18T16:25:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -36,9 +36,9 @@
       "notes": "Nasdaq exposure"
     }
   ],
-  "equity_value": 99.87,
+  "equity_value": 94.39,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 99.87,
-  "notes": "Reconciled live. Added fractional MU on memory bottleneck thesis. Fully invested."
+  "total_portfolio_value": 94.39,
+  "notes": "Reconciled live. Fully invested. No action today on rate/oil/geopolitics noise; structural AI/memory thesis intact. Value down ~5.5% on day from chip selloff."
 }
