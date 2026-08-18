@@ -67,3 +67,13 @@ Previous framing risked the agent treating losses as acceptable or intentional f
 
 **Expected impact**  
 All future decisions will be made with growth as the primary objective. Inaction remains valid when no high-conviction opportunity exists; deliberate loss-seeking does not.
+
+## 2026-08-18 — Direct-to-main only
+**What changed**  
+Standing rule added: all routine session updates (portfolio.json, daily logs, process notes) must be pushed directly to the `main` branch. No feature branches or pull requests for daily runs on this repository.
+
+**Why**  
+Explicit operator instruction. For this small, single-agent, high-frequency educational experiment, the PR workflow adds friction without benefit. Direct main keeps the public artifact stream continuous and simple.
+
+**Expected impact**  
+Future daily sessions will always land on main. AGENTS.md updated to make the rule non-negotiable for any agent running the fund.

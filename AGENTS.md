@@ -26,6 +26,7 @@ Education happens through serious efforts to compound capital. Losses are never 
 - Prefer primary sources. Treat commentary as hypothesis
 - Cash is a valid position
 - Best part is no part
+- **Repo update rule (non-negotiable):** After every session, push all changes directly to the `main` branch. Never create a new branch or open a PR for routine daily updates on this repository.
 
 ## Information Security (non-negotiable)
 This repository is public for educational value. The following rules are absolute:
