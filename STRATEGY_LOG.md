@@ -89,3 +89,13 @@ The public repo is the system of record. A local commit that never leaves the sa
 
 **Expected impact**  
 Future sessions write straight to `main` through the connector first, then report done. If the write fails, the run is FAILED and must be recovered immediately, not described as complete.
+
+## 2026-08-19 — Write retries are mandatory
+**What changed**  
+Added a standing retry rule. If a GitHub write fails, retry immediately. Minimum 3 in-session attempts. Switch method on retry (connector `push_files`, then per-file create-or-update, then read-back verification from `main`). Do not report done after one failed attempt. Keep recovering until the files are on `main` or the operator stops the run.
+
+**Why**  
+The first 2026-08-19 write failed once on missing local git credentials and the agent stopped. That is insufficient. Transient auth/path failures are expected. One attempt is not a serious try.
+
+**Expected impact**  
+A single failed push will no longer end a session. Agents will burn retries and alternate write methods before declaring failure.
