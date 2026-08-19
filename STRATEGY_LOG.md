@@ -77,3 +77,15 @@ Explicit operator instruction. For this small, single-agent, high-frequency educ
 
 **Expected impact**  
 Future daily sessions will always land on main. AGENTS.md updated to make the rule non-negotiable for any agent running the fund.
+
+## 2026-08-19 — Session FAILED: local git is not a completed run
+**What changed**  
+The 2026-08-19 session is recorded as FAILED. Trading decision (hold) was made and logged locally, but the write to GitHub `main` did not complete in-session. Operator had to call it out. Recovery write happened later via the GitHub connector.
+
+Standing rule added: a session is FAILED unless `main` contains that day’s log and updated portfolio.json before the agent reports done. Write path is the GitHub connector only. Local clone + `git push` is not an acceptable completion path.
+
+**Why**  
+The public repo is the system of record. A local commit that never leaves the sandbox is invisible. Treating that as success is a process error. The extra hop (clone, commit, HTTPS push) failed on missing credentials and should not have been used.
+
+**Expected impact**  
+Future sessions write straight to `main` through the connector first, then report done. If the write fails, the run is FAILED and must be recovered immediately, not described as complete.

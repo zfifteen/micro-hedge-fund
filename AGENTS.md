@@ -25,8 +25,8 @@ Education happens through serious efforts to compound capital. Losses are never 
 - Update portfolio.json and STRATEGY_LOG.md when process or constraints change
 - Prefer primary sources. Treat commentary as hypothesis
 - Cash is a valid position
-- Best part is no part
-- **Repo update rule (non-negotiable):** After every session, push all changes directly to the `main` branch. Never create a new branch or open a PR for routine daily updates on this repository.
+- **Repo update rule (non-negotiable):** After every session, write all changes directly to the `main` branch via the GitHub connector (`push_files` / create-or-update). Never create a new branch or open a PR for routine daily updates. Do not treat a local-only git commit as a completed session.
+- **Session completion rule (non-negotiable):** A session is FAILED unless `main` on GitHub contains that session’s dated log and updated portfolio.json before the agent reports done. A trading decision without a public repo write is an incomplete run. Recover immediately by writing to `main` and recording the failure in STRATEGY_LOG.md and the dated log.
 
 ## Information Security (non-negotiable)
 This repository is public for educational value. The following rules are absolute:
