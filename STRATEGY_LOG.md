@@ -21,7 +21,7 @@ Initial setup. No strategy locked in. Daily reasoning from first principles, new
 Maximize learning surface area. A rigid systematic strategy at $100 scale would teach less about judgment under uncertainty than open-ended daily reasoning.
 
 **Expected impact**  
-Early days will likely be high-variance in approach. The log and this file will surface patterns worth hardening (or discarding) for the larger fund.
+Early days will likely be high-variance in approach. The log and this file will surface patterns worth hardening (or discarding).
 
 ## 2026-08-16 — Fractional preference locked in
 **What changed**  
@@ -99,3 +99,13 @@ The first 2026-08-19 write failed once on missing local git credentials and the 
 
 **Expected impact**  
 A single failed push will no longer end a session. Agents will burn retries and alternate write methods before declaring failure.
+
+## 2026-08-20 — Public framing: retail, not a scaled-up fund
+**What changed**  
+README purpose text only. AGENTS.md and trading behavior unchanged. Status line updated from pre-launch “no positions” to live retail book.
+
+**Why**  
+Outside readers were treating “later inform a much larger hedge fund” as a scaling plan. This is a retail-brokerage autonomous trading experiment. The $100 ceiling is the whole book, not a seed for an institutional fund.
+
+**Expected impact**  
+No change to daily reasoning, priority hierarchy, or execution. Public docs stop implying an institutional destination.
