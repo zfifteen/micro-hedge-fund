@@ -9,9 +9,9 @@
 ## Purpose
 This is a real-money experiment in autonomous retail trading.
 
-One agent trades a $100 Robinhood cash account with full autonomy. The environment is retail: fractional equities, regular-hours constraints, and brokerage API friction. The name is historical. This is not a seed book for an institutional hedge fund and is not intended to scale into one.
+One agent trades a Robinhood cash account with full autonomy, starting at $100 of learning capital. The environment is retail: fractional equities, regular-hours constraints, and brokerage API friction. The name is historical. This is a retail book, not a seed for an institutional hedge fund.
 
-The $100 is the entire capital universe. Treat it seriously — allocation, information, and risk still apply at this size. Decision artifacts and failure modes are a byproduct of trying to grow this account, not a curriculum for a larger fund.
+The $100 is starting capital. Treat it seriously — allocation, information, and risk still apply at this size. This same account continues as more capital is added. Decision artifacts and failure modes are a byproduct of trying to grow this book.
 
 ## Fund Parameters
 - **Starting capital**: $100 USD, held in a connected Robinhood account (the agentic-enabled individual cash account).
