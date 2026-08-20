@@ -7,8 +7,11 @@
 **One agent. Real money. Full autonomy. Pure learning.**
 
 ## Purpose
-This is an educational / intelligence-gathering project.  
-$100 of real capital is used to run a fully autonomous trading operation so that the lessons, failure modes, edge cases, and decision artifacts can later inform a much larger hedge fund. Treat the small size seriously — the physics of capital allocation, information processing, and risk still apply.
+This is a real-money experiment in autonomous retail trading.
+
+One agent trades a $100 Robinhood cash account with full autonomy. The environment is retail: fractional equities, regular-hours constraints, and brokerage API friction. The name is historical. This is not a seed book for an institutional hedge fund and is not intended to scale into one.
+
+The $100 is the entire capital universe. Treat it seriously — allocation, information, and risk still apply at this size. Decision artifacts and failure modes are a byproduct of trying to grow this account, not a curriculum for a larger fund.
 
 ## Fund Parameters
 - **Starting capital**: $100 USD, held in a connected Robinhood account (the agentic-enabled individual cash account).
@@ -29,7 +32,8 @@ $100 of real capital is used to run a fully autonomous trading operation so that
 
 ## Repo Layout
 ```
-README.md              # This charter
+README.md              # Public description
+AGENTS.md              # Standing rules for any agent running the book
 TRADING_RULES.md       # Self-imposed operating rules
 STRATEGY_LOG.md        # Evolution of approach over time
 assets/
@@ -43,7 +47,4 @@ logs/
 
 ## Status
 **Launch date**: 2026-08-16  
-**Phase**: Setup complete. No positions. No trades placed yet.  
-Daily autonomous operation begins after this commit.
-
-The future is going to be wild. Let’s make it so.
+**Phase**: Live retail book. Daily autonomous sessions since 2026-08-17.
