@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-08-20T16:16:00Z",
+  "as_of": "2026-08-21T16:20:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -36,9 +36,9 @@
       "notes": "Nasdaq exposure"
     }
   ],
-  "equity_value": 94.47,
+  "equity_value": 94.76,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 94.47,
-  "notes": "Reconciled live. Fully invested. MU strength on research-labs announcement offsets broader tech softness from yield rebound and oil. Structural HBM/AI thesis unchanged. Hold."
+  "total_portfolio_value": 94.76,
+  "notes": "Reconciled live. Fully invested. Hold ahead of NVDA earnings (Aug 26). Structural HBM/AI thesis intact; short-term yield/oil noise does not falsify it. No cash to redeploy."
 }
