@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-08-21T16:20:00Z",
+  "as_of": "2026-08-24T16:20:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -36,9 +36,9 @@
       "notes": "Nasdaq exposure"
     }
   ],
-  "equity_value": 94.76,
+  "equity_value": 91.81,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 94.76,
-  "notes": "Reconciled live. Fully invested. Hold ahead of NVDA earnings (Aug 26). Structural HBM/AI thesis intact; short-term yield/oil noise does not falsify it. No cash to redeploy."
+  "total_portfolio_value": 91.81,
+  "notes": "Reconciled live. Fully invested. Hold into NVDA earnings (Aug 26 AMC). Structural HBM/AI thesis intact; today's semi selloff and macro noise (Iran, Canada tariffs, yields) do not falsify multi-year demand. No cash to redeploy."
 }
