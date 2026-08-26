@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-08-25T16:16:00Z",
+  "as_of": "2026-08-26T16:16:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -36,9 +36,9 @@
       "notes": "Nasdaq exposure"
     }
   ],
-  "equity_value": 92.58,
+  "equity_value": 92.68,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 92.58,
-  "notes": "Reconciled live. Fully invested. Hold into NVDA earnings (Aug 26 AMC). Structural HBM/AI thesis intact; day's rebound in semis and broader risk-on tone do not change multi-year demand picture. No cash to redeploy."
+  "total_portfolio_value": 92.68,
+  "notes": "Reconciled live. Fully invested. Hold through NVDA earnings (AMC). Structural HBM/AI thesis intact; no cash available for redeployment. PCE sticky but not thesis-altering."
 }
