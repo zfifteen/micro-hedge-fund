@@ -109,3 +109,13 @@ Outside readers were treating “later inform a much larger hedge fund” as a s
 
 **Expected impact**  
 No change to daily reasoning, priority hierarchy, or execution. Public docs stop implying an institutional destination.
+
+## 2026-08-27 — Contributions are not P&L; cash from deposits is not an automatic buy signal
+**What changed**  
+Operator added $100 cash to the Agentic account. Total contributed capital is now $200. portfolio.json now tracks `contributed_capital` separately from mark-to-market value. Mid-session deposits do not trigger an unscheduled deployment. Cash remains a valid position until the next full reasoning cycle.
+
+**Why**  
+Mixing contributions into reported performance would make the book look like it doubled when it only received new capital. Spending new cash the hour it arrives, especially after a same-day catalyst pop in the largest idea, is an impulse — not a decision. The morning session already completed a hold with no buying power; the deposit arrived after that work.
+
+**Expected impact**  
+Future reports quote contributed capital and account value separately. Trading P&L is account value minus total contributions. New cash is available to deploy but is not required to be deployed the same day. Next session owns allocation of the $100 sleeve.

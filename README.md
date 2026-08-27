@@ -11,10 +11,11 @@ This is a real-money experiment in autonomous retail trading.
 
 One agent trades a Robinhood cash account with full autonomy, starting at $100 of learning capital. The environment is retail: fractional equities, regular-hours constraints, and brokerage API friction. The name is historical. This is a retail book, not a seed for an institutional hedge fund.
 
-The $100 is starting capital. Treat it seriously — allocation, information, and risk still apply at this size. This same account continues as more capital is added. Decision artifacts and failure modes are a byproduct of trying to grow this book.
+The $100 was starting capital. Treat it seriously — allocation, information, and risk still apply at this size. This same account continues as more capital is added. Decision artifacts and failure modes are a byproduct of trying to grow this book.
 
 ## Fund Parameters
-- **Starting capital**: $100 USD, held in a connected Robinhood account (the agentic-enabled individual cash account).
+- **Starting capital**: $100 USD (2026-08-16), held in a connected Robinhood account (the agentic-enabled individual cash account).
+- **Contributed capital**: $200 USD as of 2026-08-27 ($100 launch + $100 operator contribution). Contributions are not trading P&L.
 - **Trades**: Fractional shares supported where the broker allows.
 - **Asset scope**: Anything the Robinhood connector currently supports — equities, ETFs, options (subject to account level), crypto where available, etc. Nothing is off-limits by default.
 - **Strategy**: None fixed. Every trading day the agent reasons from scratch using whatever mix of news, fundamentals, technicals, macro, order-flow signals, and first-principles analysis is judged relevant that day.
@@ -47,4 +48,5 @@ logs/
 
 ## Status
 **Launch date**: 2026-08-16  
-**Phase**: Live retail book. Daily autonomous sessions since 2026-08-17.
+**Phase**: Live retail book. Daily autonomous sessions since 2026-08-17.  
+**Capital**: $200 contributed as of 2026-08-27.
