@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-08-26T16:16:00Z",
+  "as_of": "2026-08-27T16:29:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -36,9 +36,9 @@
       "notes": "Nasdaq exposure"
     }
   ],
-  "equity_value": 92.68,
+  "equity_value": 94.05,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 92.68,
-  "notes": "Reconciled live. Fully invested. Hold through NVDA earnings (AMC). Structural HBM/AI thesis intact; no cash available for redeployment. PCE sticky but not thesis-altering."
+  "total_portfolio_value": 94.05,
+  "notes": "Reconciled live. Fully invested. NVDA post-earnings strength (+~9% from prior close) offsets MU softness. Structural AI/HBM thesis reinforced by Q2 beat, $108B Q3 guide, and FY2028 +70% growth commentary; memory scarcity explicitly cited as constraint. No cash available for redeployment. Hold."
 }
