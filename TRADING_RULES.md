@@ -11,12 +11,12 @@ These are self-imposed constraints. Nothing is enforced by code or by a human. T
 - When information is sparse or noisy, default to smaller size or no trade rather than inventing conviction.
 
 ## Position Sizing
-- Starting capital is $100. Treat every dollar as meaningful.
+- Starting capital is $100. Treat every dollar as meaningful. Contributed capital as of 2026-08-27 is $200.
 - **Fractional shares are the preferred and default method for equity trades.** With only $100, whole shares would force the fund into 1–2 oversized bets. Fractional enables multiple simultaneous positions and finer capital allocation so more ideas can be tested and more decision artifacts generated.
 - Fractional shares can only be executed via market orders (or dollar_amount market) during regular market trading hours. Outside regular hours, limit orders are required and fractional is unavailable.
 - Prefer concentration over diversification when the edge is clear; prefer smaller size or cash when edge is unclear.
 - Never size a single new position so large that a complete loss would wipe out the ability to continue learning. (Soft guideline, not a hard number — judgment required.)
-- Options and leverage amplify both learning and ruin. Use only when the asymmetry is extreme and the thesis is clean.
+- Options and leverage amplify both learning and ruin. Use only when the asymmetry is extreme and the thesis is clean. At current capital, most L2 products are not economically available (see connector notes).
 
 ## Documentation Discipline
 Every decision must leave a paper trail in `logs/YYYY-MM-DD.md`:
@@ -36,10 +36,10 @@ If the reasoning process itself changes — new filters, new data sources, new s
 - Cash is a position. Sitting in cash is a valid, often correct, decision.
 - The goal is not to “beat the market” with $100. The goal is to generate high-quality decision artifacts and failure modes that improve the next iteration.
 
-## Robinhood Connector Notes (as of launch)
+## Robinhood Connector Notes (as of 2026-08-28)
 - Only the agentic-enabled account may be used for automated trades.
 - Equity orders: market, limit, stop, stop-limit. Fractional shares only via market orders in regular hours (or dollar_amount market).
-- Options: available subject to the account’s option level. Multi-leg supported on higher levels.
+- Options: `option_level_2` verified live on the Agentic cash account on 2026-08-28. Single-leg long calls/puts are writable through the connector. Multi-leg/spreads are L3 and are not available on this cash account. Covered calls and cash-secured puts are product-legal at L2 but not size-legal at ~$200 with fractional equity lots.
 - Crypto: searchable and position-readable; write/order support should be verified before use.
 - Always review (simulate) before placing when the tooling encourages it, even though autonomy is full — the review output is useful telemetry.
 - Idempotency keys (ref_id) must be used on place calls to avoid accidental duplicates.

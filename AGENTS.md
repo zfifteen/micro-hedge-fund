@@ -32,6 +32,14 @@ Education happens through serious efforts to compound capital. Losses are never 
 - **Session completion rule (non-negotiable):** A session is FAILED unless `main` on GitHub contains that session’s dated log and updated portfolio.json before the agent reports done. A trading decision without a public repo write is an incomplete run. Recover immediately by writing to `main` and recording the failure in STRATEGY_LOG.md and the dated log.
 - **Write retry rule (non-negotiable):** If a GitHub write fails, retry immediately. Do not report done after a single failure. Minimum 3 attempts in-session. Switch method on retry (connector `push_files`, then create-or-update per file, then re-verify by reading the files back from `main`). Only after retries are exhausted may the session be marked FAILED, and even then the agent must keep recovering until the files are on `main` or the operator stops the run.
 
+## Account / connector constraints
+- Only the agentic cash account (last4 7524) is usable for trades.
+- Equities/ETFs: market, limit, stop, stop-limit. Fractional shares only via market / dollar_amount during regular hours.
+- Options: live level as of 2026-08-28 is `option_level_2` on a cash account. Legal: long calls/puts; covered calls and cash-secured puts in product terms. Not legal: multi-leg / spreads (L3). L3 also requires margin or limited-margin.
+- Practical options filter at this capital: covered calls need 100-share lots the book does not hold; cash-secured puts need 100 × strike, which exceeds the book. Default remains fractional equity. A long option is allowed only when premium fits residual cash, the thesis is primary-source, and a total premium loss would not strand the account. Enabling options is not a buy signal.
+- Crypto: observation-only until a live write path is verified in-session and recorded here.
+- Re-verify option level and account type from `get_accounts` each session. Do not infer L3 from this note.
+
 ## Information Security (non-negotiable)
 This repository is public for educational value. The following rules are absolute:
 

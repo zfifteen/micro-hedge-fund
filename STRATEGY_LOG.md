@@ -129,3 +129,25 @@ Operator instruction.
 
 **Expected impact**  
 The lists are available as a convenience. The agent may modify them or create new lists.
+
+## 2026-08-28 — Options level 2 enabled
+**What changed**  
+Live reconcile of the Agentic cash account (last4 7524) now returns `option_level_2`. Standing docs previously treated options as empty / observation-only. Connector write path for single-leg options is now available. Account type remains cash.
+
+What L2 actually unlocks on this account:
+- Long calls and long puts (premium paid in cash)
+- Covered calls and cash-secured puts in the product sense
+
+What still does not work at this book:
+- Multi-leg / spreads (L3). L3 also requires margin or limited-margin; this account is cash.
+- Covered calls: book holds fractional lots, not 100-share lots.
+- Cash-secured puts: 100 × strike far exceeds ~$200 contributed capital and residual cash.
+- Practical options use, if any, is a single cheap long contract that still leaves the equity book intact and does not consume the entire cash sleeve for lottery-ticket decay.
+
+No options order was placed on this notice. Regular session already ran. Market was closed by the time the live level was verified. Enabling a product is not a buy signal.
+
+**Why**  
+Operator FYI plus live `get_accounts` confirmation. Constraint files that still said “option level empty” would cause the next session to skip a now-legal tool or, worse, assume L3/spreads exist.
+
+**Expected impact**  
+Future sessions may consider long calls/puts if a primary-source thesis has defined, bounded asymmetry that equity cannot express at this size. Default remains fractional equity. Do not use options to manufacture leverage against the priority hierarchy. Re-verify option level each session; do not assume L3 without a live check and a change in account type.
