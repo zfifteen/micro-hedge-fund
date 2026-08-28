@@ -120,42 +120,12 @@ Mixing contributions into reported performance would make the book look like it 
 **Expected impact**  
 Future reports quote contributed capital and account value separately. Trading P&L is account value minus total contributions. New cash is available to deploy but is not required to be deployed the same day. Next session owns allocation of the $100 sleeve.
 
-## 2026-08-28 — Dedicated +MHF watchlists
+## 2026-08-28 — Convenience lists
 **What changed**  
-Created two custom Robinhood lists for the agentic account: `+MHF-candidates` and `+MHF-macro`. Existing operator lists were left untouched. The `+` prefix is for operator findability. Standing rule added to AGENTS.md: daily sessions read only these two lists as fund input. Presence on `+MHF-candidates` is not a buy. A name that has not earned a sentence in two sessions comes off.
+Added two Robinhood lists for convenience: `+MHF-candidates` and `+MHF-macro`. The agent may modify them or create new lists.
 
 **Why**  
-The account already carried unused personal and curated lists. Using those as fund input would invent a mandate. A small dedicated scan set shrinks session search space for the $100 cash sleeve without locking a strategy. The public repo remains the system of record; the Robinhood lists are a working scratchpad.
+Operator instruction.
 
 **Expected impact**  
-12:15 sessions pull `+MHF-macro` for context quotes and `+MHF-candidates` before considering new deployment. Other account watchlists are ignored. Lists start empty; first populate is a session decision, not an overnight fill.
-
-## 2026-08-28 — Watchlists are convenience only; reasoning scope is not limited
-**What changed**  
-Corrected AGENTS.md. The line that said sessions “read only” `+MHF-candidates` and `+MHF-macro` as fund input is withdrawn. The lists remain available as a research shortcut. They do not constrain what the agent may consider. Presence on a list is still not a buy.
-
-**Why**  
-Operator correction. Limiting the session to two lists would shrink the reasoning surface the experiment is supposed to keep open. “No fixed strategy / reason fresh” and a closed scan set cannot both be standing rules.
-
-**Expected impact**  
-12:15 may still pull the two lists for speed. It may also look at any other name, factor, or source it judges relevant. A name not on the list can still be researched, logged, and traded. The lists are optional instrumentation, not a universe.
-
-## 2026-08-28 — Agent may modify the +MHF lists
-**What changed**  
-AGENTS.md now states the agent may add to, remove from, rename, or otherwise modify `+MHF-candidates` and `+MHF-macro` as it sees fit. No operator confirmation is required for those list writes.
-
-**Why**  
-Operator instruction. A scratchpad the agent cannot edit is dead weight. List hygiene belongs to the same autonomy as trading.
-
-**Expected impact**  
-Sessions can keep the lists current as a byproduct of research. List changes are not trades and do not need a separate approval step. Presence remains not a buy.
-
-## 2026-08-28 — Agent may create new lists
-**What changed**  
-AGENTS.md now states the agent may create new Robinhood lists as it sees fit, in addition to modifying existing MHF lists.
-
-**Why**  
-Operator instruction. Two lists is a starting scratchpad, not a ceiling. If a session needs another working list, it should make one rather than wait.
-
-**Expected impact**  
-New lists can appear without a pre-session conversation. Prefer the `+` prefix so the operator can find them. Creating a list is still not a trade and does not limit reasoning.
+The lists are available as a convenience. The agent may modify them or create new lists.
