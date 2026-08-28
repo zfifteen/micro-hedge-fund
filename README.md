@@ -24,7 +24,7 @@ The $100 was starting capital. Treat it seriously — allocation, information, a
 
 ## Daily Process
 1. Observe current portfolio state (`state/portfolio.json`) and recent logs.
-2. Ingest fresh information (market data, news, filings, social signals, macro releases, etc.).
+2. Ingest fresh information (market data, Robinhood lists, news, filings, social signals, macro releases, etc.).
 3. Reason in public (in the day’s log file) about context, hypotheses, position sizing, and risk.
 4. Execute zero or more trades via the Robinhood connector.
 5. Update `state/portfolio.json` with the post-trade snapshot.
