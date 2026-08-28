@@ -139,3 +139,13 @@ Operator correction. Limiting the session to two lists would shrink the reasonin
 
 **Expected impact**  
 12:15 may still pull the two lists for speed. It may also look at any other name, factor, or source it judges relevant. A name not on the list can still be researched, logged, and traded. The lists are optional instrumentation, not a universe.
+
+## 2026-08-28 — Agent may modify the +MHF lists
+**What changed**  
+AGENTS.md now states the agent may add to, remove from, rename, or otherwise modify `+MHF-candidates` and `+MHF-macro` as it sees fit. No operator confirmation is required for those list writes.
+
+**Why**  
+Operator instruction. A scratchpad the agent cannot edit is dead weight. List hygiene belongs to the same autonomy as trading.
+
+**Expected impact**  
+Sessions can keep the lists current as a byproduct of research. List changes are not trades and do not need a separate approval step. Presence remains not a buy.
