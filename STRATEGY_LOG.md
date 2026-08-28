@@ -129,3 +129,13 @@ The account already carried unused personal and curated lists. Using those as fu
 
 **Expected impact**  
 12:15 sessions pull `+MHF-macro` for context quotes and `+MHF-candidates` before considering new deployment. Other account watchlists are ignored. Lists start empty; first populate is a session decision, not an overnight fill.
+
+## 2026-08-28 — Watchlists are convenience only; reasoning scope is not limited
+**What changed**  
+Corrected AGENTS.md. The line that said sessions “read only” `+MHF-candidates` and `+MHF-macro` as fund input is withdrawn. The lists remain available as a research shortcut. They do not constrain what the agent may consider. Presence on a list is still not a buy.
+
+**Why**  
+Operator correction. Limiting the session to two lists would shrink the reasoning surface the experiment is supposed to keep open. “No fixed strategy / reason fresh” and a closed scan set cannot both be standing rules.
+
+**Expected impact**  
+12:15 may still pull the two lists for speed. It may also look at any other name, factor, or source it judges relevant. A name not on the list can still be researched, logged, and traded. The lists are optional instrumentation, not a universe.
