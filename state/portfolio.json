@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-08-27T18:30:00Z",
+  "as_of": "2026-08-28T16:20:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -21,17 +21,17 @@
   },
   "cash": {
     "currency": "USD",
-    "available": 100.00,
-    "settled": 100.00,
+    "available": 30.00,
+    "settled": 30.00,
     "unsettled": 0.00
   },
   "positions": [
     {
       "symbol": "MU",
-      "quantity": 0.048553,
-      "avg_cost": 1029.80,
+      "quantity": 0.092126,
+      "avg_cost": 976.92,
       "entry_date": "2026-08-17",
-      "notes": "AI memory / HBM demand"
+      "notes": "AI memory / HBM demand; added 2026-08-28"
     },
     {
       "symbol": "NVDA",
@@ -46,11 +46,18 @@
       "avg_cost": 732.44,
       "entry_date": "2026-08-17",
       "notes": "Nasdaq exposure"
+    },
+    {
+      "symbol": "CEG",
+      "quantity": 0.107417,
+      "avg_cost": 279.29,
+      "entry_date": "2026-08-28",
+      "notes": "AI power / nuclear generation bottleneck"
     }
   ],
-  "equity_value": 93.88,
+  "equity_value": 163.42,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 193.88,
-  "notes": "Reconciled live after operator +$100 cash contribution. Positions unchanged (MU / NVDA / QQQ). New cash $100 settled and spendable. Not deployed same afternoon: morning session already ran hold; NVDA +~8% post-print; Jackson Hole Friday. Cash is a valid position. Deployment is a next-session decision, not an impulse add. Trading P&L measured vs $200 contributed, not vs prior $94 mark."
+  "total_portfolio_value": 193.42,
+  "notes": "Reconciled live 2026-08-28 ~12:20 ET. Deployed $70 of the $100 cash sleeve: +$40 MU (add to lagging HBM expression), +$30 CEG (new power factor). $30 cash retained. Positions now MU/NVDA/QQQ/CEG. Trading P&L vs $200 contributed."
 }
