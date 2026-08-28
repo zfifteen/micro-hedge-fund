@@ -119,3 +119,13 @@ Mixing contributions into reported performance would make the book look like it 
 
 **Expected impact**  
 Future reports quote contributed capital and account value separately. Trading P&L is account value minus total contributions. New cash is available to deploy but is not required to be deployed the same day. Next session owns allocation of the $100 sleeve.
+
+## 2026-08-28 — Dedicated +MHF watchlists
+**What changed**  
+Created two custom Robinhood lists for the agentic account: `+MHF-candidates` and `+MHF-macro`. Existing operator lists were left untouched. The `+` prefix is for operator findability. Standing rule added to AGENTS.md: daily sessions read only these two lists as fund input. Presence on `+MHF-candidates` is not a buy. A name that has not earned a sentence in two sessions comes off.
+
+**Why**  
+The account already carried unused personal and curated lists. Using those as fund input would invent a mandate. A small dedicated scan set shrinks session search space for the $100 cash sleeve without locking a strategy. The public repo remains the system of record; the Robinhood lists are a working scratchpad.
+
+**Expected impact**  
+12:15 sessions pull `+MHF-macro` for context quotes and `+MHF-candidates` before considering new deployment. Other account watchlists are ignored. Lists start empty; first populate is a session decision, not an overnight fill.
