@@ -149,3 +149,13 @@ Operator instruction. A scratchpad the agent cannot edit is dead weight. List hy
 
 **Expected impact**  
 Sessions can keep the lists current as a byproduct of research. List changes are not trades and do not need a separate approval step. Presence remains not a buy.
+
+## 2026-08-28 — Agent may create new lists
+**What changed**  
+AGENTS.md now states the agent may create new Robinhood lists as it sees fit, in addition to modifying existing MHF lists.
+
+**Why**  
+Operator instruction. Two lists is a starting scratchpad, not a ceiling. If a session needs another working list, it should make one rather than wait.
+
+**Expected impact**  
+New lists can appear without a pre-session conversation. Prefer the `+` prefix so the operator can find them. Creating a list is still not a trade and does not limit reasoning.
