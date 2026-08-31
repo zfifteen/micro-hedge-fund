@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-08-28T16:20:00Z",
+  "as_of": "2026-08-31T16:20:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -55,9 +55,9 @@
       "notes": "AI power / nuclear generation bottleneck"
     }
   ],
-  "equity_value": 163.42,
+  "equity_value": 164.94,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 193.42,
-  "notes": "Reconciled live 2026-08-28 ~12:20 ET. Deployed $70 of the $100 cash sleeve: +$40 MU (add to lagging HBM expression), +$30 CEG (new power factor). $30 cash retained. Positions now MU/NVDA/QQQ/CEG. Trading P&L vs $200 contributed."
+  "total_portfolio_value": 194.94,
+  "notes": "Reconciled live 2026-08-31 ~12:20 ET. No trades. Cash $30 retained. Positions unchanged. Modest mark-to-market gain on the day despite soft broad market. Trading P&L vs $200 contributed."
 }
