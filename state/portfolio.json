@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-09-01T16:30:00Z",
+  "as_of": "2026-09-01T16:35:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -55,9 +55,9 @@
       "notes": "AI power / nuclear generation bottleneck"
     }
   ],
-  "equity_value": 165.43,
+  "equity_value": 164.94,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 195.43,
-  "notes": "Reconciled live 2026-09-01 ~12:30 ET. No trades. Cash $30 retained. Positions unchanged. CEG relative strength on the day; semis softer with the tape. Trading P&L vs $200 contributed."
+  "total_portfolio_value": 194.94,
+  "notes": "Reconciled live 2026-09-01 ~12:35 ET. No trades. Cash $30 retained as dry powder. Positions unchanged. Soft tape on rising yields / oil / geo; CEG relative strength noted. Trading P&L vs $200 contributed."
 }
