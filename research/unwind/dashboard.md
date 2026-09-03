@@ -78,6 +78,12 @@ Kill condition from the plan: by year-end 2026, AI-infra median stocks reclaim J
 
 ---
 
+## Nightly snapshot log
+
+- **2026-09-03 America/New_York (nightly):** No new hyperscaler 8-K/10-Q, no NVDA sequential DC growth rollover, no guide cut. Primary panel remains 2026-09-02 close. SOX 11,339.25, NVDA $224.41 (~5% off May ATH), SPY top-10 37.83%, Mag7 reconstructed ~33.6%. H4 stays fail as regime change. Next forced refresh after ORCL FY27 Q1 (~2026-09-14) or any capex-cut print.
+
+---
+
 ## Refresh rules
 
 - Update on a fixed calendar after each hyperscaler / NVDA print, not when social media is loud.
