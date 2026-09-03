@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-09-02T16:55:00Z",
+  "as_of": "2026-09-03T16:55:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -55,9 +55,9 @@
       "notes": "AI power / nuclear generation bottleneck"
     }
   ],
-  "equity_value": 166.32,
+  "equity_value": 167.55,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 196.32,
-  "notes": "Reconciled live 2026-09-02 ~12:55 ET. No trades. Cash $30 retained as dry powder. Positions unchanged. Soft macro (yields/oil/geo) offset by relative AI strength (NVDA, Dell). Trading P&L vs $200 contributed."
+  "total_portfolio_value": 197.55,
+  "notes": "Reconciled live 2026-09-03 ~12:50 ET. No trades. Cash $30 retained as dry powder into NFP. Positions unchanged. AVGO post-earnings mixed (AI strong, Q4 guide soft vs some consensus); existing AI-infra book held. Trading P&L vs $200 contributed."
 }
