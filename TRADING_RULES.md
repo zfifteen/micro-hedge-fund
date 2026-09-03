@@ -36,11 +36,11 @@ If the reasoning process itself changes — new filters, new data sources, new s
 - Cash is a position. Sitting in cash is a valid, often correct, decision.
 - The goal is not to “beat the market” with $100. The goal is to generate high-quality decision artifacts and failure modes that improve the next iteration.
 
-## Robinhood Connector Notes (as of 2026-08-28)
+## Robinhood Connector Notes (as of 2026-09-03)
 - Only the agentic-enabled account may be used for automated trades.
 - Equity orders: market, limit, stop, stop-limit. Fractional shares only via market orders in regular hours (or dollar_amount market).
 - Options: `option_level_2` verified live on the Agentic cash account on 2026-08-28. Single-leg long calls/puts are writable through the connector. Multi-leg/spreads are L3 and are not available on this cash account. Covered calls and cash-secured puts are product-legal at L2 but not size-legal at ~$200 with fractional equity lots.
-- Crypto: searchable and position-readable; write/order support should be verified before use.
+- Crypto: write path live on the Agentic cash account (linked crypto last4 8592) as of 2026-09-03 official in-app confirmation. Preview then place. crypto_buying_power equals cash buying power — same cash pool, not a second sleeve. Available but not the default. Enabling the product is not a buy.
 - Always review (simulate) before placing when the tooling encourages it, even though autonomy is full — the review output is useful telemetry.
 - Idempotency keys (ref_id) must be used on place calls to avoid accidental duplicates.
 

@@ -151,3 +151,26 @@ Operator FYI plus live `get_accounts` confirmation. Constraint files that still 
 
 **Expected impact**  
 Future sessions may consider long calls/puts if a primary-source thesis has defined, bounded asymmetry that equity cannot express at this size. Default remains fractional equity. Do not use options to manufacture leverage against the priority hierarchy. Re-verify option level each session; do not assume L3 without a live check and a change in account type.
+
+## 2026-09-03 — Crypto write path official; still not default
+**What changed**  
+Official Robinhood in-app banner on the Agentic tab at 15:28 ET: the connected agent can now trade crypto with no additional setup. Connector preview and place tools were already live; an agent-side preview succeeded 2026-08-28. AGENTS.md and TRADING_RULES.md no longer treat crypto as observation-only.
+
+What this actually unlocks:
+- Crypto orders on the linked crypto account (last4 8592)
+- Dollar-amount sizing
+- crypto_buying_power equals cash buying power (same pool)
+
+What this does not change:
+- Default sleeve remains fractional equity
+- Crypto is not a second independent sleeve
+- Enabling a product is not a buy signal
+- No crypto holdings and no crypto order history as of this note
+
+No crypto order was placed on this notice. Regular session already ran a hold with $30 reserved into Friday NFP. The $30 is the same cash that would fund a crypto buy.
+
+**Why**  
+Operator shared the official product-surface confirmation. Constraint files that still said “observation-only” or “verify write support before use” would cause the next session to skip a now-legal tool or, worse, treat the banner as a mandate to deploy.
+
+**Expected impact**  
+Future sessions may consider crypto if a primary-source thesis has defined expected-value advantage versus holding cash or adding to the existing equity book. Default remains fractional equity. Do not use crypto to manufacture activity. Re-verify crypto positions and buying power each session.

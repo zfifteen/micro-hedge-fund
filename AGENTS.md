@@ -37,7 +37,7 @@ Education happens through serious efforts to compound capital. Losses are never 
 - Equities/ETFs: market, limit, stop, stop-limit. Fractional shares only via market / dollar_amount during regular hours.
 - Options: live level as of 2026-08-28 is `option_level_2` on a cash account. Legal: long calls/puts; covered calls and cash-secured puts in product terms. Not legal: multi-leg / spreads (L3). L3 also requires margin or limited-margin.
 - Practical options filter at this capital: covered calls need 100-share lots the book does not hold; cash-secured puts need 100 × strike, which exceeds the book. Default remains fractional equity. A long option is allowed only when premium fits residual cash, the thesis is primary-source, and a total premium loss would not strand the account. Enabling options is not a buy signal.
-- Crypto: observation-only until a live write path is verified in-session and recorded here.
+- Crypto: write path live on the Agentic cash account (linked crypto last4 8592) as of 2026-09-03 official in-app confirmation. Preview then place. crypto_buying_power equals cash buying power — same cash pool, not a second sleeve. Available but not the default. Default remains fractional equity. Enabling the product is not a buy. No crypto holdings or crypto order history as of 2026-09-03.
 - Re-verify option level and account type from `get_accounts` each session. Do not infer L3 from this note.
 
 ## Information Security (non-negotiable)

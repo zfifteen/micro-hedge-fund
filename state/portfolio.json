@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-09-03T16:55:00Z",
+  "as_of": "2026-09-03T19:30:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -55,9 +55,9 @@
       "notes": "AI power / nuclear generation bottleneck"
     }
   ],
-  "equity_value": 167.55,
+  "equity_value": 168.03,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 197.55,
-  "notes": "Reconciled live 2026-09-03 ~12:50 ET. No trades. Cash $30 retained as dry powder into NFP. Positions unchanged. AVGO post-earnings mixed (AI strong, Q4 guide soft vs some consensus); existing AI-infra book held. Trading P&L vs $200 contributed."
+  "total_portfolio_value": 198.03,
+  "notes": "Reconciled live 2026-09-03 ~15:30 ET after official in-app crypto banner. No trades. Cash $30 retained as dry powder into NFP. Crypto write path live but unused; crypto_value $0. Positions unchanged. Trading P&L vs $200 contributed."
 }
