@@ -1,6 +1,6 @@
 # WS1 — Capex vs cash
 
-As-of: 2026-09-03. Figures from company filings and earnings exhibits. Commentary is hypothesis.
+As-of: 2026-09-04. Figures from company filings and earnings exhibits. Commentary is hypothesis. No new primary prints since prior pass.
 
 Units: USD billions. Calendar Q2 2026 = quarter ended 2026-06-30 except Oracle (FY ended 2026-05-31).
 
@@ -72,9 +72,9 @@ Source: FY26 10-K acc. 0001193125-26-277521.
 |---|---:|---:|---:|---:|
 | FY26 ended 2026-05-31 | 31.977 | 55.663 | −23.686 | 1.74 |
 
-FY27 capex guide $90–95B. RPO $638B. Prepaid/customer-supplied hardware on large AI contracts $75B (IR).
+FY27 capex guide $90–95B. RPO $638B. Prepaid/customer-supplied hardware on large AI contracts $75B (IR). Next print: FY27 Q1 expected ~2026-09-10.
 
 ## H2 / H4 from this file
 
 - H2 LIVE, not killed. Compression is real. Turning print is a guide cut. Absent.
-- H4 FAIL as regime change. Sequence step 6 did not occur in July.
+- H4 FAIL as regime change. Sequence step 6 did not occur in July and has not printed since.

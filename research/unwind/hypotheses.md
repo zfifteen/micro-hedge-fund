@@ -1,10 +1,10 @@
-# Hypotheses — first-round status — 2026-09-03
+# Hypotheses — first-round status — 2026-09-04
 
 Profile: research, not a trading session. No orders. A live claim here is not a book.
 
 **Measured** = company filings, IR exhibits, and observable index weights cited in `capex-cash.md`, `circular-finance.md`, and `dashboard.md`. **Hypothesis** = secondary tape commentary and any inference that goes past the filing line.
 
-As-of: close 2026-09-02 / notes written 2026-09-03.
+As-of: close 2026-09-03 / notes written 2026-09-04.
 
 ## Umbrella
 
@@ -22,10 +22,10 @@ Status: **open, weakly live**.
 
 Measured:
 
-- SPY top-10 weight 37.83% at 2026-09-02 close. NVDA alone 8.01%.
+- SPY top-10 weight 37.83% at 2026-09-03 (TradeSmith). NVDA alone 8.01%.
 - Mag7 reconstructed from the same SPY weights: NVDA 8.01 + AAPL 7.26 + MSFT 5.66 + AMZN 3.80 + GOOGL 2.99 + GOOG 2.39 + META 1.93 + TSLA 1.53 ≈ 33.6%.
-- SOX July 2026 -20.61% monthly; SOX about -23% from the 2026-06-22 high near 14,655. Three-month SOX -18.5% vs SPY +1.4%.
-- RSP +5.3% vs SPY +1.4% for the three months to 2026-08-31.
+- SOX July 2026 -20.61% monthly; SOX about -22.5% from the 2026-06-22 high near 14,655 (close 11,352 on 2026-09-03). Prior three-month SOX -18.5% vs SPY +1.4%.
+- RSP continues to lead SPY on multi-month and YTD prints.
 
 Hypothesis: June Mag7 peak near 35% (commentary) would make the current 33.6% modest deconcentration, not a collapse.
 
@@ -47,7 +47,7 @@ Measured (see `capex-cash.md`):
 - META Q2 FCF $0.78B. Guide floor raised. Revenue +28%.
 - MSFT FY26 FCF still +$67.0B, second annual decline. Calendar 2026 spend still elevated.
 - ORCL FY26 FCF -$23.7B. FY27 capex guide $90-95B. RPO $638B.
-- Q2-season capex revisions among the four: three up, zero down.
+- Q2-season capex revisions among the four: three up, zero down. No subsequent cut through 2026-09-03.
 
 The cash bind is real. The demand lines in the same documents are not broken. H2 becomes a regime only when a guide is cut or cloud/AI growth rolls over. Neither printed in this pack.
 
@@ -79,10 +79,10 @@ Status: **fail as regime change**. Narrower claim — spenders are now priced se
 
 Why the regime-change version fails now:
 
-1. Sequence step 6 — a hyperscaler capex *cut* — did not print. AMZN, GOOGL, and META raised the 2026 envelope in the July season.
+1. Sequence step 6 — a hyperscaler capex *cut* — did not print. AMZN, GOOGL, and META raised the 2026 envelope in the July season. No cut through 2026-09-03.
 2. Sequence step 7 — supplier book-to-bill / lead-time break — is not scored this pack.
 3. NVDA Q2 FY27 data-center revenue $89.0B, +117% YoY, +18% QoQ, GM 75.0%, Q3 guide $108B ±2%. Layer C earnings are intact.
-4. NVDA 2026-09-02 close $224.41 vs mid-May ATH ~$236.54. Drawdown from ATH is about 5%.
+4. NVDA 2026-09-03 close $228.45 vs mid-May ATH ~$236.54. Drawdown from ATH is about 3.4%.
 5. July did print spender-repricing, a SOX air pocket, RSP leadership, and a CoreWeave concession. Necessary for H4. Not sufficient for a regime call.
 
 H4 can be reopened if Q3 guides are cut or if NVDA data-center growth rolls over on a sequential basis while capex stays up. Until then treat July as Path 4 plus a cash-flow scare inside an installation up-leg.

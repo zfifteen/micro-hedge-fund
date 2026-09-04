@@ -1,6 +1,6 @@
 # WS2 — Circular and vendor-finance graph v0
 
-As-of: 2026-09-03. Process note, not a book.
+As-of: 2026-09-04. Process note, not a book. No new primary guarantee or funding events located this pass.
 
 Rule: announced is not funded is not guaranteed is not recognized revenue.
 
@@ -60,7 +60,7 @@ FY26 ended 2026-05-31:
 ## Neocloud rim
 
 - NVDA-CoreWeave ~7% equity and $6.3B cloud purchase: widely reported; confirm next NVDA 10-K pass.
-- CRWV debt ~$35B at 2026-06-30. July DDTL cleared wider than talk. 5y CDS ~855 bps late July after ~452 early June (secondary, round-trip). Financing still closed.
+- CRWV debt ~$35B at 2026-06-30. July DDTL cleared wider than talk. 5y CDS ~855 bps late July after ~452 early June (secondary, round-trip). Financing still closed. Interest expense elevated (Motley Fool 2026-09-01).
 
 ## H3 / H4 from this file
 
