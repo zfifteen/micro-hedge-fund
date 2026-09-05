@@ -46,6 +46,7 @@ Hub equity marks and vendor equity stakes fund, or collateralize, GPU and site c
 | `dashboard.md` | Ten-number panel, dated snapshots |
 | `loop-health.md` | Daily health of the finance loop and a danger level |
 | `token-prices.md` | WS-T — API $/1M tokens and GPU rental as loop output prices |
+| `plots/` | Illustrative H5 identity charts. Hypothesis only. See `plots/README.md` |
 | `capex-cash.md` | WS1 — capex / OCF / FCF from filings |
 | `circular-finance.md` | WS2 — announced vs funded counterparties |
 | `compute-market.md` | WS3 — utilization, rental *volume*, delays (stub until primary) |
