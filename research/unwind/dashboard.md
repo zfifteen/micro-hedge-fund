@@ -1,26 +1,28 @@
 # Dashboard v1 — AI capex unwind watch
 
-Opened 2026-09-03. Snapshot date **2026-09-02 close** unless a row says otherwise. Nightly 2026-09-04 confirms no material change to primary prints. Late 2026-09-04 add: loop-health danger level and token-price workstream.
+Opened 2026-09-03. Snapshot date is the **2026-09-02 close** unless a row says otherwise. The nightly pass on 2026-09-04 confirmed no material change to primary prints. A late 2026-09-04 pass added the loop-health danger level and the token-price workstream.
 
 This file is a measurement panel, not a trade. Presence here is not a short, not a hedge, and not an allocation. It does not replace a session log and does not change `state/portfolio.json` or `STRATEGY_LOG.md`.
 
-Rule from the plan: no new unwind *narrative* until at least two of {2, 3, 5, 6, 10} move together. Token-price and rental prints can move H5 and the danger level without rewriting that narrative rule.
+Rule from the plan: do not write a new unwind narrative until at least two of {2, 3, 5, 6, 10} move together. Token-price and rental prints can move H5 and the danger level without rewriting that narrative rule.
 
-Every input is tagged **Measured** or **Hypothesis**. Commentary used only when the primary print is named.
+Write dated snapshot lines in easy-to-understand, grammatically correct, complete sentences. Tables may hold numbers.
+
+Every input is tagged **Measured** or **Hypothesis**. Use commentary only when the primary print is named.
 
 ---
 
 ## Loop health (added 2026-09-04)
 
-Full write-up: `loop-health.md`. Token and rental cards: `token-prices.md`.
+The full write-up lives in `loop-health.md`. Token and rental cards live in `token-prices.md`.
 
 | Field | Print | Tag |
 |---|---|---|
 | Danger level | **3 — Stressed** | Judgment over Measured clocks |
-| Why | Cheap-tier token cut (OpenAI Luna −80% on 2026-07-30) and neocloud H100 guaranteed ~$3.71/hr coexist with a mid-August $105B NVDA residual-value cap and an intact hub mark | Mixed |
-| H5 | Open, live on the cheap tier, not a hub-paper bind | See hypotheses.md |
+| Why | The danger level is 3 because cheap-tier token prices and neocloud H100 rental have already fallen, while NVIDIA's $105 billion residual-value cap is still on the books and the hub equity mark is intact. | Mixed |
+| H5 | Hypothesis H5 is open. It is live on the cheap tier and is not yet a bind on hub paper. | See hypotheses.md |
 
-Scale: 1 Intact / 2 Watch / 3 Stressed / 4 Fragile / 5 Unwinding.
+The scale is 1 Intact, 2 Watch, 3 Stressed, 4 Fragile, and 5 Unwinding.
 
 ---
 
@@ -71,51 +73,40 @@ Plan order of prints if an unwind is underway:
 
 **As of this snapshot:**
 
-- Step 2 is **live** at AMZN, GOOGL, META, and ORCL. MSFT FCF is still positive but down YoY.
-- Step 3 is **partially live** at the rim (CoreWeave new-issue concession + CDS round-trip). No hub missed payment.
-- Step 4 is **not live as a shrink**. Form shifted (LOI → funded stake + residual-value cap). Size did not shrink.
-- Step 5 is **partially live as price, not as utilization**. Neocloud H100 guaranteed ~$3.71/hr vs hyperscaler ~$10.53. Cheap-tier API tokens cut in July. Tokens-sold and utilization are still unscored.
-- Step 8 is **partially live** (RSP beating SPY on 3-month and YTD; Mag7 weight off the June commentary high, still ~34%).
-- Step 6 is **not live**. Guides went *up* in July; none cut since.
-- Step 7 is **not scored** this pass (no supplier book-to-bill primary pack yet).
-- Layer C (NVDA earnings) is **intact**.
+Step 2 is live at Amazon, Alphabet, Meta, and Oracle. Microsoft free cash flow is still positive but down year over year. Step 3 is partially live at the rim because CoreWeave printed a new-issue concession and a CDS round-trip. No hub missed payment has printed. Step 4 is not live as a shrink. The form shifted from a letter of intent to a funded stake plus a residual-value cap, and the size did not shrink. Step 5 is partially live as price and is not live as utilization. Neocloud H100 guaranteed rental is about $3.71 an hour against a hyperscaler list near $10.53, and cheap-tier API tokens were cut in July. Tokens sold and utilization are still unscored. Step 8 is partially live because RSP is beating SPY on a three-month and year-to-date basis, and Magnificent Seven weight is off the June commentary high while still near 34 percent. Step 6 is not live. Guides went up in July, and none have been cut since. Step 7 is not scored on this pass because no supplier book-to-bill primary pack exists yet. Layer C, NVIDIA earnings, is intact.
 
-That is spender-and-index repricing inside a still-rising capex *level*, with the output price of the loop already moving down on the cheap tier. It is not a completed unwind sequence.
+That is spender-and-index repricing inside a still-rising capex level, with the output price of the loop already moving down on the cheap tier. It is not a completed unwind sequence.
 
 ---
 
 ## H4 / H5 read from this panel only
 
-H4 = “July–August 2026 was the start of a regime change, not a violent reset inside an intact boom.”
+H4 is the claim that July through August 2026 was the start of a regime change, not a violent reset inside an intact boom.
 
-**Fail as regime change.** July completed a loud FCF scare at the spenders, a SOX drawdown from the June high, and some Path-4 deconcentration. It did not produce a capex cut, a supplier order break, or a NVDA earnings break. NVDA’s August print still showed triple-digit DC growth and a higher Q3 guide. Subsequent tape has recovered NVDA to ~3.4% off the May ATH.
+H4 fails as regime change. July completed a loud free-cash-flow scare at the spenders, a SOX drawdown from the June high, and some Path-4 deconcentration. It did not produce a capex cut, a supplier order break, or an NVIDIA earnings break. NVIDIA's August print still showed triple-digit data-center growth and a higher third-quarter guide. Later tape recovered NVIDIA to about 3.4 percent off the May all-time high.
 
-**Live as a narrower claim:** the market has started to price *spend without near-term cash payback* separately from *chip shipments*. That is a useful split. It is not “the bubble is popping.”
+A narrower claim is live. The market has started to price spend without near-term cash payback separately from chip shipments. That split is useful. It is not a claim that the bubble is popping.
 
-H5 = token and rental prices can jeopardize paper sized on a higher conversion rate.
+H5 is the claim that token and rental prices can jeopardize paper sized on a higher conversion rate.
 
-**Open, live on the cheap tier.** The 2026-07-30 Luna cut and the 2026-09-04 neocloud rental stack are the price side of the race. The 2026-08-17 $105B NVDA cap is the paper side. Hub marks have not broken. Danger level 3, not 4 or 5.
+H5 is open and live on the cheap tier. The 30 July 2026 Luna cut and the 4 September 2026 neocloud rental stack are the price side of the race. The 17 August 2026 $105 billion NVIDIA cap is the paper side. Hub marks have not broken. The danger level is 3, not 4 or 5.
 
-Kill condition from the plan for H4: by year-end 2026, AI-infra median stocks reclaim June highs, NVDA makes a new ATH on rising (not just stable) data-center growth, and capex guidance is revised *up* again without another FCF scare. Not yet reached and not yet killed. Revisit after Q3 prints.
+The kill condition from the plan for H4 is that by year-end 2026, AI-infra median stocks reclaim June highs, NVIDIA makes a new all-time high on rising data-center growth, and capex guidance is revised up again without another free-cash-flow scare. That condition has not been reached and has not been killed. Revisit it after third-quarter prints.
 
 ---
 
 ## Nightly snapshot log
 
-- **2026-09-03 America/New_York (nightly):** No new hyperscaler 8-K/10-Q, no NVDA sequential DC growth rollover, no guide cut. Primary panel remains 2026-09-02 close. SOX 11,339.25, NVDA $224.41 (~5% off May ATH), SPY top-10 37.83%, Mag7 reconstructed ~33.6%. H4 stays fail as regime change. Next forced refresh after ORCL FY27 Q1 (~2026-09-10/14) or any capex-cut print.
+- **2026-09-03 America/New_York (nightly).** No new hyperscaler 8-K or 10-Q printed. NVIDIA data-center growth did not roll over on a sequential basis, and no capex guide was cut. The primary panel remains the 2026-09-02 close. SOX closed at 11,339.25. NVIDIA closed at $224.41, about 5 percent off the May high. SPY top-10 weight was 37.83 percent. The Magnificent Seven reconstruction was about 33.6 percent. H4 stays a fail as regime change. The next forced refresh is after Oracle fiscal 2027 first quarter, expected around 10 to 14 September 2026, or after any capex-cut print.
 
-- **2026-09-04 America/New_York (nightly):** No new hyperscaler 8-K/10-Q or guide cut. No NVDA sequential DC growth rollover. Primary panel numbers unchanged. Tape: NVDA closed $228.45 on 2026-09-03 (~3.4% off May ATH $236.54), SOX 11,352.13, SPX 7,747.71, SPY top-10 still 37.83% (TradeSmith). Mag7 reconstruction ~33.6%. H4 remains fail as regime change. Next forced refresh after ORCL FY27 Q1 (announced for ~2026-09-10) or any capex-cut print.
+- **2026-09-04 America/New_York (nightly).** No new hyperscaler 8-K or 10-Q printed, and no capex guide was cut. NVIDIA data-center growth did not roll over on a sequential basis. Primary panel numbers are unchanged. NVIDIA closed at $228.45 on 3 September 2026, about 3.4 percent off the May high of $236.54. SOX closed at 11,352.13. The S&P 500 closed at 7,747.71. SPY top-10 weight was still 37.83 percent on TradeSmith. The Magnificent Seven reconstruction was about 33.6 percent. H4 remains a fail as regime change. The next forced refresh is after Oracle fiscal 2027 first quarter, announced for about 10 September 2026, or after any capex-cut print.
 
-- **2026-09-04 America/New_York (late, structure):** Folder made open-ended. H5 added. `loop-health.md` and `token-prices.md` opened. Danger level **3 Stressed**. Cheap-tier token cut + neocloud rental gap + August guarantee add + intact hub mark. Automation prompt revised to require a daily loop-health score. Not a trading session.
+- **2026-09-04 America/New_York (late, structure).** The folder was made open-ended and hypothesis H5 was added. `loop-health.md` and `token-prices.md` were opened. The danger level is 3, Stressed, because cheap-tier token prices and neocloud rental have fallen while the August guarantee was added and the hub mark stayed intact. The automation prompt was revised to require a daily loop-health score written in complete sentences. This is not a trading session.
 
 ---
 
 ## Refresh rules
 
-- Update on a fixed calendar after each hyperscaler / NVDA print, not when social media is loud.
-- A provider rate-card cut is a first-class event for H5 and `loop-health.md`, same rank as a capex guide revision.
-- Change a row only with a dated source.
-- Next forced refresh: Q3 2026 earnings season (ORCL FY27 Q1 due ~2026-09-10; then MSFT/META/GOOGL/AMZN late October).
-- WS3 utilization and WS4 hub CDS still empty as first-class rows. Do not fill them with anecdotes.
+Update on a fixed calendar after each hyperscaler or NVIDIA print, not when social media is loud. A provider rate-card cut is a first-class event for H5 and `loop-health.md`, at the same rank as a capex guide revision. Change a row only with a dated source. Write each new snapshot line in complete sentences. The next forced refresh is the third-quarter 2026 earnings season. Oracle fiscal 2027 first quarter is due around 10 September 2026. Microsoft, Meta, Alphabet, and Amazon follow in late October. WS3 utilization and WS4 hub CDS are still empty as first-class rows. Do not fill them with anecdotes.
 
-See `hypotheses.md` for pass/fail on H1–H5, `loop-health.md` for the danger level, and `capex-cash.md` for the filing table behind rows 1–3.
+See `hypotheses.md` for pass/fail on H1 through H5, `loop-health.md` for the danger level, and `capex-cash.md` for the filing table behind rows 1 through 3.
