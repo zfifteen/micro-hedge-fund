@@ -1,12 +1,26 @@
 # Dashboard v1 — AI capex unwind watch
 
-Opened 2026-09-03. Snapshot date **2026-09-02 close** unless a row says otherwise. Nightly 2026-09-04 confirms no material change to primary prints.
+Opened 2026-09-03. Snapshot date **2026-09-02 close** unless a row says otherwise. Nightly 2026-09-04 confirms no material change to primary prints. Late 2026-09-04 add: loop-health danger level and token-price workstream.
 
 This file is a measurement panel, not a trade. Presence here is not a short, not a hedge, and not an allocation. It does not replace a session log and does not change `state/portfolio.json` or `STRATEGY_LOG.md`.
 
-Rule from the plan: no new unwind *narrative* until at least two of {2, 3, 5, 6, 10} move together.
+Rule from the plan: no new unwind *narrative* until at least two of {2, 3, 5, 6, 10} move together. Token-price and rental prints can move H5 and the danger level without rewriting that narrative rule.
 
 Every input is tagged **Measured** or **Hypothesis**. Commentary used only when the primary print is named.
+
+---
+
+## Loop health (added 2026-09-04)
+
+Full write-up: `loop-health.md`. Token and rental cards: `token-prices.md`.
+
+| Field | Print | Tag |
+|---|---|---|
+| Danger level | **3 — Stressed** | Judgment over Measured clocks |
+| Why | Cheap-tier token cut (OpenAI Luna −80% on 2026-07-30) and neocloud H100 guaranteed ~$3.71/hr coexist with a mid-August $105B NVDA residual-value cap and an intact hub mark | Mixed |
+| H5 | Open, live on the cheap tier, not a hub-paper bind | See hypotheses.md |
+
+Scale: 1 Intact / 2 Watch / 3 Stressed / 4 Fragile / 5 Unwinding.
 
 ---
 
@@ -36,6 +50,8 @@ Every input is tagged **Measured** or **Hypothesis**. Commentary used only when 
 | SPY top-10 | About **37.83%** (TradeSmith SPY 2026-09-03). | Measured |
 | July spender air pocket | META sold off after raising the capex floor and showing FCF $0.78B. GOOGL printed first negative quarterly FCF in its disclosed history and raised capex again. AMZN printed TTM FCF −$7.6B and *raised* capex to $220B; the stock was bid the next session. | Measured (results + subsequent tape) |
 | NVDA post-print tape | Q2 FY27 released 2026-08-26. Revenue and DC growth still explosive. Shares recovered toward the May high on 2026-09-03. | Measured |
+| Cheap-tier token cut | OpenAI 2026-07-30: GPT-5.6 Luna −80% to $0.20/$1.20 per 1M; Terra −20% to $2.00/$12.00. Still listed. | Measured (provider card) |
+| GPU rental | CCIR 2026-09-04 guaranteed on-demand: H100 hyperscaler $10.53 / neocloud $3.71 / marketplace $3.03. | Measured as a published series |
 
 ---
 
@@ -57,16 +73,18 @@ Plan order of prints if an unwind is underway:
 
 - Step 2 is **live** at AMZN, GOOGL, META, and ORCL. MSFT FCF is still positive but down YoY.
 - Step 3 is **partially live** at the rim (CoreWeave new-issue concession + CDS round-trip). No hub missed payment.
+- Step 4 is **not live as a shrink**. Form shifted (LOI → funded stake + residual-value cap). Size did not shrink.
+- Step 5 is **partially live as price, not as utilization**. Neocloud H100 guaranteed ~$3.71/hr vs hyperscaler ~$10.53. Cheap-tier API tokens cut in July. Tokens-sold and utilization are still unscored.
 - Step 8 is **partially live** (RSP beating SPY on 3-month and YTD; Mag7 weight off the June commentary high, still ~34%).
 - Step 6 is **not live**. Guides went *up* in July; none cut since.
 - Step 7 is **not scored** this pass (no supplier book-to-bill primary pack yet).
 - Layer C (NVDA earnings) is **intact**.
 
-That is spender-and-index repricing inside a still-rising capex *level*. It is not a completed unwind sequence.
+That is spender-and-index repricing inside a still-rising capex *level*, with the output price of the loop already moving down on the cheap tier. It is not a completed unwind sequence.
 
 ---
 
-## H4 read from this panel only
+## H4 / H5 read from this panel only
 
 H4 = “July–August 2026 was the start of a regime change, not a violent reset inside an intact boom.”
 
@@ -74,7 +92,11 @@ H4 = “July–August 2026 was the start of a regime change, not a violent reset
 
 **Live as a narrower claim:** the market has started to price *spend without near-term cash payback* separately from *chip shipments*. That is a useful split. It is not “the bubble is popping.”
 
-Kill condition from the plan: by year-end 2026, AI-infra median stocks reclaim June highs, NVDA makes a new ATH on rising (not just stable) data-center growth, and capex guidance is revised *up* again without another FCF scare. Not yet reached and not yet killed. Revisit after Q3 prints.
+H5 = token and rental prices can jeopardize paper sized on a higher conversion rate.
+
+**Open, live on the cheap tier.** The 2026-07-30 Luna cut and the 2026-09-04 neocloud rental stack are the price side of the race. The 2026-08-17 $105B NVDA cap is the paper side. Hub marks have not broken. Danger level 3, not 4 or 5.
+
+Kill condition from the plan for H4: by year-end 2026, AI-infra median stocks reclaim June highs, NVDA makes a new ATH on rising (not just stable) data-center growth, and capex guidance is revised *up* again without another FCF scare. Not yet reached and not yet killed. Revisit after Q3 prints.
 
 ---
 
@@ -84,13 +106,16 @@ Kill condition from the plan: by year-end 2026, AI-infra median stocks reclaim J
 
 - **2026-09-04 America/New_York (nightly):** No new hyperscaler 8-K/10-Q or guide cut. No NVDA sequential DC growth rollover. Primary panel numbers unchanged. Tape: NVDA closed $228.45 on 2026-09-03 (~3.4% off May ATH $236.54), SOX 11,352.13, SPX 7,747.71, SPY top-10 still 37.83% (TradeSmith). Mag7 reconstruction ~33.6%. H4 remains fail as regime change. Next forced refresh after ORCL FY27 Q1 (announced for ~2026-09-10) or any capex-cut print.
 
+- **2026-09-04 America/New_York (late, structure):** Folder made open-ended. H5 added. `loop-health.md` and `token-prices.md` opened. Danger level **3 Stressed**. Cheap-tier token cut + neocloud rental gap + August guarantee add + intact hub mark. Automation prompt revised to require a daily loop-health score. Not a trading session.
+
 ---
 
 ## Refresh rules
 
 - Update on a fixed calendar after each hyperscaler / NVDA print, not when social media is loud.
+- A provider rate-card cut is a first-class event for H5 and `loop-health.md`, same rank as a capex guide revision.
 - Change a row only with a dated source.
 - Next forced refresh: Q3 2026 earnings season (ORCL FY27 Q1 due ~2026-09-10; then MSFT/META/GOOGL/AMZN late October).
 - WS3 utilization and WS4 hub CDS still empty as first-class rows. Do not fill them with anecdotes.
 
-See `hypotheses.md` for pass/fail on H1–H4 and `capex-cash.md` for the filing table behind rows 1–3.
+See `hypotheses.md` for pass/fail on H1–H5, `loop-health.md` for the danger level, and `capex-cash.md` for the filing table behind rows 1–3.
