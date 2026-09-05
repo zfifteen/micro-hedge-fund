@@ -1,6 +1,6 @@
 # WS-T — Token prices and GPU rental
 
-As-of: 2026-09-04. Process note, not a book.
+As-of: 2026-09-05. Process note, not a book.
 
 These are the output prices of the finance loop. Filings tell you what was promised. This file tells you what the installed silicon can charge today. Announced is not funded is not a token. A rate card is not utilization.
 
@@ -23,16 +23,21 @@ Units: USD per 1 million tokens. Standard processing, not batch, not priority, u
 
 | Model | Provider | Input | Output | As-of | Tag | Source |
 |---|---|---:|---:|---|---|---|
-| GPT-6 Astra | OpenAI | 10.00 | 50.00 | 2026-09-03/04 lists | Hypothesis-adjacent (aggregator; confirm on openai.com/api when the Astra card is first-party) | aipricing.guru 2026-09-04 |
-| GPT-5.6 Sol | OpenAI | 5.00 (promo card on openai.com/api also shows 4.00 / 20.00 through at least 2026-11-21) | 30.00 (or 20.00 promo) | 2026-09-04 | Measured on the official API page; promo vs list is split | openai.com/api |
-| GPT-5.6 Terra | OpenAI | 2.00 | 12.00 | 2026-07-30 cut, still listed | Measured | OpenAI 2026-07-30 announcement; openai.com/api |
-| GPT-5.6 Luna | OpenAI | 0.20 | 1.20 | 2026-07-30 cut (−80% from 1.00 / 6.00) | Measured | OpenAI 2026-07-30; openai.com/api |
-| Claude Opus 5 | Anthropic | 5.00 | 25.00 | 2026-09-04 lists | Hypothesis-adjacent until the Anthropic card is pulled first-party this pass | aipricing.guru / BenchLM |
-| Claude Sonnet 5 | Anthropic | 2.00 | 10.00 | BenchLM notes a mid-tier blended increase | Hypothesis-adjacent | BenchLM Sep 2026 |
-| Gemini 3.1 Pro | Google | 2.00 | 12.00 | 2026-09-04 lists | Hypothesis-adjacent | aggregator cards |
-| Grok 4.6 | xAI | 2.00 | 6.00 | 2026-09-04 lists | Hypothesis-adjacent | aggregator cards |
+| GPT-6 Astra | OpenAI | 10.00 | 50.00 | 2026-09-05 official card | Measured | developers.openai.com/api/docs/pricing |
+| GPT-5.6 Sol | OpenAI | 4.00 short-context promo (long-context 8.00); company language calls this promotional through at least 2026-11-21 | 20.00 short (30.00 long) | 2026-09-05 | Measured | developers.openai.com/api/docs/pricing |
+| GPT-5.6 Terra | OpenAI | 2.00 | 12.00 | 2026-07-30 cut, still listed 2026-09-05 | Measured | OpenAI 2026-07-30 announcement; official API pricing page |
+| GPT-5.6 Luna | OpenAI | 0.20 | 1.20 | 2026-07-30 cut (−80% from 1.00 / 6.00), still listed 2026-09-05 | Measured | OpenAI 2026-07-30; official API pricing page |
+| Claude Opus 5 | Anthropic | 5.00 | 25.00 | 2026-09-05 official card | Measured | platform.claude.com/docs/en/about-claude/pricing |
+| Claude Sonnet 5 | Anthropic | 2.00 | 10.00 | 2026-09-05 official card | Measured | platform.claude.com/docs/en/about-claude/pricing |
+| Claude Haiku 4.5 | Anthropic | 1.00 | 5.00 | 2026-09-05 official card | Measured | platform.claude.com/docs/en/about-claude/pricing |
+| Claude Fable 5.1 | Anthropic | 10.00 | 50.00 | 2026-09-05 official card; cache hits $0.25 / 1M | Measured | platform.claude.com/docs/en/about-claude/pricing |
+| Gemini 3.1 Pro | Google | 2.00 (≤200k tokens); 4.00 above 200k | 12.00 (≤200k); 18.00 above 200k | 2026-09-04 official page | Measured | ai.google.dev/gemini-api/docs/pricing |
+| Gemini 3.8 Flash | Google | 0.75 intro through 2026-12-31; 1.50 starting 2027-01-01 | 3.75 intro through 2026-12-31; 7.50 starting 2027-01-01 | 2026-09-04 official page | Measured | ai.google.dev/gemini-api/docs/pricing |
+| Grok 4.6 | xAI | 2.00 (<200k prompt tokens); 4.00 at or above 200k | 6.00 (<200k); 12.00 at or above 200k | 2026-09-05 official card | Measured | x.ai / docs.x.ai model pricing |
 
-OpenAI 2026-07-30 is the last *first-party* cheap-tier shock in this file: Luna −80%, Terra −20%. Company language: serving-cost improvements passed through. That is a Measured price cut. It is not a Measured statement that volume rose enough to hold dollar revenue.
+OpenAI 2026-07-30 is still the last first-party cheap-tier shock in this file: Luna −80%, Terra −20%. Company language: serving-cost improvements passed through. That is a Measured price cut. It is not a Measured statement that volume rose enough to hold dollar revenue. No new list-price cut printed on this pass. Sol's $4 / $20 short-context row is labeled promotional through at least 21 November 2026 on the official page.
+
+Google's Gemini 3.8 Flash introductory rate of $0.75 / $3.75 is a dated promo that reverts on 1 January 2027. That is a Measured time-limited card, not a permanent cheap-tier cut.
 
 ## Index (secondary)
 
@@ -47,9 +52,9 @@ Tag: **Hypothesis** (constructed index). Use it as a slope, not as a filing.
 
 Read-through: the long deflation from 2023 is already in the price. The live question for the loop is not "are tokens cheaper than 2023." It is "did July–September 2026 cheap-tier cuts change the conversion rate that 2025–2026 circular paper assumed."
 
-## GPU rental — 2026-09-04
+## GPU rental — 2026-09-04 series, read 2026-09-05
 
-CCIR guaranteed on-demand, US & EU, USD/GPU-hr, as of 2026-09-04 07:30 ET. Secondary series. Tag: **Measured as a published series, not as a company filing.**
+CCIR guaranteed on-demand, US & EU, USD/GPU-hr, as of 2026-09-04 07:30 ET. The 2026-09-05 07:30 ET print had not posted at midnight Eastern. Secondary series. Tag: **Measured as a published series, not as a company filing.**
 
 | Silicon | Hyperscaler | Neocloud | Marketplace |
 |---|---:|---:|---:|
@@ -79,7 +84,7 @@ Do not treat marketplace $3.03 H100 as CoreWeave's realized yield. Realized yiel
 
 - H2: cheaper tokens can raise volume and still leave FCF compressed if the capex to serve the volume was already spent. July guides went *up* after the Luna cut. That is consistent with "price war plus more silicon," not with "price war plus less silicon."
 - H3: the $105B NVDA residual-value cap (8-K 2026-08-17) sits *after* the 2026-07-30 OpenAI cheap-tier cut. Sequence is price-down, then more guarantee. That is the race condition, not a shrink.
-- H5: live on the cheap tier. Not proven as a bind on hub paper. Missing: a filing that restates residual value, or a rim payment that does not clear.
+- H5: live on the cheap tier. Not proven as a bind on hub paper. Missing: a filing that restates residual value, or a rim payment that does not clear. First-party confirmation of the July cards on 2026-09-05 does not add a new cut. It raises the quality of the price side of the race.
 
 ## Refresh rules
 

@@ -1,10 +1,10 @@
-# Hypotheses — status — 2026-09-04
+# Hypotheses — status — 2026-09-05
 
 Profile: research, not a trading session. No orders. A live claim here is not a book.
 
 **Measured** = company filings, IR exhibits, provider rate cards, observable index weights, named rental series cited in `capex-cash.md`, `circular-finance.md`, `token-prices.md`, `loop-health.md`, and `dashboard.md`. **Hypothesis** = secondary tape commentary, constructed indexes, and any inference that goes past the filing or the rate card.
 
-As-of: close 2026-09-03 / notes written 2026-09-04 late ET.
+As-of: close 2026-09-04 / notes written 2026-09-05 00:00 ET.
 
 This file stays open when a claim fails. A failed H4 is a result, not a reason to stop measuring the loop.
 
@@ -24,10 +24,10 @@ Status: **open, weakly live**.
 
 Measured:
 
-- SPY top-10 weight 37.83% at 2026-09-03 (TradeSmith). NVDA alone 8.01%.
+- SPY top-10 weight 37.83% at 2026-09-04 (TradeSmith). NVDA alone 8.01%.
 - Mag7 reconstructed from the same SPY weights: NVDA 8.01 + AAPL 7.26 + MSFT 5.66 + AMZN 3.80 + GOOGL 2.99 + GOOG 2.39 + META 1.93 + TSLA 1.53 ≈ 33.6%.
-- SOX July 2026 -20.61% monthly; SOX about -22.5% from the 2026-06-22 high near 14,655 (close 11,352 on 2026-09-03). Prior three-month SOX -18.5% vs SPY +1.4%.
-- RSP continues to lead SPY on multi-month and YTD prints.
+- SOX closed 11,735.26 on 2026-09-04, up 3.37% on the day, and about 19.9% below the 2026-06-22 high near 14,655. Friday's bounce does not restore the June high.
+- RSP continues to lead SPY on multi-month and YTD prints (ETF.com 3M RSP +4.48% vs SPY +0.99%; YTD RSP +15.04% vs SPY +12.80%).
 
 Hypothesis: June Mag7 peak near 35% (commentary) would make the current 33.6% modest deconcentration, not a collapse.
 
@@ -49,9 +49,9 @@ Measured (see `capex-cash.md`):
 - META Q2 FCF $0.78B. Guide floor raised. Revenue +28%.
 - MSFT FY26 FCF still +$67.0B, second annual decline. Calendar 2026 spend still elevated.
 - ORCL FY26 FCF -$23.7B. FY27 capex guide $90-95B. RPO $638B.
-- Q2-season capex revisions among the four: three up, zero down. No subsequent cut through 2026-09-03.
+- Q2-season capex revisions among the four: three up, zero down. No subsequent cut through 2026-09-04.
 
-The cash bind is real. The demand lines in the same documents are not broken. H2 becomes a regime only when a guide is cut or cloud/AI growth rolls over. Neither printed in this pack.
+The cash bind is real. The demand lines in the same documents are not broken. H2 becomes a regime only when a guide is cut or cloud/AI growth rolls over. Neither printed in this pack. The next forced cash print is Oracle fiscal 2027 first quarter on 10 September 2026.
 
 ## H3 — financing architecture
 
@@ -67,7 +67,7 @@ Measured (see `circular-finance.md` and dashboard row 6):
 - NVDA Q2 FY27 10-Q guarantee book: $3.5B AI-cloud land/power/shell plus $105.0B SB Energy PORTS-Pike residual-value guarantees. Gross max $108.5B. 8-K 2026-08-17: $105B cap, OpenAI tenant, $1.5B equity in SB Energy.
 - AMZN 10-Q: OpenAI equity $50B closed ($28.7B on the 6/30/26 balance sheet, $21.3B funded after quarter-end). AWS-OpenAI commercial expanded by $100B over eight years. AWS unearned-commitment backlog $496B.
 - AMD 10-Q: OpenAI and Meta each hold a warrant for up to 160M AMD shares at $0.01. No tranche vested as of 2026-06-27.
-- Rim: CoreWeave debt ~$35B at 2026-06-30. July DDTL cleared wider than marketed. 5y CDS round-tripped (~452 bps early June to ~855 late July, still below the Dec 2025 print). Financing still closed. No missed payment found this pass.
+- Rim: CoreWeave debt ~$35B at 2026-06-30. Equity closed $89.36 on 2026-09-04, about 42% below the 52-week high. July DDTL cleared wider than marketed. 5y CDS round-tripped (~452 bps early June to ~855 late July, still below the Dec 2025 print). Financing still closed. No missed payment found this pass.
 
 Missing for a H3 call: a guarantee that had to be funded, or a take-or-pay miss disclosed in a filing.
 
@@ -81,10 +81,10 @@ Status: **fail as regime change**. Narrower claim — spenders are now priced se
 
 Why the regime-change version fails now:
 
-1. Sequence step 6 — a hyperscaler capex *cut* — did not print. AMZN, GOOGL, and META raised the 2026 envelope in the July season. No cut through 2026-09-03.
+1. Sequence step 6 — a hyperscaler capex *cut* — did not print. AMZN, GOOGL, and META raised the 2026 envelope in the July season. No cut through 2026-09-04.
 2. Sequence step 7 — supplier book-to-bill / lead-time break — is not scored this pack.
 3. NVDA Q2 FY27 data-center revenue $89.0B, +117% YoY, +18% QoQ, GM 75.0%, Q3 guide $108B ±2%. Layer C earnings are intact.
-4. NVDA 2026-09-03 close $228.45 vs mid-May ATH ~$236.54. Drawdown from ATH is about 3.4%.
+4. NVDA 2026-09-04 close $230.36 vs mid-May ATH ~$236.54. Drawdown from ATH is about 2.6%. Friday's SOX bounce and the NVIDIA move toward the high argue against regime change, not for it.
 5. July did print spender-repricing, a SOX air pocket, RSP leadership, and a CoreWeave concession. Necessary for H4. Not sufficient for a regime call.
 
 H4 can be reopened if Q3 guides are cut or if NVDA data-center growth rolls over on a sequential basis while capex stays up. Until then treat July as Path 4 plus a cash-flow scare inside an installation up-leg. Failure of H4 does not close H5 or this folder.
@@ -99,17 +99,20 @@ Status: **open, live on the cheap tier, not proven as a bind on hub paper**.
 
 Measured (see `token-prices.md` and `loop-health.md`):
 
-- OpenAI 2026-07-30: GPT-5.6 Luna −80% to $0.20 / $1.20 per 1M; Terra −20% to $2.00 / $12.00. First-party cut.
-- Official OpenAI API page still lists Luna / Terra at those cuts as of this pass. Sol list vs promo is split ($5/$30 vs a $4/$20 promo through at least 2026-11-21).
-- CCIR 2026-09-04 guaranteed on-demand: H100 neocloud $3.71 vs hyperscaler $10.53; H200 $4.40 vs $10.30; B200 $6.69 vs $14.24.
+- OpenAI 2026-07-30: GPT-5.6 Luna −80% to $0.20 / $1.20 per 1M; Terra −20% to $2.00 / $12.00. First-party cut, still listed on the official API page on 2026-09-05.
+- Official OpenAI API page lists GPT-6 Astra at $10 / $50 short context and lists Sol short-context promotional pricing at $4 / $20 through at least 2026-11-21.
+- Anthropic official card: Opus 5 $5 / $25, Sonnet 5 $2 / $10, Haiku 4.5 $1 / $5, Fable 5.1 $10 / $50.
+- Google official card updated 2026-09-04: Gemini 3.1 Pro $2 / $12 at or below 200k tokens; Gemini 3.8 Flash introductory $0.75 / $3.75 through 2026-12-31.
+- xAI official card: Grok 4.6 $2 / $6 below 200k prompt tokens and $4 / $12 at or above that breakpoint.
+- CCIR 2026-09-04 guaranteed on-demand: H100 neocloud $3.71 vs hyperscaler $10.53; H200 $4.40 vs $10.30; B200 $6.69 vs $14.24. No newer daily print at midnight Eastern on 2026-09-05.
 - NVDA $105B residual-value cap filed 2026-08-17 — *after* the Luna cut.
-- Hub mark intact (NVDA ~3.4% off May ATH). No guarantee drawn.
+- Hub mark intact (NVDA about 2.6% off May ATH). No guarantee drawn.
 
 Hypothesis: BenchLM frontier index at 16 (Mar 2023 = 100), median blended $6 / 1M, describes the long deflation, not the 2026 race. Do not treat "tokens are 84% cheaper than 2023" as a 2026 bind by itself.
 
 What would move H5 to live-confirmed: a residual-value restatement, a rim payment miss, or two more cheap-tier cuts without a primary volume offset. What would kill it: stable mid-tier $P$ plus rental holding plus circular paper that stops growing.
 
-Daily score lives in `loop-health.md`. As of 2026-09-04 the loop danger level is **3 Stressed**.
+Daily score lives in `loop-health.md`. As of 2026-09-05 the loop danger level is **3 Stressed**.
 
 ## What this round does not decide
 

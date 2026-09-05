@@ -1,6 +1,6 @@
 # WS2 — Circular and vendor-finance graph v0
 
-As-of: 2026-09-04. Process note, not a book. No new primary guarantee or funding events located this pass.
+As-of: 2026-09-05. Process note, not a book. No new primary guarantee or funding events located this pass. CoreWeave equity closed at $89.36 on 4 September 2026; that bounce is an equity mark and does not change the debt stock or the guarantee book.
 
 Rule: announced is not funded is not guaranteed is not recognized revenue.
 
@@ -60,7 +60,7 @@ FY26 ended 2026-05-31:
 ## Neocloud rim
 
 - NVDA-CoreWeave ~7% equity and $6.3B cloud purchase: widely reported; confirm next NVDA 10-K pass.
-- CRWV debt ~$35B at 2026-06-30. July DDTL cleared wider than talk. 5y CDS ~855 bps late July after ~452 early June (secondary, round-trip). Financing still closed. Interest expense elevated (Motley Fool 2026-09-01).
+- CRWV debt ~$35B at 2026-06-30. Equity closed $89.36 on 2026-09-04, about 42 percent below the 52-week high of $153.20. July DDTL cleared wider than talk. 5y CDS ~855 bps late July after ~452 early June (secondary, round-trip). Financing still closed. Interest expense elevated (Motley Fool 2026-09-01). No missed-payment print found this pass.
 
 ## H3 / H4 from this file
 

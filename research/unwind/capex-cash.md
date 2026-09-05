@@ -1,6 +1,6 @@
 # WS1 — Capex vs cash
 
-As-of: 2026-09-04. Figures from company filings and earnings exhibits. Commentary is hypothesis. No new primary prints since prior pass.
+As-of: 2026-09-05. Figures from company filings and earnings exhibits. Commentary is hypothesis. No new primary prints since the prior pass. Oracle fiscal 2027 first quarter is still due on 10 September 2026 after the close.
 
 Units: USD billions. Calendar Q2 2026 = quarter ended 2026-06-30 except Oracle (FY ended 2026-05-31).
 
@@ -14,7 +14,7 @@ Do not mix company FCF definitions. Cash capex = purchases of PPE unless a compa
 | Four-name calendar Q2 cash capex / OCF | 163.9 / 171.8 ≈ 0.95 | Measured |
 | Same, economic (add MSFT Q4 finance leases $5.6 + META lease principal $0.962) | 170.5 / 171.8 ≈ 0.99 | Measured |
 | Names with capex/OCF > 0.9 for two consecutive quarters | AMZN only among the four. GOOGL crossed 1.0 in Q2. ORCL already through annually. | Measured |
-| July CY2026 guide revisions | 3 up / 0 down | Measured |
+| July CY2026 guide revisions | 3 up / 0 down. No later 8-K cut through 2026-09-04. | Measured |
 
 Dashboard rows 1–3 use these numbers.
 
@@ -72,9 +72,9 @@ Source: FY26 10-K acc. 0001193125-26-277521.
 |---|---:|---:|---:|---:|
 | FY26 ended 2026-05-31 | 31.977 | 55.663 | −23.686 | 1.74 |
 
-FY27 capex guide $90–95B. RPO $638B. Prepaid/customer-supplied hardware on large AI contracts $75B (IR). Next print: FY27 Q1 expected ~2026-09-10.
+FY27 capex guide $90–95B. RPO $638B. Prepaid/customer-supplied hardware on large AI contracts $75B (IR). Next print: FY27 Q1 scheduled for 2026-09-10 after the close.
 
 ## H2 / H4 from this file
 
-- H2 LIVE, not killed. Compression is real. Turning print is a guide cut. Absent.
+- H2 LIVE, not killed. Compression is real. Turning print is a guide cut. Absent through 2026-09-04.
 - H4 FAIL as regime change. Sequence step 6 did not occur in July and has not printed since.
