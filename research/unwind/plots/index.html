@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Conversion Rate — Unwind visualization suite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0c0f0c;
+      --bg-2: #10140f;
+      --surface: #161b14;
+      --ink: #e8eadc;
+      --muted: #9aa186;
+      --faint: #6d7360;
+      --line: #2c3224;
+      --brass: #c4a35a;
+      --green: #7cb389;
+      --red: #d45d4a;
+      --blue: #7aa0b4;
+      --serif: "Fraunces", "Iowan Old Style", Palatino, serif;
+      --sans: "IBM Plex Sans", "Helvetica Neue", sans-serif;
+      --mono: "IBM Plex Mono", ui-monospace, monospace;
+      --rail: 15.5rem;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; color-scheme: dark; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      * { transition: none !important; }
+    }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--sans);
+      font-size: 16.5px;
+      line-height: 1.55;
+      text-wrap: pretty;
+      display: grid;
+      grid-template-columns: var(--rail) minmax(0, 1fr);
+      grid-template-rows: auto 1fr;
+    }
+    a { color: var(--brass); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    a:hover { color: var(--ink); }
+    .skip {
+      position: absolute; left: -999px; top: 0;
+    }
+    .skip:focus {
+      left: 1rem; top: 1rem; z-index: 20;
+      background: var(--brass); color: var(--bg);
+      padding: 0.6rem 0.9rem;
+    }
+    aside {
+      grid-column: 1;
+      grid-row: 1 / span 2;
+      position: sticky; top: 0;
+      height: 100vh;
+      padding: 1.6rem 1.2rem 2rem 1.4rem;
+      border-right: 1px solid var(--line);
+      background: var(--bg);
+      overflow: auto;
+    }
+    .kicker {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--brass);
+      margin: 0 0 0.7rem;
+    }
+    aside h1 {
+      font-family: var(--serif);
+      font-size: 1.55rem;
+      font-weight: 500;
+      line-height: 1.15;
+      margin: 0 0 0.55rem;
+    }
+    aside .lede {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0 0 1.1rem;
+    }
+    aside .asof {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      color: var(--faint);
+      margin: 0 0 1.4rem;
+    }
+    nav { display: flex; flex-direction: column; gap: 0.15rem; }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      min-height: 44px;
+      display: flex;
+      align-items: center;
+      padding: 0.15rem 0.4rem 0.15rem 0.55rem;
+      border-left: 2px solid transparent;
+      font-size: 0.92rem;
+    }
+    nav a:hover, nav a:focus-visible {
+      color: var(--ink);
+      border-left-color: var(--brass);
+      outline: none;
+    }
+    nav a.active {
+      color: var(--ink);
+      border-left-color: var(--brass);
+    }
+    nav .group {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--faint);
+      margin: 0.85rem 0 0.2rem 0.55rem;
+    }
+    main {
+      grid-column: 2;
+      max-width: 52rem;
+      padding: 2.2rem 2.2rem 6rem;
+    }
+    section.intro h2, figure h2 {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 1.7rem;
+      line-height: 1.2;
+      margin: 0 0 0.7rem;
+    }
+    section.intro p, figure .explain p, .glossary dd {
+      margin: 0 0 0.85rem;
+      color: var(--ink);
+    }
+    .muted { color: var(--muted); }
+    .glossary {
+      margin: 1.4rem 0 2rem;
+      border-top: 1px solid var(--line);
+      padding-top: 1rem;
+    }
+    .glossary dt {
+      font-family: var(--mono);
+      font-size: 0.95rem;
+      color: var(--brass);
+      margin-top: 0.9rem;
+    }
+    .glossary dd { margin-left: 0; color: var(--muted); }
+    .formula {
+      font-family: var(--mono);
+      background: var(--surface);
+      border: 1px solid var(--line);
+      padding: 0.85rem 1rem;
+      margin: 1rem 0 1.2rem;
+      color: var(--ink);
+      overflow-x: auto;
+    }
+    figure {
+      margin: 0 0 3.4rem;
+      padding-top: 0.4rem;
+      scroll-margin-top: 1.2rem;
+    }
+    figure header {
+      display: flex;
+      gap: 0.4rem;
+      flex-wrap: wrap;
+      margin-bottom: 0.55rem;
+    }
+    .tag {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 0.22rem 0.45rem;
+      border: 1px solid var(--line);
+      color: var(--muted);
+    }
+    .tag.measured { color: var(--green); border-color: #2d4a36; }
+    .tag.hypothesis { color: var(--brass); border-color: #4a4024; }
+    .tag.mixed { color: var(--blue); border-color: #2a3d48; }
+    figure .lede {
+      color: var(--muted);
+      margin: 0 0 1rem;
+      font-size: 1.02rem;
+    }
+    figure img {
+      width: 100%;
+      height: auto;
+      display: block;
+      background: var(--bg-2);
+      border: 1px solid var(--line);
+    }
+    figure .explain {
+      margin-top: 1rem;
+      color: var(--muted);
+    }
+    figure .explain strong { color: var(--ink); font-weight: 500; }
+    hr.chapter {
+      border: 0;
+      border-top: 1px solid var(--line);
+      margin: 2.4rem 0 1.4rem;
+    }
+    .chapter-title {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--brass);
+      margin: 0 0 0.4rem;
+    }
+    footer.site {
+      grid-column: 2;
+      max-width: 52rem;
+      padding: 0 2.2rem 3rem;
+      color: var(--faint);
+      font-size: 0.85rem;
+    }
+    kbd {
+      font-family: var(--mono);
+      font-size: 0.78em;
+      border: 1px solid var(--line);
+      padding: 0.05rem 0.3rem;
+    }
+    @media (max-width: 860px) {
+      body { display: block; }
+      aside {
+        position: relative;
+        width: auto;
+        height: auto;
+        border-right: 0;
+        border-bottom: 1px solid var(--line);
+      }
+      nav { flex-direction: row; flex-wrap: wrap; }
+      nav a { min-height: 40px; }
+      main, footer.site { padding-left: 1.2rem; padding-right: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#how">Skip to the letter</a>
+  <aside>
+    <p class="kicker">research / unwind</p>
+    <h1>Conversion Rate</h1>
+    <p class="lede">Twenty-one figures on whether installed silicon can still pay for the paper that bought it.</p>
+    <p class="asof">As-of 2026-09-05 · not a book</p>
+    <nav id="toc">
+      <div class="group">Start</div>
+      <a href="#how">How to read</a>
+      <div class="group">Identity</div>
+      <a href="#fig-01">01 Revenue peak</a>
+      <a href="#fig-02">02 Three regimes</a>
+      <a href="#fig-03">03 Volume identity</a>
+      <a href="#fig-04">04 Break-even</a>
+      <a href="#fig-05">05 Path C P&amp;L</a>
+      <a href="#fig-06">06 GPU-hour</a>
+      <a href="#fig-07">07 Mix shift</a>
+      <div class="group">Output prices</div>
+      <a href="#fig-08">08 Token cards</a>
+      <a href="#fig-09">09 Input vs output</a>
+      <a href="#fig-10">10 July cuts</a>
+      <a href="#fig-11">11 GPU rental</a>
+      <div class="group">Paper</div>
+      <a href="#fig-12">12 Guarantee vs rental</a>
+      <a href="#fig-13">13 Circular book</a>
+      <div class="group">Cash</div>
+      <a href="#fig-14">14 Capex, OCF, FCF</a>
+      <a href="#fig-15">15 Guide revisions</a>
+      <a href="#fig-16">16 Capex / OCF</a>
+      <div class="group">Tape</div>
+      <a href="#fig-17">17 Mag7 weights</a>
+      <a href="#fig-18">18 Equal-weight</a>
+      <a href="#fig-19">19 Rim credit</a>
+      <div class="group">Hub</div>
+      <a href="#fig-20">20 NVIDIA mix</a>
+      <a href="#fig-21">21 Still unscored</a>
+    </nav>
+  </aside>
+
+  <main>
+    <section class="intro" id="how">
+      <p class="chapter-title">Start</p>
+      <h2>How to read this suite</h2>
+      <p>This folder is a process file. Presence of a chart is not a short, not a hedge, and not an allocation. The first seven figures are a teaching sketch of one identity. The rest are snapshots taken from the unwind notes as of 5 September 2026.</p>
+      <p class="muted">Every chart is tagged. <strong>Measured</strong> means the number comes from a filing, an official API card, or a named published series. <strong>Hypothesis</strong> means the number was chosen to show a relationship. <strong>Mixed</strong> means the panel combines both, and the caption says which is which.</p>
+      <p>The claim these pictures belong to is H5: listed token prices and GPU rental are the cash that installed chips actually produce. If that conversion rate falls while residual-value guarantees and take-or-pay contracts stay large, the last generation has not paid for itself and the next generation’s paper is already live.</p>
+      <div class="formula">Profit = (P − Cv) · V − F</div>
+      <dl class="glossary">
+        <dt>P — price</dt>
+        <dd>Dollars the seller receives for one million tokens. A token is a small piece of text the model reads or writes. P is a realized price, not always the advertised flagship list price.</dd>
+        <dt>Cv — variable cost</dt>
+        <dd>The extra cost of serving one more million tokens, in the same unit. Energy, cloud markup, and the part of running a cluster that rises with volume sit here. Training runs and chips already bought do not.</dd>
+        <dt>V — volume</dt>
+        <dd>How many tokens are sold in the month. Volume is not revenue. Revenue is P times V.</dd>
+        <dt>F — fixed cost</dt>
+        <dd>The monthly cost that does not shrink when fewer tokens are sold. In the sketch F is 900 million dollars per month. That round number is Hypothesis.</dd>
+        <dt>P − Cv — contribution margin</dt>
+        <dd>Cash left from one million tokens after paying the extra cost of serving them, and before paying F. If this difference is negative, more volume makes the monthly loss larger.</dd>
+      </dl>
+      <p class="muted">Keys: <kbd>J</kbd> next figure, <kbd>K</kbd> previous. Open this file in a browser from the cloned repo so the images load.</p>
+    </section>
+
+    <hr class="chapter">
+    <p class="chapter-title" id="identity">The identity · Hypothesis</p>
+
+    <figure id="fig-01">
+      <header>
+        <span class="tag hypothesis">Hypothesis</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>Revenue can peak while tokens explode</h2>
+      <p class="lede">Revenue is price times volume. If price falls faster than volume grows, monthly revenue can rise for a while and then fall.</p>
+      <img src="charts/01_revenue_peak.png" alt="Three hypothetical revenue paths over 25 months. Path C peaks then the slope fails to keep up as price falls faster than volume grows.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Path A lets price and variable cost fall together. Path B is a price war with a floor of 50 cents per million tokens. Path C cuts price faster still. Only the sketch knows these paths. They are not three companies.</p>
+        <p><strong>How to read it.</strong> The vertical axis is monthly revenue in dollars, not tokens. A rising token count can sit under a falling dollar line.</p>
+        <p><strong>What would change it.</strong> A measured series of blended realized P times tokens sold. That series does not exist in this pack.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-02">
+      <header>
+        <span class="tag hypothesis">Hypothesis</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>Only one regime is saved by volume</h2>
+      <p class="lede">Hold price and variable cost still, and slide volume. The slope of profit tells you whether more tokens help.</p>
+      <img src="charts/02_three_regimes.png" alt="Profit versus volume for three fixed prices. The line rises when price is above variable cost and falls when it is below.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Green: price is well above variable cost, so extra volume covers fixed cost. Amber: the margin is thin, so you need a great deal of volume. Red: price is below variable cost, so extra volume deepens the hole.</p>
+        <p><strong>How to read it.</strong> The dotted line is zero profit. Crossing it from below is break-even. The red line never crosses it by going right.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-03">
+      <header>
+        <span class="tag hypothesis">Hypothesis</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>The identity, with P and Cv held still</h2>
+      <p class="lede">This is the same formula drawn so the slope versus volume is the whole point.</p>
+      <img src="charts/03_volume_identity.png" alt="Profit versus volume at three fixed contribution margins.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Profit equals (P minus Cv) times V, minus F. Negative unit margin means the line falls as volume rises. That is the careful version of “volume will not balance the books.”</p>
+      </div>
+    </figure>
+
+    <figure id="fig-04">
+      <header>
+        <span class="tag hypothesis">Hypothesis</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>Break-even volume heads to infinity</h2>
+      <p class="lede">Tokens required to cover F equal F divided by (P minus Cv). As P approaches Cv, that quotient has no ceiling.</p>
+      <img src="charts/04_breakeven.png" alt="Break-even token volume rising toward infinity as price approaches variable cost, marked with a red dashed line.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> The red dashed line is variable cost at 90 cents per million tokens. To the right, some finite volume still covers F. To the left, selling more cannot cover F. The sketch uses F of 900 million dollars a month.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-05">
+      <header>
+        <span class="tag hypothesis">Hypothesis</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>Volume and revenue can look fine while profit does not</h2>
+      <p class="lede">On the price-war path, tokens and even dollars of revenue keep rising. Fixed cost does not shrink. Profit does.</p>
+      <img src="charts/05_pnl_path.png" alt="Path C profit and loss: volume and revenue rise while profit falls below a flat fixed-cost line.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> The left axis is volume. The right axis is dollars. The grey dashed line is F. Green revenue can sit near F while red profit is already negative, because variable cost is also being paid.</p>
+        <p><strong>How to read it.</strong> Do not compare the blue volume line’s height to the dollar lines. They are different units sharing a month axis.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-06">
+      <header>
+        <span class="tag hypothesis">Hypothesis</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>Filling the boxes cheaper</h2>
+      <p class="lede">A GPU-hour is one hour on one graphics processor. If the hours are already paid for, a lower token price makes each hour produce less cash.</p>
+      <img src="charts/06_gpu_hour.png" alt="Revenue per GPU-hour falling toward and through a flat committed cost per GPU-hour.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> The red dashed line is committed cost per hour, F spread across a fixed pool of 1.2 million hours a month. That pool size is Hypothesis. The blue line is token revenue per hour on path C.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-07">
+      <header>
+        <span class="tag hypothesis">Hypothesis</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>The flagship list can hold while blended P falls</h2>
+      <p class="lede">Blended realized price is the volume-weighted average of what customers actually buy. That blended P is what enters the profit formula.</p>
+      <img src="charts/07_mix_shift.png" alt="Flagship list price flat, budget-model price falling, blended realized price falling between them.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Green is an unchanged flagship list. Amber is a cheaper model. Red is the mix. Customers routing to the cheap tier pull the average down without a flagship cut.</p>
+        <p><strong>What would change it.</strong> A measured mix of tokens by model. Official cards in the next chapter are a snapshot of list prices, not of mix.</p>
+      </div>
+    </figure>
+
+    <hr class="chapter">
+    <p class="chapter-title">What silicon can charge · Measured</p>
+
+    <figure id="fig-08">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>Official cards, blended the same way</h2>
+      <p class="lede">Each bar is (three parts input plus one part output) divided by four. That 3:1 blend is a convention used to compare cards. It is not a filing.</p>
+      <img src="charts/08_token_cards.png" alt="Horizontal bars of blended dollars per million tokens from flagship models down to GPT-5.6 Luna.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Flagship cards cluster near 10 to 20 dollars blended. The cheap tier, including GPT-5.6 Luna at 20 cents input and 1.20 dollars output, sits far below. Mid-tier cards occupy the middle.</p>
+        <p><strong>How to read it.</strong> These are list prices on official API pages read on 5 September 2026. They are not tokens sold. Sol’s 4 / 20 row is labeled promotional through at least 21 November 2026. Gemini 3.8 Flash’s 0.75 / 3.75 row is introductory through 31 December 2026.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-09">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>Output is the expensive side</h2>
+      <p class="lede">Reasoning traces and long answers burn output tokens. A workload that is heavy on output pays the taller bar, not the input bar.</p>
+      <img src="charts/09_input_output.png" alt="Grouped bars of input versus output dollars per million tokens for eleven listed models.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> For every card in this pack, output costs more per million tokens than input. Agent workloads that write long traces therefore realize a higher average P than a short chat on the same model — and a higher bill. Whether that bill covers Cv is a different question, and is not measured here.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-10">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>The July cheap-tier cut is still on the card</h2>
+      <p class="lede">On 30 July 2026 OpenAI cut GPT-5.6 Luna 80 percent and Terra 20 percent. Both cuts were still listed on 5 September.</p>
+      <img src="charts/10_july_cuts.png" alt="Before and after bars for Luna and Terra input and output prices on 30 July 2026.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Luna input moved from 1.00 to 0.20 dollars per million tokens. Luna output moved from 6.00 to 1.20. Terra’s −20 percent implies a prior card of 2.50 / 15.00, landing at 2.00 / 12.00. Company language called this a pass-through of serving-cost improvements. That is a measured price cut. It is not a measured statement that volume rose enough to hold dollar revenue.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-11">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>Last-gen rental already clears at one-third of sticker</h2>
+      <p class="lede">These are dollars per GPU-hour on a published on-demand series, not a company filing. Hyperscaler, neocloud, and marketplace are three different venues for the same silicon.</p>
+      <img src="charts/11_gpu_rental.png" alt="Grouped bars of hyperscaler, neocloud, and marketplace GPU-hour prices for B300 through A100.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> On 4 September 2026 the CCIR guaranteed on-demand print put H100 neocloud at 3.71 dollars an hour against a hyperscaler list of 10.53. H200 and B200 show the same pattern. A residual-value guarantee written against an earlier, higher rental deck is looking at a different conversion rate than the deck.</p>
+        <p><strong>How to read it.</strong> B300 has no hyperscaler print in this series. Interruptible rates, which are lower, are not drawn here. A rate is not utilization.</p>
+      </div>
+    </figure>
+
+    <hr class="chapter">
+    <p class="chapter-title">Paper on the books</p>
+
+    <figure id="fig-12">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H3</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>The guarantee book and the rental print do not share a unit</h2>
+      <p class="lede">Left panel is NVIDIA’s disclosed gross maximum exposure. Right panel is the same-week H100 rental. They are placed together because H5 is a race between those clocks, not because the axes match.</p>
+      <img src="charts/12_guarantee_vs_rental.png" alt="Two panels: NVIDIA residual-value cap of 105 billion dollars beside H100 rental of 10.53 versus 3.71 versus 3.03 dollars per hour.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> NVIDIA’s 17 August 2026 8-K caps SB Energy residual-value guaranties at 105 billion dollars, with OpenAI as tenant. The 10-Q adds 3.5 billion of AI-cloud land, power, and shell. First phase is expected fiscal 2029. Trigger language is insolvency default or missed rent. That cap was filed after the Luna cut.</p>
+        <p><strong>How to read it.</strong> Do not divide 105 billion by 3.71. The left axis is a legal maximum. The right axis is a spot rental. The claim is only that paper sized on a higher conversion rate is live while the cheap-tier and neocloud prints have already moved.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-13">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H3</span>
+      </header>
+      <h2>Announced is not funded is not guaranteed is not revenue</h2>
+      <p class="lede">These bars are different kinds of paper. Adding them into one total would mix remaining performance obligations, leases, equity, and residual-value caps.</p>
+      <img src="charts/13_circular_book.png" alt="Horizontal bars of circular-finance objects from Oracle remaining performance obligations at 638 billion down to NVIDIA funded OpenAI equity at 30 billion.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Oracle remaining performance obligations of 638 billion dollars and AWS performance obligations not yet recognized of 496 billion are backlog, not cash in the door. Microsoft’s 329 billion of uncommenced datacenter leases are commitments to take space. NVIDIA’s funded OpenAI equity is 30 billion, not the 100 billion letter of intent from September 2025. Amazon’s OpenAI equity closed at 50 billion.</p>
+        <p><strong>What would move H3.</strong> A guarantee that had to be funded, or a take-or-pay miss disclosed in a filing. Neither printed in this pack.</p>
+      </div>
+    </figure>
+
+    <hr class="chapter">
+    <p class="chapter-title">Cash against capex</p>
+
+    <figure id="fig-14">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H2</span>
+      </header>
+      <h2>Spend is large. Cash conversion is not uniform</h2>
+      <p class="lede">Each group is one company’s cited period. Company free-cash-flow definitions differ. Do not add the red bars into one true total.</p>
+      <img src="charts/14_capex_ocf_fcf.png" alt="Grouped bars of cash capex, operating cash flow, and free cash flow for Amazon, Alphabet, Meta, Microsoft, and Oracle.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Amazon’s trailing-twelve-month free cash flow is −7.6 billion dollars. Alphabet’s second-quarter free cash flow is −5.9 billion. Meta’s second-quarter free cash flow is 0.78 billion. Microsoft’s fiscal fourth quarter is still +19.6 billion. Oracle’s fiscal 2026 free cash flow is −23.7 billion. Gold bars are cash capex. Blue bars are operating cash flow.</p>
+        <p><strong>How to read it.</strong> Oracle’s bars are a full year. Amazon’s red bar is trailing twelve months. The others are the quarter named on the axis. Demand lines in the same filings were still growing.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-15">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H2</span>
+        <span class="tag">H4</span>
+      </header>
+      <h2>July’s capex guides went up, not down</h2>
+      <p class="lede">Sequence step 6 in the unwind plan is a hyperscaler capex cut. That step has not printed.</p>
+      <img src="charts/15_guide_revisions.png" alt="Lollipop chart of calendar 2026 capex guides rising for Amazon, Alphabet, and Meta in July.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Amazon raised calendar 2026 cash capex from 200 billion dollars to 220 billion. Alphabet’s midpoint moved from about 185 billion to 200 billion. Meta raised the floor from 125 billion to 130 billion. Count: three up, zero down. Microsoft’s fiscal 2027 outlook of 175 billion is a lease-mix change and is not scored as a cut.</p>
+        <p><strong>Why H4 fails as regime change.</strong> A boom that is still raising the spend envelope is not a completed unwind, even if free cash flow is compressed.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-16">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H2</span>
+      </header>
+      <h2>When capex exceeds operating cash flow</h2>
+      <p class="lede">A ratio above 1.0 means the company spent more cash on equipment in the period than operations produced.</p>
+      <img src="charts/16_capex_ocf_ratio.png" alt="Bar chart of capex divided by operating cash flow, with a dashed line at 1.0.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Amazon 1.17, Alphabet 1.15, Meta 0.94, Microsoft 0.65, Oracle fiscal 2026 1.74. The four-name second-quarter sum is 163.9 / 171.8, about 0.95. H2 is live on cash and not live on demand. The turning print is a guide cut, which has not printed.</p>
+      </div>
+    </figure>
+
+    <hr class="chapter">
+    <p class="chapter-title">Index and credit</p>
+
+    <figure id="fig-17">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H1</span>
+      </header>
+      <h2>The cap-weight index is still a concentrated bet</h2>
+      <p class="lede">These are SPY holding weights on 4 September 2026. Adding them gives a Mag7 reconstruction of about 33.6 percent. Top-10 of SPY was 37.83 percent.</p>
+      <img src="charts/17_mag7_weights.png" alt="Bar chart of SPY weights for NVIDIA, Apple, Microsoft, Amazon, Alphabet A and C, Meta, and Tesla.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> NVIDIA alone is 8.01 percent of SPY. Early-June commentary put Mag7 near 35 percent. The current reconstruction is modest deconcentration, not a collapse. Commentary about the June peak is Hypothesis. The 4 September weights are Measured.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-18">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H1</span>
+      </header>
+      <h2>Equal-weight has been leading</h2>
+      <p class="lede">RSP holds the S&amp;P 500 names in equal size. SPY holds them by market cap. When RSP leads, the average stock is beating the giants.</p>
+      <img src="charts/18_equal_weight.png" alt="Grouped bars of RSP versus SPY total return over three months and year to date.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> ETF.com as of early September 2026: RSP three-month +4.48 percent versus SPY +0.99 percent. Year to date RSP +15.04 percent versus SPY +12.80 percent. That is partial evidence for H1, not a completed deconcentration.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-19">
+      <header>
+        <span class="tag mixed">Mixed</span>
+        <span class="tag">H3</span>
+      </header>
+      <h2>Stress printed at the rim, not as a missed payment</h2>
+      <p class="lede">Equity and the debt stock are Measured. The CDS path is secondary tape, tagged Hypothesis-adjacent.</p>
+      <img src="charts/19_rim_credit.png" alt="Three panels: CoreWeave share price off 42 percent from the high, a CDS round-trip, and debt rising from 21 to 35 billion dollars.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> CoreWeave closed at 89.36 dollars on 4 September 2026, about 42 percent below the 52-week high of 153.20. Debt was about 35 billion dollars on 30 June 2026 versus about 21 billion at year-end 2025. Five-year CDS went from about 452 basis points in early June to about 855 in late July, after about 881 in December 2025. That is a round-trip, not a new peak. Financing still closed. No missed-payment print was found in this pack.</p>
+        <p><strong>How to read it.</strong> A bounce in the share price is an equity mark. It does not retire the debt stock or the guarantee book.</p>
+      </div>
+    </figure>
+
+    <hr class="chapter">
+    <p class="chapter-title">The hub</p>
+
+    <figure id="fig-20">
+      <header>
+        <span class="tag measured">Measured</span>
+        <span class="tag">H4</span>
+      </header>
+      <h2>NVIDIA’s data-center engine is still intact</h2>
+      <p class="lede">Layer C in the unwind sequence is supplier earnings. This quarter does not break it.</p>
+      <img src="charts/20_nvda_hub.png" alt="NVIDIA second-quarter revenue mix showing data center at 89 billion dollars, and three direct customers at 16, 15, and 13 percent of first-half revenue.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Data Center revenue was 89.023 billion dollars in fiscal second quarter 2027, +117 percent year over year and +18 percent quarter over quarter, out of 96.221 billion total. Company gross margin was 75.0 percent. One direct customer was 16 percent of revenue in the quarter. Three directs were 16, 15, and 13 percent of the first half. Shares closed at 230.36 dollars on 4 September, about 2.6 percent below the mid-May high near 236.54.</p>
+        <p><strong>Why this sits next to falling token prices.</strong> H5 can be live on the cheap tier while the hub that sells the chips is still printing growth. Those are different clocks.</p>
+      </div>
+    </figure>
+
+    <figure id="fig-21">
+      <header>
+        <span class="tag hypothesis">Not scored</span>
+        <span class="tag">H5</span>
+      </header>
+      <h2>Tokens sold and utilization are still blank</h2>
+      <p class="lede">A rate card is not utilization. A rental series is not volume. This panel is empty on purpose.</p>
+      <img src="charts/21_unscored_volume.png" alt="Empty panel stating that tokens sold and GPU utilization have no first-class primary print in this pack.">
+      <div class="explain">
+        <p><strong>What this shows.</strong> Nothing, by design. H5’s kill condition includes a primary volume offset. Until a first-class print of tokens sold or GPU-hours consumed exists in this folder, do not infer that cheaper tokens were “made up in volume.”</p>
+        <p><strong>What would fill it.</strong> A provider disclosure of tokens served, or a utilization series with a named primary source. Do not invent the stub ahead of that print.</p>
+      </div>
+    </figure>
+  </main>
+
+  <footer class="site">
+    <p>Sources live in <code>../token-prices.md</code>, <code>../capex-cash.md</code>, <code>../circular-finance.md</code>, <code>../dashboard.md</code>, and <code>../hypotheses.md</code>. Regenerate charts with <code>python generate_suite.py</code>. J / K moves between figures.</p>
+  </footer>
+  <script>
+    const figs = [...document.querySelectorAll("figure, section.intro")];
+    const links = [...document.querySelectorAll("#toc a")];
+    const byHref = Object.fromEntries(links.map(a => [a.getAttribute("href"), a]));
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (!e.isIntersecting) return;
+        links.forEach(a => a.classList.toggle("active", a.getAttribute("href") === "#" + e.target.id));
+      });
+    }, { rootMargin: "-20% 0px -65% 0px" });
+    figs.forEach(f => io.observe(f));
+    function jump(dir) {
+      const tops = figs.map(f => ({ f, t: f.getBoundingClientRect().top }));
+      const current = tops.reduce((best, x) => Math.abs(x.t) < Math.abs(best.t) ? x : best);
+      const i = figs.indexOf(current.f) + dir;
+      if (i >= 0 && i < figs.length) figs[i].scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+    document.addEventListener("keydown", (e) => {
+      if (e.target.matches("input, textarea")) return;
+      if (e.key === "j" || e.key === "J") { e.preventDefault(); jump(1); }
+      if (e.key === "k" || e.key === "K") { e.preventDefault(); jump(-1); }
+    });
+  </script>
+</body>
+</html>
