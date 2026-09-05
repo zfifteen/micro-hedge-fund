@@ -1,16 +1,18 @@
-# Hypotheses — first-round status — 2026-09-04
+# Hypotheses — status — 2026-09-04
 
 Profile: research, not a trading session. No orders. A live claim here is not a book.
 
-**Measured** = company filings, IR exhibits, and observable index weights cited in `capex-cash.md`, `circular-finance.md`, and `dashboard.md`. **Hypothesis** = secondary tape commentary and any inference that goes past the filing line.
+**Measured** = company filings, IR exhibits, provider rate cards, observable index weights, named rental series cited in `capex-cash.md`, `circular-finance.md`, `token-prices.md`, `loop-health.md`, and `dashboard.md`. **Hypothesis** = secondary tape commentary, constructed indexes, and any inference that goes past the filing or the rate card.
 
-As-of: close 2026-09-03 / notes written 2026-09-04.
+As-of: close 2026-09-03 / notes written 2026-09-04 late ET.
+
+This file stays open when a claim fails. A failed H4 is a result, not a reason to stop measuring the loop.
 
 ## Umbrella
 
 AI-linked equity prices embed a capex-and-financing loop that cannot be sustained at the current second derivative. The first binding constraint, if it exists, shows up in cash flow and credit, not in whether models work.
 
-Status: **open**. Cash-flow bind is visible at AMZN (TTM FCF negative), GOOGL (Q2 FCF negative), META (Q2 FCF nearly gone), ORCL (FY26 FCF -$23.7B). Demand lines in the same filings are still growing. That is a bind, not a bust.
+Status: **open**. Cash-flow bind is visible at AMZN (TTM FCF negative), GOOGL (Q2 FCF negative), META (Q2 FCF nearly gone), ORCL (FY26 FCF -$23.7B). Demand lines in the same filings are still growing. Token list prices on the cheap tier were cut in July while circular paper stepped up in August. That is a bind plus a race, not a bust.
 
 ## H1 — index concentration / deconcentration
 
@@ -85,10 +87,33 @@ Why the regime-change version fails now:
 4. NVDA 2026-09-03 close $228.45 vs mid-May ATH ~$236.54. Drawdown from ATH is about 3.4%.
 5. July did print spender-repricing, a SOX air pocket, RSP leadership, and a CoreWeave concession. Necessary for H4. Not sufficient for a regime call.
 
-H4 can be reopened if Q3 guides are cut or if NVDA data-center growth rolls over on a sequential basis while capex stays up. Until then treat July as Path 4 plus a cash-flow scare inside an installation up-leg.
+H4 can be reopened if Q3 guides are cut or if NVDA data-center growth rolls over on a sequential basis while capex stays up. Until then treat July as Path 4 plus a cash-flow scare inside an installation up-leg. Failure of H4 does not close H5 or this folder.
+
+## H5 — token prices vs the financed loop
+
+Claim: listed API token prices and GPU rental are the cash conversion of installed silicon. Circular paper (equity stakes, take-or-pay, residual-value guarantees) is sized on an assumed conversion rate. If $P_t$ falls while $G_t$ stays large, the loop is in a race condition: the last generation has not paid for itself and the next generation's paper is already live. Equity prices of the hub are the collateral that lets the race keep running.
+
+Kill: frontier and mid-tier blended token prices stabilize or rise for two quarters, neocloud guaranteed H100/H200 rental holds, and circular paper rolls at similar size *without* extra collateral or guarantee language.
+
+Status: **open, live on the cheap tier, not proven as a bind on hub paper**.
+
+Measured (see `token-prices.md` and `loop-health.md`):
+
+- OpenAI 2026-07-30: GPT-5.6 Luna −80% to $0.20 / $1.20 per 1M; Terra −20% to $2.00 / $12.00. First-party cut.
+- Official OpenAI API page still lists Luna / Terra at those cuts as of this pass. Sol list vs promo is split ($5/$30 vs a $4/$20 promo through at least 2026-11-21).
+- CCIR 2026-09-04 guaranteed on-demand: H100 neocloud $3.71 vs hyperscaler $10.53; H200 $4.40 vs $10.30; B200 $6.69 vs $14.24.
+- NVDA $105B residual-value cap filed 2026-08-17 — *after* the Luna cut.
+- Hub mark intact (NVDA ~3.4% off May ATH). No guarantee drawn.
+
+Hypothesis: BenchLM frontier index at 16 (Mar 2023 = 100), median blended $6 / 1M, describes the long deflation, not the 2026 race. Do not treat "tokens are 84% cheaper than 2023" as a 2026 bind by itself.
+
+What would move H5 to live-confirmed: a residual-value restatement, a rim payment miss, or two more cheap-tier cuts without a primary volume offset. What would kill it: stable mid-tier $P$ plus rental holding plus circular paper that stops growing.
+
+Daily score lives in `loop-health.md`. As of 2026-09-04 the loop danger level is **3 Stressed**.
 
 ## What this round does not decide
 
-- Whether AI demand compounds through 2030. H2 can be live and the technology can still be real.
+- Whether AI demand compounds through 2030. H2 and H5 can be live and the technology can still be real.
 - Whether Path 2 (credit / circular-finance bind) is the sharp path. H3 is open.
+- Whether cheap tokens raise $Q$ fast enough to hold $P \times Q$. Volume is not scored until a primary exists.
 - What the cash account should own. This folder does not issue that instruction.
