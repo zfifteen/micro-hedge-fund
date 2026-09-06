@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Unwind Phase Portrait — measured_wall</title>
+<style>
+  :root{--bg:#070a12;--panel:#10182a;--ink:#eaf0ff;--muted:#8fa0c3;--line:#22304d;--m:#5b9dff;--h:#c084fc;--d3:#ffc857;--d4:#ff8f5a;--d5:#ff4d6d;--ok:#3ddc97}
+  *{box-sizing:border-box} body{margin:0;background:radial-gradient(1200px 600px at 20% -10%,#152045,transparent),var(--bg);color:var(--ink);font:15px/1.45 ui-sans-serif,system-ui}
+  header{padding:28px 28px 12px;max-width:1200px;margin:0 auto}
+  h1{font-size:28px;margin:0 0 6px;letter-spacing:-.03em}
+  .sub{color:var(--muted);max-width:70ch}
+  .wall{margin-top:14px;display:inline-block;border:1px solid #3b2a6b;background:linear-gradient(90deg,#1a1030,#121a33);padding:8px 12px;border-radius:999px;color:#e9d5ff;font-size:13px}
+  main{max-width:1200px;margin:0 auto;padding:12px 28px 48px;display:grid;grid-template-columns:1.1fr .9fr;gap:16px}
+  @media(max-width:960px){main{grid-template-columns:1fr}}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px}
+  h2{margin:0 0 10px;font-size:15px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+  .big{font-size:56px;font-weight:750;letter-spacing:-.04em}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .ledger{border-radius:12px;padding:12px;border:1px solid var(--line);min-height:120px}
+  .ledger.m{border-color:#2a508a;box-shadow:inset 0 0 0 1px #1a335f}
+  .ledger.h{border-color:#5b2d8a;opacity:.95}
+  .tag{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}
+  ul{margin:8px 0 0;padding-left:18px} li{margin:4px 0}
+  .path{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:12px;background:#0a1020;border:1px solid var(--line);border-radius:8px;padding:8px;margin:6px 0}
+  .nodes{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+  .node{padding:8px 10px;border-radius:10px;background:#0c1426;border:1px solid var(--line);font-size:12px}
+  .node.conflict{border-color:#8a3b3b;color:#ffb4b4}
+  .node.intact{border-color:#1f6a4a;color:#9af0c7}
+  .node.watch{border-color:#8a6a20;color:#ffe2a8}
+  svg{width:100%;height:280px;background:#090e1a;border-radius:12px;border:1px solid var(--line)}
+  footer{max-width:1200px;margin:0 auto;padding:0 28px 40px;color:var(--muted);font-size:12px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Unwind Phase Portrait</h1>
+  <div class="sub">The research object is not “is AI a bubble.” It is a finite evidence machine over six clocks, with an honesty wall: <b>Hypothesis cannot raise official danger</b>.</div>
+  <div class="wall">honesty object · <code>measured_wall</code> · Hypothesis ledger is epistemically live and officially inert</div>
+</header>
+<main>
+  <section class="card">
+    <h2>Official judgment</h2>
+    <div class="big" id="danger">3 · Stressed</div>
+    <p class="sub" id="onto"></p>
+    <svg id="phaseSvg" viewBox="0 0 640 260" role="img" aria-label="phase diagram"></svg>
+    <div class="nodes" id="nodes"></div>
+  </section>
+  <section class="card">
+    <h2>Dual ledger</h2>
+    <div class="grid2">
+      <div class="ledger m"><div class="tag">Measured</div><div id="mLedger"></div></div>
+      <div class="ledger h"><div class="tag">Hypothesis</div><div id="hLedger"></div></div>
+    </div>
+    <h2 style="margin-top:16px">Minimal certificate → danger ≥ 3</h2>
+    <div id="cert"></div>
+    <h2 style="margin-top:16px">Minimal paths → 4 / 5</h2>
+    <div id="paths"></div>
+    <h2 style="margin-top:16px">Heal: drop conflicts → soft ≤ 2</h2>
+    <div id="heal"></div>
+  </section>
+</main>
+<footer>
+  Certificates are logical consequences of loop-health.md rules under measured_wall. Not a trade. Not a short. Oracle Sep 10 can mint Measured concentration / H2 cash stress — it cannot alone settle H5 or reopen H4 regime.
+</footer>
+<script>
+const PHASE = {"scored_at": "2026-09-06T20:06:12.757507+00:00", "as_of": "2026-09-05T00:00:00-04:00", "honesty_wall": {"name": "measured_wall", "rule": "Hypothesis-ledger conflicts cannot raise official danger. Only Measured clocks and Measured event flags move the score.", "official_danger": 3, "official_name": "Stressed", "measured_only_danger": 3, "hypothesis_only_danger": 1, "hypothesis_can_raise_official": false, "measured_conflicts": ["token_list_prices", "gpu_rental", "circular_paper", "spender_cash"], "hypothesis_conflicts": []}, "race": {"live": true, "note": "P_t < P_{t-k} and G_t >= G_{t-k} live"}, "current": {"conflicts": ["token_list_prices", "gpu_rental", "circular_paper", "spender_cash"], "watches": ["rim_credit"], "hub_state": "intact", "active_events": []}, "certificate_danger_ge_3": {"description": "Minimal Measured conflict sets that force soft danger >= 3", "minimal_sets": [["token_list_prices", "gpu_rental"], ["token_list_prices", "circular_paper"], ["token_list_prices", "spender_cash"], ["gpu_rental", "circular_paper"], ["gpu_rental", "spender_cash"], ["circular_paper", "spender_cash"]]}, "paths_to_fragile_4": {"description": "Minimal Measured event flags that raise danger to >=4 from current clocks", "minimal_sets": [["guarantee_restated"], ["neocloud_payment_miss"], ["second_cheap_tier_cut_no_volume"], ["nvda_drawdown_gt_15pct_guides_up"], ["residual_value_drawn"], ["hyperscaler_capex_cut"], ["hub_credit_event"]], "event_meanings": {"guarantee_restated": "Named guarantee language restated", "neocloud_payment_miss": "Neocloud payment miss / failed takeout", "second_cheap_tier_cut_no_volume": "Second large cheap-tier cut without volume offset", "nvda_drawdown_gt_15pct_guides_up": "NVDA >15% below May high while capex guides stay up"}}, "paths_to_unwinding_5": {"description": "Minimal Measured event flags that raise danger to >=5 from current clocks", "minimal_sets": [["residual_value_drawn"], ["hyperscaler_capex_cut"], ["hub_credit_event"]], "event_meanings": {"residual_value_drawn": "Residual-value guarantee drawn", "hyperscaler_capex_cut": "Hyperscaler capex cut", "hub_credit_event": "Hub credit event"}}, "recovery_by_dropping_conflicts": {"description": "Minimal current conflicts that must stop conflicting for soft danger to fall", "to_watch_or_better_le_2": [["token_list_prices", "gpu_rental", "circular_paper"], ["token_list_prices", "gpu_rental", "spender_cash"], ["token_list_prices", "circular_paper", "spender_cash"], ["gpu_rental", "circular_paper", "spender_cash"]], "to_intact_le_1": [], "note": "Recovery event flags in loop-health.md assume clocks themselves heal; dropping conflicts is the operational twin."}, "ontology": {"object": "Not 'is AI a bubble'. The object is a finite evidence machine over six clocks plus event floors, with a Measured|Hypothesis honesty wall.", "danger_is": "A forced judgment over labeled inputs \u2014 not a price target, not a trade, not an average.", "oracle_sep10": "Can promote concentration to Measured and stress H2 cash; cannot alone settle H5 or reopen H4 regime without the stated bars."}};
+
+function render(){
+  const hw = PHASE.honesty_wall;
+  document.getElementById('danger').textContent = hw.official_danger + ' · ' + hw.official_name;
+  document.getElementById('onto').textContent = PHASE.ontology.object;
+  document.getElementById('mLedger').innerHTML = `<div>Danger if Measured-only: <b>${hw.measured_only_danger}</b></div><ul>${hw.measured_conflicts.map(c=>`<li>${c}</li>`).join('')}</ul>`;
+  document.getElementById('hLedger').innerHTML = `<div>Danger if Hypothesis-only: <b>${hw.hypothesis_only_danger}</b> (inert)</div><ul>${(hw.hypothesis_conflicts.length?hw.hypothesis_conflicts:['(none)']).map(c=>`<li>${c}</li>`).join('')}</ul>`;
+  document.getElementById('cert').innerHTML = PHASE.certificate_danger_ge_3.minimal_sets.map(s=>`<div class="path">{ ${s.join(' + ')} }</div>`).join('');
+  const p4 = PHASE.paths_to_fragile_4.minimal_sets.map(s=>`<div class="path">→4 · ${s.join(' | ')||'∅'}</div>`).join('');
+  const p5 = PHASE.paths_to_unwinding_5.minimal_sets.map(s=>`<div class="path">→5 · ${s.join(' | ')}</div>`).join('');
+  document.getElementById('paths').innerHTML = p4 + p5;
+  document.getElementById('heal').innerHTML = PHASE.recovery_by_dropping_conflicts.to_watch_or_better_le_2.map(s=>`<div class="path">drop ${s.join(' + ')}</div>`).join('');
+
+  const nodes = document.getElementById('nodes');
+  const states = { ...(Object.fromEntries((PHASE.current.conflicts||[]).map(c=>[c,'conflict']))), ...(Object.fromEntries((PHASE.current.watches||[]).map(c=>[c,'watch']))) };
+  // hub
+  states['hub_equity_mark'] = PHASE.current.hub_state || 'intact';
+  ['token_list_prices','gpu_rental','circular_paper','spender_cash','rim_credit','hub_equity_mark'].forEach(n=>{
+    const st = states[n] || 'intact';
+    const d=document.createElement('div'); d.className='node '+st; d.textContent=n.replaceAll('_',' '); nodes.appendChild(d);
+  });
+
+  // phase svg: 1-5 spine with current point and arrows to 4/5
+  const svg = document.getElementById('phaseSvg');
+  const levels=[1,2,3,4,5];
+  const x=i=>60+i*120; const y=130;
+  let m=`<text x="20" y="28" fill="#8fa0c3" font-size="12">evidence machine trajectory</text>`;
+  levels.forEach((lv,i)=>{
+    const col = lv===3?'#ffc857':lv>=5?'#ff4d6d':lv===4?'#ff8f5a':'#5b9dff';
+    m += `<circle cx="${x(i)}" cy="${y}" r="${lv===hw.official_danger?18:10}" fill="${col}" opacity="${lv===hw.official_danger?1:.45}"/>`;
+    m += `<text x="${x(i)}" y="${y+36}" text-anchor="middle" fill="#8fa0c3" font-size="12">${lv}</text>`;
+  });
+  // arrows from 3 to each singleton path tip labels
+  m += `<text x="300" y="70" text-anchor="middle" fill="#ff8f5a" font-size="12">any single floor-4/5 event lifts the state</text>`;
+  m += `<path d="M300 112 V90" stroke="#ff8f5a" stroke-width="2" fill="none"/>`;
+  m += `<text x="300" y="210" text-anchor="middle" fill="#9af0c7" font-size="12">healing requires dropping ≥3 of 4 Measured conflicts</text>`;
+  svg.innerHTML = m;
+}
+render();
+</script>
+</body>
+</html>
