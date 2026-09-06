@@ -1,0 +1,32 @@
+{
+  "as_of": "2026-09-05T00:00:00-04:00",
+  "scored_at": "2026-09-06T19:52:49.176368+00:00",
+  "danger": 3,
+  "danger_name": "Stressed",
+  "danger_meaning": "Two or more clocks conflict. Cash conversion is weaker than the paper that funded the last build. Hub equity marks still hold.",
+  "soft_danger": 3,
+  "event_floor": null,
+  "conflict_count": 4,
+  "watch_count": 1,
+  "conflict_clocks": [
+    "token_list_prices",
+    "gpu_rental",
+    "circular_paper",
+    "spender_cash"
+  ],
+  "hub_state": "intact",
+  "race_live": true,
+  "race_note": "P_t < P_{t-k} and G_t >= G_{t-k} live",
+  "hypotheses": {
+    "H2": "open_live_on_cash",
+    "H4": "fail_as_regime_change",
+    "H5": "open_live_on_cheap_tier"
+  },
+  "next_forced_print": {
+    "name": "Oracle FY27 Q1",
+    "when": "2026-09-10 after close",
+    "prep": "research/unwind/oracle-fy27-q1-prep.md"
+  },
+  "pack_danger_baseline": 3,
+  "baseline_match": true
+}
