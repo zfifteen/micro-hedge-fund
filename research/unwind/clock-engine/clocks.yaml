@@ -1,0 +1,66 @@
+# Unwind clocks — as-of pack close 2026-09-04 / notes 2026-09-05
+# Tag every field Measured or Hypothesis in comments. Numbers from research/unwind/*.md
+as_of: "2026-09-05T00:00:00-04:00"
+pack_danger_baseline: 3
+
+race:
+  # P = conversion rate the installed base prints (cheap-tier token / neocloud rental)
+  # G = residual-value / take-or-pay stock
+  p_down_since_prior: true   # Measured: Luna -80% 2026-07-30; still listed 2026-09-05
+  g_up_or_flat: true         # Measured: NVDA $105B RVG filed 2026-08-17 after the cut
+  note: "P_t < P_{t-k} and G_t >= G_{t-k} live"
+
+clocks:
+  token_list_prices:
+    state: conflict          # cheap-tier war vs funded paper assumptions
+    tag: Measured
+    summary: "OpenAI Luna $0.20/$1.20; Terra $2/$12; Astra $10/$50 still listed"
+
+  gpu_rental:
+    state: conflict
+    tag: Measured
+    summary: "CCIR 2026-09-04 H100 neocloud $3.71 vs hyperscaler $10.53"
+
+  circular_paper:
+    state: conflict
+    tag: Measured
+    summary: "NVDA $105B SB Energy RVG; AMZN OpenAI equity $50B + AWS commercial +$100B/8y; no draw"
+
+  spender_cash:
+    state: conflict
+    tag: Measured
+    summary: "AMZN TTM FCF -$7.6B; GOOGL Q2 -$5.9B; META Q2 $0.78B; ORCL FY26 -$23.7B; July guides 3 up / 0 down"
+
+  rim_credit:
+    state: watch
+    tag: Measured
+    summary: "CoreWeave debt ~$35B; equity $89.36 (~-42% from 52w high); financing still closed; no miss"
+
+  hub_equity_mark:
+    state: intact
+    tag: Measured
+    summary: "NVDA $230.36 (~2.6% below May ATH $236.54); Mag7 ~33.6% of SPY"
+
+events:
+  # Force floors when true (from loop-health.md move rules)
+  guarantee_restated: false
+  neocloud_payment_miss: false
+  second_cheap_tier_cut_no_volume: false
+  nvda_drawdown_gt_15pct_guides_up: false
+  residual_value_drawn: false
+  hyperscaler_capex_cut: false
+  hub_credit_event: false
+  mid_tier_tokens_stable_two_quarters: false
+  neocloud_rental_holds: false
+  circular_paper_stopped_growing: false
+  spender_fcf_recovered_at_current_capex: false
+
+hypotheses:
+  H2: "open_live_on_cash"
+  H4: "fail_as_regime_change"
+  H5: "open_live_on_cheap_tier"
+
+next_forced_print:
+  name: "Oracle FY27 Q1"
+  when: "2026-09-10 after close"
+  prep: "research/unwind/oracle-fy27-q1-prep.md"
