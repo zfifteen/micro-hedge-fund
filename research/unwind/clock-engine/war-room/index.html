@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Unwind Oracle Night War Room</title>
+<style>
+  :root { --bg:#0b1020; --card:#141b2d; --ink:#e8eefc; --muted:#9aa8c7; --accent:#6ea8fe; --good:#3ddc97; --warn:#ffc857; --bad:#ff6b6b; --line:#243047; }
+  * { box-sizing: border-box; }
+  body { margin:0; font:15px/1.45 system-ui, -apple-system, Segoe UI, sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:20px 24px; border-bottom:1px solid var(--line); display:flex; gap:16px; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; }
+  h1 { margin:0; font-size:22px; }
+  .sub { color:var(--muted); margin-top:4px; }
+  main { display:grid; grid-template-columns:1.2fr 1fr; gap:16px; padding:16px 24px 40px; }
+  @media (max-width:980px){ main { grid-template-columns:1fr; } }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px; }
+  h2 { margin:0 0 10px; font-size:16px; }
+  .danger { font-size:42px; font-weight:700; letter-spacing:-0.03em; }
+  .pill { display:inline-block; padding:2px 10px; border-radius:999px; background:#1d2740; color:var(--accent); font-size:12px; }
+  .muted { color:var(--muted); }
+  table { width:100%; border-collapse:collapse; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--line); vertical-align:top; }
+  th { color:var(--muted); font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:0.04em; }
+  label.row { display:flex; gap:10px; align-items:flex-start; padding:8px 0; border-bottom:1px solid var(--line); }
+  input[type=checkbox]{ margin-top:3px; }
+  button { background:var(--accent); color:#061018; border:0; border-radius:10px; padding:10px 14px; font-weight:700; cursor:pointer; }
+  button.secondary { background:#243047; color:var(--ink); }
+  textarea { width:100%; min-height:160px; background:#0b1222; color:var(--ink); border:1px solid var(--line); border-radius:10px; padding:10px; font:13px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .clocks { display:grid; gap:8px; }
+  .clock { display:flex; justify-content:space-between; gap:8px; padding:8px 10px; border-radius:10px; background:#0f1628; }
+  .tag-conflict { color:var(--bad); }
+  .tag-watch { color:var(--warn); }
+  .tag-intact { color:var(--good); }
+  footer { padding:0 24px 24px; color:var(--muted); font-size:12px; }
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Unwind · Oracle Night War Room</h1>
+    <div class="sub">Research desk only · not a trade ticket · pairs with <code>oracle-fy27-q1-prep.md</code> + Clock Engine</div>
+  </div>
+  <div>
+    <span class="pill" id="asOf">as-of loading…</span>
+  </div>
+</header>
+<main>
+  <section class="card">
+    <h2>Clock engine</h2>
+    <div class="danger" id="danger">—</div>
+    <div class="muted" id="dangerMeaning"></div>
+    <p id="race" class="muted"></p>
+    <div class="clocks" id="clockList"></div>
+    <p class="muted" style="margin-top:12px">Paste <code>out/status.json</code> after <code>python3 score.py</code> if this page cannot fetch it:</p>
+    <textarea id="jsonIn" placeholder='{"danger":3,"danger_name":"Stressed",...}'></textarea>
+    <div style="display:flex; gap:8px; margin-top:8px; flex-wrap:wrap">
+      <button type="button" id="loadBtn">Load JSON</button>
+      <button type="button" class="secondary" id="demoBtn">Load pack baseline</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Oracle FY27 Q1 checklist (2026-09-10)</h2>
+    <p class="muted">Check what the primary print actually disclosed. Export becomes a research stub — still not a book.</p>
+    <div id="checks"></div>
+    <h2 style="margin-top:16px">Auto letter lede stub</h2>
+    <textarea id="lede" readonly></textarea>
+    <div style="display:flex; gap:8px; margin-top:8px; flex-wrap:wrap">
+      <button type="button" id="exportBtn">Refresh lede</button>
+      <button type="button" class="secondary" id="copyBtn">Copy lede</button>
+    </div>
+  </section>
+</main>
+<footer>
+  Danger scale is the 1–5 judgment from loop-health.md. Oracle cannot alone settle H5 or call H4 regime change. Cash remains a valid position.
+</footer>
+<script>
+const CHECKS = [
+  {id:'fcf', label:'FCF printed (Oracle definition) and compared to FY26 −$23.7B annual'},
+  {id:'capex_guide', label:'FY27 capex guide $90–95B: held / raised / CUT (circle one in notes)'},
+  {id:'capex_ocf', label:'Capex/OCF still >> 1 or not'},
+  {id:'demand', label:'Cloud/AI demand language intact vs rolled over'},
+  {id:'rpo', label:'RPO total updated vs $638B baseline'},
+  {id:'concentration', label:'AI / large-customer concentration disclosed as Measured (else keep Hypothesis)'},
+  {id:'prepaid', label:'Prepaid / customer-supplied hardware restated vs $75B'},
+  {id:'credit', label:'Credit / liquidity / rating language material'},
+  {id:'guide_cut', label:'EVENT: hyperscaler or Oracle capex guide CUT'},
+  {id:'drawn', label:'EVENT: residual-value drawn / take-or-pay miss / payment miss'},
+];
+
+const DEMO = {
+  as_of: "2026-09-05T00:00:00-04:00",
+  danger: 3,
+  danger_name: "Stressed",
+  danger_meaning: "Two or more clocks conflict. Cash conversion is weaker than the paper that funded the last build. Hub equity marks still hold.",
+  conflict_count: 4,
+  conflict_clocks: ["token_list_prices","gpu_rental","circular_paper","spender_cash"],
+  race_live: true,
+  next_forced_print: {name:"Oracle FY27 Q1", when:"2026-09-10 after close"},
+  hypotheses: {H2:"open_live_on_cash", H4:"fail_as_regime_change", H5:"open_live_on_cheap_tier"},
+  baseline_match: true
+};
+
+function renderEngine(s){
+  document.getElementById('asOf').textContent = 'as-of ' + (s.as_of || 'n/a');
+  document.getElementById('danger').textContent = (s.danger ?? '—') + ' · ' + (s.danger_name || '');
+  document.getElementById('dangerMeaning').textContent = s.danger_meaning || '';
+  document.getElementById('race').textContent = s.race_live
+    ? 'Race LIVE: conversion down while guarantee/paper stock up or flat.'
+    : 'Race flags not both live.';
+  const list = document.getElementById('clockList');
+  list.innerHTML = '';
+  (s.conflict_clocks||[]).forEach(c => {
+    const d = document.createElement('div');
+    d.className = 'clock';
+    d.innerHTML = `<span>${c}</span><span class="tag-conflict">conflict</span>`;
+    list.appendChild(d);
+  });
+}
+
+function buildChecks(){
+  const root = document.getElementById('checks');
+  root.innerHTML = '';
+  CHECKS.forEach(c => {
+    const lab = document.createElement('label');
+    lab.className = 'row';
+    lab.innerHTML = `<input type="checkbox" id="${c.id}" /> <span>${c.label}</span>`;
+    root.appendChild(lab);
+    lab.querySelector('input').addEventListener('change', refreshLede);
+  });
+}
+
+function refreshLede(){
+  const on = id => document.getElementById(id)?.checked;
+  const lines = [];
+  lines.push('Oracle fiscal 2027 first quarter printed after the close on 10 September 2026.');
+  if (on('guide_cut')) lines.push('The print included a capex guide cut. That is necessary but not sufficient for reopening H4 as regime change; score H2 carefully and keep H5 on the token/rental clocks.');
+  else lines.push('The FY27 capex envelope was not cut in the lines checked on this desk. H2 remains a cash story unless demand language rolled over.');
+  if (on('concentration')) lines.push('Oracle disclosed AI or large-customer concentration in primary language, so that row can move from Hypothesis to Measured in circular-finance.md.');
+  else lines.push('OpenAI or AI RPO concentration was not promoted to Measured from this checklist pass.');
+  if (on('drawn')) lines.push('A drawn guarantee, take-or-pay miss, or payment miss appeared. Recompute danger using loop-health.md floors before drafting the letter.');
+  else lines.push('No drawn guarantee or payment miss was checked on this desk.');
+  lines.push('This letter does not tell the cash account what to own. Cheap-tier token prices and the NVIDIA residual-value stock remain separate clocks.');
+  document.getElementById('lede').value = lines.join(' ');
+}
+
+document.getElementById('loadBtn').onclick = () => {
+  try { renderEngine(JSON.parse(document.getElementById('jsonIn').value)); }
+  catch(e){ alert('Invalid JSON'); }
+};
+document.getElementById('demoBtn').onclick = () => { renderEngine(DEMO); document.getElementById('jsonIn').value = JSON.stringify(DEMO,null,2); };
+document.getElementById('exportBtn').onclick = refreshLede;
+document.getElementById('copyBtn').onclick = async () => {
+  await navigator.clipboard.writeText(document.getElementById('lede').value);
+  alert('Copied');
+};
+
+buildChecks();
+renderEngine(DEMO);
+refreshLede();
+
+// Try local fetch if served beside out/status.json
+fetch('../out/status.json').then(r=>r.ok?r.json():Promise.reject()).then(renderEngine).catch(()=>{});
+</script>
+</body>
+</html>
