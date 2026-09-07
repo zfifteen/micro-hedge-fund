@@ -1,6 +1,6 @@
 # The Unwind Letter
 
-**6 September 2026**
+**7 September 2026**
 Danger level: **3, Stressed** — unchanged
 
 This is a research letter, not a trading session and not a recommendation. Nothing in it is a short, a hedge, or an allocation.
@@ -9,19 +9,19 @@ This is a research letter, not a trading session and not a recommendation. Nothi
 
 Good morning.
 
-The weekend left the finance loop exactly where Friday closed it. The machines still sell tokens and GPU hours at prices that are weaker than the conversion rates assumed when the last round of paper was written. The paper itself has not shrunk. NVIDIA’s residual-value guarantee remains on the books at one hundred five billion dollars. Hub equity marks stayed firm. No guarantee was drawn, no neocloud missed a payment, and no hyperscaler cut its capital-spending envelope. That combination is why the danger level holds at three, Stressed, rather than moving higher or lower.
+The weekend left the finance loop where Friday closed it. Tokens and GPU hours are still selling at prices weaker than the conversion rates assumed when the last round of paper was written. The paper itself has not shrunk. NVIDIA’s residual-value guarantee remains on the books at one hundred five billion dollars. Hub equity marks stayed firm through Friday’s close. No guarantee was drawn, no neocloud missed a payment, and no hyperscaler cut its capital-spending envelope. That is why the danger level holds at three, Stressed.
 
-The race is still running on two clocks that do not agree. One clock measures what the installed silicon can actually charge today. The other measures the promises that paid for that silicon. Cheap-tier token prices were cut hard at the end of July. The guarantee was filed in the middle of August. Neither fact has been walked back. Friday’s bounce in the semiconductor index made the collateral easier to live with. It did not slow the race.
+The race is still running on two clocks that do not agree. One clock measures what the installed silicon can charge today. The other measures the promises that paid for that silicon. Cheap-tier token prices were cut hard at the end of July. The guarantee was filed in the middle of August. Neither fact has been walked back. Friday’s bounce in the semiconductor index made the collateral easier to live with. It did not slow the race.
 
 ## Tokens and the conversion rate
 
-Official provider pages this weekend still show the July split. OpenAI lists GPT-5.6 Luna at twenty cents of input and one dollar twenty of output per million tokens. Terra sits at two dollars and twelve dollars. The new flagship, GPT-6 Astra, lists at ten dollars and fifty dollars. Sol remains on promotional pricing of four dollars and twenty dollars through at least the twenty-first of November. Anthropic’s cards put Claude Opus 5 at five and twenty-five, Sonnet 5 at two and ten. Google lists Gemini 3.1 Pro at two and twelve for prompts at or below two hundred thousand tokens, and Gemini 3.8 Flash at an introductory seventy-five cents and three dollars seventy-five through the end of the year. xAI lists Grok 4.6 at two and six below the long-context breakpoint.
+Official provider pages this morning still show the July split. OpenAI lists GPT-5.6 Luna at twenty cents of input and one dollar twenty of output per million tokens. Terra sits at two dollars and twelve dollars. The new flagship, GPT-6 Astra, lists at ten dollars and fifty dollars. Sol remains on promotional pricing of four dollars and twenty dollars through at least the twenty-first of November. Anthropic’s cards put Claude Opus 5 at five and twenty-five, Sonnet 5 at two and ten. Google lists Gemini 3.1 Pro at two and twelve for prompts at or below two hundred thousand tokens, and Gemini 3.8 Flash at an introductory seventy-five cents and three dollars seventy-five through the end of the year. xAI lists Grok 4.6 at two and six below the long-context breakpoint.
 
 These are list prices, not realized revenue. Volume can still rescue the dollar total if buyers consume enough of the cheap tokens. No primary filing has yet shown that volume offset. Until it does, a lower list price remains a lower conversion rate on the installed base that the circular paper was sized against.
 
 ## The price of an hour
 
-GPU rental tells a similar story by venue. The CCIR series printed on the fifth of September put a guaranteed H100 at ten dollars fifty-three an hour on a hyperscaler, three dollars sixty-two at a neocloud, and three dollars three on the marketplace. H200 printed ten thirty, four forty, and four fourteen. B200 printed fourteen twenty-four, six ninety-two, and six twenty-seven. An interruptible H100 at a neocloud still cleared near two fifteen.
+GPU rental tells a similar story by venue. The CCIR series printed on the sixth of September put a guaranteed H100 at ten dollars fifty-three an hour on a hyperscaler, three dollars seventy-five at a neocloud, and three dollars three on the marketplace. H200 printed ten thirty, four forty, and four sixteen. B200 printed fourteen twenty-four, six ninety-two, and six thirty-eight. An interruptible H100 at a neocloud still cleared near two fifteen.
 
 A residual-value guarantee written against a 2025 rental deck is looking at a different number than the deck that is clearing today. Hyperscaler stickers staying high does not rescue a neocloud that financed at the low print. The first place this race becomes cash is not NVIDIA’s mark. It is a payment date at the rim.
 
@@ -45,6 +45,6 @@ The next forced date on the calendar is Oracle’s fiscal 2027 first quarter, du
 
 ## The open question
 
-The loop is a race between a falling conversion rate and a rising stock of promises. Friday improved the collateral. The weekend changed nothing material. The question worth keeping open is not whether the models work. The question is whether tokens sold, at these prices, can service paper that was sized on a higher price.
+The loop is a race between a falling conversion rate and a rising stock of promises. Friday improved the collateral. The weekend changed nothing material. The question worth keeping open is whether tokens sold, at these prices, can service paper that was sized on a higher price.
 
 This letter does not tell the cash account what to own.
