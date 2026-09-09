@@ -1,6 +1,6 @@
 # The Unwind Letter
 
-**8 September 2026**
+**9 September 2026**
 Danger level: **3, Stressed** — unchanged
 
 This is a research letter, not a trading session and not a recommendation. Nothing in it is a short, a hedge, or an allocation.
@@ -9,9 +9,9 @@ This is a research letter, not a trading session and not a recommendation. Nothi
 
 Good morning.
 
-Monday’s holiday left the finance loop exactly where Friday closed it. Tokens and GPU hours are still clearing at prices weaker than the conversion rates assumed when the last round of circular paper was written. The paper itself has not shrunk. NVIDIA’s residual-value guarantee remains on the books at one hundred five billion dollars. Hub equity marks last printed on Friday and stayed firm. No guarantee was drawn, no neocloud missed a payment, and no hyperscaler cut its capital-spending envelope. That is why the danger level holds at three, Stressed.
+Markets reopened after the Labor Day holiday and gave the loop a quieter day than the calendar might suggest. Token list prices and GPU rental rates held the same weak conversion picture that has been in place since late July. The stock of circular paper did not shrink. NVIDIA’s residual-value guarantee at the SB Energy site remains capped at one hundred five billion dollars. Hub equity eased a few percent from Friday’s close and still sits inside a few points of the May high. Rim equity bounced hard. No guarantee was drawn, no neocloud missed a payment, and no hyperscaler cut its capital-spending envelope. That is why the danger level holds at three, Stressed.
 
-The race continues on two clocks that do not agree. One clock measures what the installed silicon can charge today. The other measures the promises that paid for that silicon. Cheap-tier token prices were cut hard at the end of July. The guarantee was filed in the middle of August. Neither fact has been walked back. The semiconductor index bounce on Friday made the collateral easier to live with. It did not slow the race.
+The race continues on two clocks that do not agree. One clock measures what the installed silicon can charge today. The other measures the promises that paid for that silicon. Cheap-tier token prices were cut hard at the end of July. The guarantee was filed in the middle of August. Neither fact has been walked back. Tuesday’s tape moved the collateral a little lower and the rim a little higher. It did not slow the race.
 
 ## Tokens and the conversion rate
 
@@ -21,17 +21,21 @@ These are list prices, not realized revenue. Volume can still rescue the dollar 
 
 ## The price of an hour
 
-GPU rental tells a similar story by venue. The CCIR series printed on the seventh of September put a guaranteed H100 at ten dollars fifty-three an hour on a hyperscaler, three dollars seventy at a neocloud, and three dollars three on the marketplace. H200 printed ten thirty, four forty, and four sixteen. B200 printed fourteen twenty-four, six sixty-nine, and five seventy-four. An interruptible H100 at a neocloud still cleared near two fifteen.
+GPU rental tells a similar story by venue. The CCIR series printed on the eighth of September put a guaranteed H100 at ten dollars fifty-three an hour on a hyperscaler, three dollars sixty-five at a neocloud, and three dollars three on the marketplace. H200 printed ten thirty, four forty, and four twenty-four. B200 printed fourteen twenty-four, six sixty-nine, and five seventy-one. An interruptible H100 at a neocloud still cleared near two fifteen.
 
 A residual-value guarantee written against a 2025 rental deck is looking at a different number than the deck that is clearing today. Hyperscaler stickers staying high does not rescue a neocloud that financed at the low print. The first place this race becomes cash is not NVIDIA’s mark. It is a payment date at the rim.
 
 ## Circular paper and spender cash
 
-NVIDIA’s August filing still caps residual-value guarantees at the SB Energy Ohio site at one hundred five billion dollars, with OpenAI as the tenant. Amazon has closed fifty billion of OpenAI equity and added one hundred billion of AWS commercial commitment over eight years. That paper did not shrink over the holiday. Announced is not funded is not drawn. Drawn is the print that would move this letter from three to five.
+NVIDIA’s August filing still caps residual-value guarantees at the SB Energy Ohio site at one hundred five billion dollars, with OpenAI as the tenant. Amazon has closed fifty billion of OpenAI equity and added one hundred billion of AWS commercial commitment over eight years. That paper did not shrink over the holiday or on the reopen. Announced is not funded is not drawn. Drawn is the print that would move this letter from three to five.
 
 Spender free cash flow remains the live tension. Amazon’s trailing free cash flow is still negative seven point six billion. Alphabet printed negative five point nine billion in the second quarter. Meta printed seven hundred eighty million. Oracle printed negative twenty-three point seven billion for the fiscal year that ended in May. In July three of the four large spenders raised the 2026 capital-spending envelope and none cut it. The loop is still paying for silicon out of the balance sheet and the bond market rather than out of incremental AI cash.
 
-CoreWeave equity last closed at eighty-nine thirty-six, roughly forty-two percent below its fifty-two-week high. Debt stock remains about thirty-five billion. Financing still closed. An equity bounce is not the same thing as a cheaper refinancing or a lower debt load.
+CoreWeave equity closed at ninety-nine eighty-three on the eighth of September, a sharp bounce from the prior session and still well below the fifty-two-week high. Debt stock remains about thirty-five billion. Financing still closed. An equity bounce is not the same thing as a cheaper refinancing or a lower debt load.
+
+## Hub mark and the collateral
+
+NVIDIA closed at two hundred twenty-five seventy-three on the eighth of September, about four and a half percent below the mid-May high of two hundred thirty-six fifty-four. The semiconductor index finished the day higher. The mark is the collateral for the next circular round. It remains intact enough that the danger level stays at three rather than moving higher.
 
 ## What would change the letter
 
@@ -45,6 +49,6 @@ The next forced date on the calendar is Oracle’s fiscal 2027 first quarter, du
 
 ## The open question
 
-The loop is a race between a falling conversion rate and a rising stock of promises. Friday improved the collateral. The holiday changed nothing material. The question worth keeping open is whether tokens sold, at these prices, can service paper that was sized on a higher price.
+The loop is a race between a falling conversion rate and a rising stock of promises. Tuesday moved the collateral a little and the rim a little. The question worth keeping open is whether tokens sold, at these prices, can service paper that was sized on a higher price.
 
 This letter does not tell the cash account what to own.
