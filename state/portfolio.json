@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-09-09T17:10:00Z",
+  "as_of": "2026-09-10T16:25:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -55,9 +55,9 @@
       "notes": "AI power / nuclear generation bottleneck"
     }
   ],
-  "equity_value": 175.05,
+  "equity_value": 169.25,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 205.05,
-  "notes": "Reconciled live 2026-09-09 ~13:10 ET. No trades. Cash $30 retained per prior operator constraint (revisit GLD only after Friday CPI). MU relative strength, NVDA/CEG/QQQ softer on oil/rates pressure. Trading P&L vs $200 contributed still modestly positive. Crypto write path live but unused. Option level 2 confirmed."
+  "total_portfolio_value": 199.25,
+  "notes": "Reconciled live 2026-09-10 ~12:25 ET. No trades. Cash $30 retained per operator constraint (revisit GLD only after Friday CPI). Book lower on energy-driven PPI and pre-CPI risk-off: MU ~–4.8%, NVDA ~–2.4%, CEG ~–2.1%, QQQ ~–0.9%. Trading P&L vs $200 contributed modestly negative on marks. Crypto write path live but unused. Option level 2 confirmed."
 }
