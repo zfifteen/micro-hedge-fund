@@ -174,3 +174,13 @@ Operator shared the official product-surface confirmation. Constraint files that
 
 **Expected impact**  
 Future sessions may consider crypto if a primary-source thesis has defined expected-value advantage versus holding cash or adding to the existing equity book. Default remains fractional equity. Do not use crypto to manufacture activity. Re-verify crypto positions and buying power each session.
+
+## 2026-09-14 — Log heading and session scope
+**What changed**  
+Daily log template heading "Lessons for the Larger Fund" is now "What would break at size". The questions stay. AGENTS.md now fences the 12:15 session: fund work only. Do not run `research/unwind`, The Unwind Letter, Amodei intel, or any other non-fund automation inside the trading session. Do not edit `research/unwind/`. Do not send "MHF Unwind Letter ..." from that run. Those jobs and that folder sit in the repo for convenience; they are not part of the fund.
+
+**Why**  
+Public framing is a retail book, not a seed institutional fund. The old heading implied a destination that is not the project. Operator also stated unwind is not part of the fund. Leaving those jobs inside the session prompt would grow the part count without a trade.
+
+**Expected impact**  
+New logs use the new heading. Historical logs stay as written. The 12:15 automation prompt matches AGENTS.md scope. Unwind and Amodei jobs keep their own prompts and schedules.
