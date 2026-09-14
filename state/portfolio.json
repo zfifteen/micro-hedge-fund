@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-09-11T16:27:00Z",
+  "as_of": "2026-09-14T16:50:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -62,9 +62,9 @@
       "notes": "Post-CPI reserve / inflation hedge; $15 notional"
     }
   ],
-  "equity_value": 183.96,
+  "equity_value": 176.01,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 198.96,
-  "notes": "Reconciled live 2026-09-11 ~12:27 ET. Bought $15 GLD (0.037549 shares) after CPI release; residual cash $15 retained into FOMC week. Book mixed on day: MU soft, NVDA/QQQ/CEG firmer with broad rally and Oracle AI cloud strength. Trading P&L vs $200 contributed still modestly negative. Option level 2 confirmed. Crypto unused."
+  "total_portfolio_value": 191.01,
+  "notes": "Reconciled live 2026-09-14 ~12:50 ET. No trades. Cash $15 held through FOMC 15-16 Sep. Quantities unchanged vs 2026-09-11. Mark-to-market decline driven by MU/NVDA/CEG session weakness on AI-pace commentary and hike-week de-risking. Option level 2 confirmed. Crypto unused."
 }
