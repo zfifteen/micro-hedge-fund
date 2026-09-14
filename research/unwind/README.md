@@ -53,6 +53,7 @@ Hub equity marks and vendor equity stakes fund, or collateralize, GPU and site c
 | `credit.md` | WS4 — spreads, CDS, issuance, failed deals (stub until primary) |
 | `analogues.md` | WS5 — what printed first in prior capex/credit busts (stub until written) |
 | `oracle-fy27-q1-prep.md` | Pre-print scorecard for Oracle FY27 Q1 (2026-09-10); what the print can/cannot move on H2/H3/danger |
+| `oracle-fy27-q1-print.md` | POST-print Measured vs Hypothesis scorecard for Oracle FY27 Q1 (reported 2026-09-10); bars vs actual; danger hold at 3 |
 | `clock-engine/` | Executable danger/race scorer + Oracle night war-room (`score.py`, `clocks.yaml`, `war-room/index.html`) |
 | `phase-space/` | Round-3 finite evidence machine: minimal certificates, paths to 4/5, heal sets, `measured_wall`, interactive portrait (`phase_space.py`, `portrait/index.html`) |
 
