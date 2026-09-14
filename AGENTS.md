@@ -23,8 +23,9 @@ Education happens through serious efforts to compound capital. Losses are never 
 
 ## Operating Rules
 - Always reconcile live Robinhood state against /state/portfolio.json
-- Document every decision (including deliberate inaction) in the dated log using the established template
+- Document every decision (including deliberate inaction) in the dated log using the established template. The size section heading is "What would break at size" — not "Lessons for the Larger Fund"
 - Update portfolio.json and STRATEGY_LOG.md when process or constraints change
+- **Session scope (non-negotiable):** The 12:15 session is the fund only: reconcile, reason, trade or hold, write `logs/` + `state/portfolio.json` (+ STRATEGY_LOG.md / AGENTS.md if process changed), push `main`, send the Daily Session email. Do not run or continue `research/unwind`, The Unwind Letter, Amodei intel jobs, or any other non-fund automation. Do not edit `research/unwind/`. Do not send email with subject "MHF Unwind Letter ...". Those jobs and that folder live in this repo for convenience; they are not part of the fund and not a session step.
 - Prefer primary sources. Treat commentary as hypothesis
 - Cash is a valid position
 - Convenience Robinhood lists exist for research speed, currently `+MHF-candidates` and `+MHF-macro`. They do not limit the scope of session reasoning. The agent may consider any name, factor, or source it judges relevant. The agent may create new lists, and may add to, remove from, rename, or otherwise modify MHF lists, as it sees fit. Presence on a list is not a buy. The lists are a scratchpad, not a universe.

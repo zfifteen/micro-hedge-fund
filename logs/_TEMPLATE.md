@@ -29,8 +29,8 @@ How was size determined?
 - Total value:
 - Unrealized P&L (if any):
 
-## Lessons for the Larger Fund
-What would scale?  
+## What would break at size
+What would still work if the book were larger?  
 What would break at 100× or 1000× size?  
 What process improvement is obvious in hindsight?
 

@@ -24,7 +24,7 @@ Every decision must leave a paper trail in `logs/YYYY-MM-DD.md`:
 - The specific reasoning that led to action (or inaction)
 - Exact trades: ticker, side, quantity (or dollar amount), order type, approximate fill price, fractional amount if applicable
 - Resulting portfolio state
-- Explicit notes on what would scale (or fail to scale) in a larger fund
+- Explicit notes on what would still work, or break, if the book were larger (log section: "What would break at size")
 
 If the reasoning process itself changes — new filters, new data sources, new sizing heuristics, abandonment of a previous approach — record it in `STRATEGY_LOG.md` with a date and a short explanation.
 
@@ -32,7 +32,7 @@ If the reasoning process itself changes — new filters, new data sources, new s
 - Question every requirement. Delete unnecessary complexity.
 - Best part is no part: if a position is not clearly additive, do not hold it.
 - Cycle time matters. Prefer fast feedback loops over elaborate multi-week setups when capital is this small.
-- Never hide a loss or a bad decision. Log it cleanly so the future larger fund can learn from it.
+- Never hide a loss or a bad decision. Log it cleanly.
 - Cash is a position. Sitting in cash is a valid, often correct, decision.
 - The goal is not to “beat the market” with $100. The goal is to generate high-quality decision artifacts and failure modes that improve the next iteration.
 
