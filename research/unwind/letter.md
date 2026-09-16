@@ -1,6 +1,6 @@
 # The Unwind Letter
 
-**15 September 2026**
+**16 September 2026**
 Danger level: **3, Stressed** — unchanged
 
 This is a research letter, not a trading session and not a recommendation. Nothing in it is a short, a hedge, or an allocation.
@@ -9,11 +9,11 @@ This is a research letter, not a trading session and not a recommendation. Nothi
 
 Good morning.
 
-Monday opened the cash market that Sunday could not. NVIDIA closed at two hundred ten ninety-six, down three and a third percent from Friday and about ten and eight tenths percent below the mid-May high of two hundred thirty-six fifty-four. CoreWeave closed at eighty-two ninety-eight, down six and three quarters percent from Friday. The semiconductor index finished at eleven thousand one hundred thirty-one, down nearly six percent on the day. Official token cards did not move. The rental series dated the fourteenth of September did. A guaranteed H100 hour at a neocloud printed three dollars sixty, eleven cents below the prior print of three seventy-one, and still well below the hyperscaler sticker of ten fifty-three.
+Tuesday gave the loop a small bounce in the hub and another step down at the rim. NVIDIA closed at two hundred twelve seventeen, up about half a percent from Monday and still about ten and three tenths percent below the mid-May high of two hundred thirty-six fifty-four. CoreWeave closed at eighty ninety-two, down another two and a half percent. The semiconductor index finished at eleven thousand one hundred seventy-six, a four-tenths percent lift that does not repair Monday’s gap. Official token cards did not move. The rental series dated the fifteenth of September held the neocloud H100 hour at three dollars sixty against a hyperscaler sticker of ten fifty-three.
 
-That is a cheaper hour inside the same cheap band, not a new list-price cut and not a repair of the conversion rate. Cheap-tier cards remain where they were cut at the end of July. Circular paper did not shrink. Spender free cash flow is still negative at Amazon, Alphabet, and Oracle. No guarantee has been drawn and no rim payment has been missed. The loop is still asking last year’s silicon to service paper that was sized on a higher conversion rate.
+That is a quiet day inside the same race, not a repair of the conversion rate. Cheap-tier cards remain where they were cut at the end of July. Circular paper did not shrink. Spender free cash flow is still negative at Amazon, Alphabet, and Oracle. No guarantee has been drawn and no rim payment has been missed. The Federal Reserve decision due later today is a rate event. It is not a token card and it is not a residual-value filing.
 
-The danger level stays at three, Stressed. Monday gave the loop a weaker collateral mark. It did not give it a drawn guarantee, a missed coupon, or a hyperscaler spending cut. Fifteen percent below the May high is the line that would move this letter to four on the hub mark alone. Monday stopped short of that line. The Federal Reserve meeting that starts later today is a rate event. It is not a token card and it is not a residual-value filing.
+The danger level stays at three, Stressed. Tuesday moved the hub a little closer to the May high and the rim a little farther from its own high. Fifteen percent below the May high is still the line that would move this letter to four on the hub mark alone. Tuesday did not cross it.
 
 ## Tokens and the conversion rate
 
@@ -23,21 +23,21 @@ These are list prices, not realized revenue. Volume can still rescue the dollar 
 
 ## The price of an hour
 
-The CCIR series printed on the fourteenth of September put a guaranteed H100 at ten dollars fifty-three an hour on a hyperscaler, three dollars sixty at a neocloud, and three dollars four on the marketplace. H200 printed ten thirty, four thirty-two, and four seven. B200 printed fourteen twenty-four, six sixty-nine, and six thirty-eight. An interruptible H100 at a neocloud cleared at two fifteen.
+The CCIR series printed on the fifteenth of September put a guaranteed H100 at ten dollars fifty-three an hour on a hyperscaler, three dollars sixty at a neocloud, and three dollars four on the marketplace. H200 printed ten thirty, four thirty-three, and four seven. B200 printed fourteen twenty-four, six sixty-nine, and six twenty-four. An interruptible H100 at a neocloud cleared at two fifteen.
 
-Neocloud H100 fell eleven cents from the thirteenth’s three seventy-one and sits two cents above the twelfth’s three fifty-eight. Neocloud B200 fell from seven fifteen on the thirteenth print to six sixty-nine. Those are moves inside the same cheap band, not a new regime. A residual-value guarantee written against a 2025 rental deck is still looking at a different number than the deck that is clearing this week. Hyperscaler stickers staying high does not rescue a neocloud that financed at the low print. The first place this race becomes cash is not NVIDIA’s mark. It is a payment date at the rim.
+Neocloud H100 held at the fourteenth’s three sixty after the eleven-cent drop from the thirteenth. Marketplace B200 eased from six thirty-eight to six twenty-four. Those are moves inside the same cheap band, not a new regime. A residual-value guarantee written against a 2025 rental deck is still looking at a different number than the deck that is clearing this week. Hyperscaler stickers staying high does not rescue a neocloud that financed at the low print. The first place this race becomes cash is not NVIDIA’s mark. It is a payment date at the rim.
 
 ## Circular paper and spender cash
 
-NVIDIA’s August filing still caps residual-value guarantees at the SB Energy Ohio site at one hundred five billion dollars, with OpenAI as the tenant. Amazon has closed fifty billion of OpenAI equity and added one hundred billion of AWS commercial commitment over eight years. That paper did not shrink on Monday. Announced is not funded is not drawn. Drawn is the print that would move this letter from three to five.
+NVIDIA’s August filing still caps residual-value guarantees at the SB Energy Ohio site at one hundred five billion dollars, with OpenAI as the tenant. Amazon has closed fifty billion of OpenAI equity and added one hundred billion of AWS commercial commitment over eight years. That paper did not shrink on Tuesday. Announced is not funded is not drawn. Drawn is the print that would move this letter from three to five.
 
 Spender free cash flow remains the live tension. Amazon’s trailing free cash flow is still negative seven point six billion. Alphabet printed negative five point nine billion in the second quarter. Meta printed seven hundred eighty million. Oracle printed negative five point four billion of free cash flow in the just-reported quarter, spent twenty-eight and a half billion of capital, and sold twenty billion of common stock through an at-the-market program. Full-year capital spending is still guided at ninety to ninety-five billion. July’s envelopes moved up at three of the four large spenders and none cut them. The loop is still paying for silicon out of the balance sheet and the capital markets rather than out of incremental AI cash.
 
-CoreWeave equity closed at eighty-two ninety-eight on Monday, still well below the fifty-two-week high of one hundred fifty-three twenty. Debt stock remains about thirty-five billion. Financing still closed. An equity print is not the same thing as a cheaper refinancing or a lower debt load. Monday’s six and three quarter percent drop is a mark. It is not a missed payment.
+CoreWeave equity closed at eighty ninety-two on Tuesday, about forty-seven percent below the fifty-two-week high of one hundred fifty-three twenty. Debt stock remains about thirty-five billion. Financing still closed. An equity print is not the same thing as a cheaper refinancing or a lower debt load. Tuesday’s two and a half percent drop is a mark. It is not a missed payment.
 
 ## Hub mark and the collateral
 
-NVIDIA closed at two hundred ten ninety-six on Monday, about ten and eight tenths percent below the mid-May high of two hundred thirty-six fifty-four. The semiconductor index finished at eleven thousand one hundred thirty-one, nearly six percent below Friday and further from the June high of fourteen thousand six hundred fifty-five. The hub mark is the collateral for the next circular round. It is weaker than it was on Friday. It is still intact enough that the danger level stays at three rather than moving to four. Fifteen percent below the May high, with capital-spending guides still up, is the mark that would change that sentence.
+NVIDIA closed at two hundred twelve seventeen on Tuesday, about ten and three tenths percent below the mid-May high of two hundred thirty-six fifty-four. The semiconductor index finished at eleven thousand one hundred seventy-six, four tenths of a percent above Monday and further from the June high of fourteen thousand six hundred fifty-five. The hub mark is the collateral for the next circular round. It is a little firmer than Monday. It is still intact enough that the danger level stays at three rather than moving to four.
 
 ## What would change the letter
 
@@ -47,7 +47,7 @@ The score moves to five if a residual-value guarantee is drawn, if a hyperscaler
 
 The score moves to two only if mid-tier token prices stop falling for two quarters, neocloud rental holds, and the circular book stops growing.
 
-Monday confirmed a weaker hub mark, a cheaper neocloud hour, and no change in the list-price stack. The conversion rate did not recover with the cash open.
+Tuesday confirmed a modest hub bounce, a weaker rim mark, an unchanged list-price stack, and a rental hour that held at three sixty. The conversion rate did not recover. The rate decision later today does not change that sentence until a filing does.
 
 ## The open question
 
