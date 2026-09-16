@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "as_of": "2026-09-16T10:20:00Z",
+  "as_of": "2026-09-16T16:32:00Z",
   "account": {
     "broker": "Robinhood",
     "account_number_last4": "7524",
@@ -23,48 +23,12 @@
     "currency": "USD",
     "available": 15.03,
     "settled": 15.03,
-    "unsettled": 0.00
+    "unsettled": 176.13
   },
-  "positions": [
-    {
-      "symbol": "MU",
-      "quantity": 0.092126,
-      "avg_cost": 976.92,
-      "entry_date": "2026-08-17",
-      "notes": "AI memory / HBM demand; added 2026-08-28. Pending operator cash-out 2026-09-16 12:15."
-    },
-    {
-      "symbol": "NVDA",
-      "quantity": 0.132240,
-      "avg_cost": 226.86,
-      "entry_date": "2026-08-17",
-      "notes": "Core AI compute. Pending operator cash-out 2026-09-16 12:15."
-    },
-    {
-      "symbol": "QQQ",
-      "quantity": 0.027306,
-      "avg_cost": 732.44,
-      "entry_date": "2026-08-17",
-      "notes": "Nasdaq exposure. Pending operator cash-out 2026-09-16 12:15."
-    },
-    {
-      "symbol": "CEG",
-      "quantity": 0.107417,
-      "avg_cost": 279.29,
-      "entry_date": "2026-08-28",
-      "notes": "AI power / nuclear generation bottleneck. Pending operator cash-out 2026-09-16 12:15."
-    },
-    {
-      "symbol": "GLD",
-      "quantity": 0.037549,
-      "avg_cost": 399.48,
-      "entry_date": "2026-09-11",
-      "notes": "Post-CPI reserve / inflation hedge; $15 notional. Pending operator cash-out 2026-09-16 12:15."
-    }
-  ],
-  "equity_value": 176.55,
+  "positions": [],
+  "equity_value": 0.00,
   "options_value": 0.00,
   "crypto_value": 0.00,
-  "total_portfolio_value": 191.58,
-  "notes": "Live premarket mark 2026-09-16 ~06:20 ET. Quantities unchanged vs 2026-09-15. Cash $15.03. Operator ACTIVE order in state/OPERATOR_INSTRUCTION.md: sell all names at the 12:15 session. Do not treat this snapshot as a hold. Option level 2. Crypto unused."
+  "total_portfolio_value": 191.16,
+  "notes": "Operator cash-out EXECUTED 2026-09-16 ~12:28 ET. All equity lots sold market regular hours. Live quantities zero. Options zero. Crypto zero. Cash $191.16 of which $176.13 unsettled sale proceeds and $15.03 settled. Buying power $15.03 until T+1. Option level 2 confirmed. No buys after the sells."
 }
