@@ -194,3 +194,13 @@ Explicit operator instruction: cash out, and have the next scheduled run see the
 
 **Expected impact**  
 The 2026-09-16 12:15 session sells all sellable lots, does not redeploy, writes the dated log and a cash-only portfolio.json, marks the instruction EXECUTED, and removes the one-run prompt block after the book is flat. Later sessions reason from cash unless a new operator order is written.
+
+## 2026-09-16 — Operator cash-out executed
+**What changed**  
+12:15 session sold MU, NVDA, QQQ, CEG, and GLD at the market during regular hours. All five filled. Live equity quantity is zero. Options and crypto remain empty. portfolio.json is cash-only. OPERATOR_INSTRUCTION.md Status is EXECUTED. The one-run cash-out block is removed from the 12:15 automation prompt. Account value $191.16 versus $200 contributed. Settled buying power remains $15.03 until sale proceeds settle; $176.13 is unsettled.
+
+**Why**  
+The ACTIVE operator order was binding. Holding through FOMC after that order would have been a process failure, not a thesis.
+
+**Expected impact**  
+Later sessions start from cash. They do not inherit a standing liquidation order. Redeployment requires a new thesis or a new operator instruction. Same-day buys are constrained by unsettled cash on this account type.
