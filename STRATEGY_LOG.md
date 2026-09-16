@@ -184,3 +184,13 @@ Public framing is a retail book, not a seed institutional fund. The old heading 
 
 **Expected impact**  
 New logs use the new heading. Historical logs stay as written. The 12:15 automation prompt matches AGENTS.md scope. Unwind and Amodei jobs keep their own prompts and schedules.
+
+## 2026-09-16 — Operator cash-out queued for the 12:15 session
+**What changed**  
+Operator issued an ACTIVE order to sell every position on the Agentic cash account and end the session in cash. The order lives in `state/OPERATOR_INSTRUCTION.md`. AGENTS.md now requires every session to read that file. The 12:15 automation prompt carries a one-run cash-out block. No sells were placed at issue because the order arrived premarket and fractional market sells are regular-hours only. Live book at issue: MU, NVDA, QQQ, CEG, GLD plus $15.03 cash, account value about $191.58.
+
+**Why**  
+Explicit operator instruction: cash out, and have the next scheduled run see the full book and the order. An operator order overrides the 15 Sep plan to hold residual cash through the 16 Sep 2:00 PM ET FOMC decision.
+
+**Expected impact**  
+The 2026-09-16 12:15 session sells all sellable lots, does not redeploy, writes the dated log and a cash-only portfolio.json, marks the instruction EXECUTED, and removes the one-run prompt block after the book is flat. Later sessions reason from cash unless a new operator order is written.
