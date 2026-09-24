@@ -18,9 +18,9 @@ The finance loop is a race condition because several clocks run at once. Token p
 
 This scale is a judgment over Measured inputs. It is not a model output. Label the inputs. Do not average them into false precision.
 
-## Daily report — 2026-09-23 America/New_York
+## Daily report — 2026-09-24 America/New_York
 
-The danger level is **3, Stressed**. The level held rather than moving because Tuesday added a firmer hub and rim tape, no drawn guarantee, no rim payment miss, and no hyperscaler capital-spending cut. NVIDIA closed on 22 September at $228.87, about 3.2 percent below the mid-May high of $236.54. That print remains inside the fifteen-percent line that would move this file to four on the hub mark alone. CoreWeave closed at $86.76, about 43 percent below the 52-week high of $153.20, after pricing $3.7 billion of 2.875 percent convertible senior notes due 2033 on 18 September. Official provider cards still show the July GPT-5.6 cheap-tier stack. OpenAI official flagship table now also lists GPT-6 Astra at $10.00 / $50.00, GPT-6 Sol at $2.00 / $10.00, and GPT-6 Luna at $0.10 / $0.50 on short context. Anthropic lists Claude Opus 5.5 at $4.00 / $20.00 while Claude Opus 5 remains $5.00 / $25.00. The CCIR series dated 21 September 07:30 Eastern Time put neocloud H100 guaranteed rental at $3.37 an hour against a hyperscaler sticker of $11.25 and a marketplace cell of $3.20. That neocloud cell is unchanged from the 20 September print and stays inside the same cheap band. Oracle Thursday print remains the last first-party spender update: free cash flow negative $5.4 billion, and full-year capital spending still guided at $90 to $95 billion.
+The danger level is **3, Stressed**. The level held rather than moving because Wednesday added a softer hub tape, no drawn guarantee, no rim payment miss, and no hyperscaler capital-spending cut. NVIDIA closed on 23 September at $225.51, about 4.7 percent below the mid-May high of $236.54. That print remains inside the fifteen-percent line that would move this file to four on the hub mark alone. CoreWeave closed at $86.90, about 43 percent below the 52-week high of $153.20, after pricing $3.7 billion of 2.875 percent convertible senior notes due 2033 on 18 September. Official provider cards still show the GPT-6 flagship table and the GPT-5.6 Sol promotional row. OpenAI official flagship table lists GPT-6 Astra at $10.00 / $50.00, GPT-6 Sol at $2.00 / $10.00, and GPT-6 Luna at $0.10 / $0.50 on short context. Anthropic last confirmed cards still list Claude Opus 5.5 at $4.00 / $20.00 while Claude Opus 5 remains $5.00 / $25.00. The CCIR series dated 22 September 07:30 Eastern Time put neocloud H100 guaranteed rental at $3.38 an hour against a hyperscaler sticker of $11.25 and a marketplace cell of $3.19. That neocloud cell ticked one cent from the 21 September print and stays inside the same cheap band. Oracle Thursday print remains the last first-party spender update: free cash flow negative $5.4 billion, and full-year capital spending still guided at $90 to $95 billion.
 
 The installed base is still being asked to service 2026-sized paper at 2026-cheap token and rental rates, while the next generation guarantees remain on the books.
 
@@ -28,20 +28,20 @@ Circular paper has not shrunk. NVIDIA filed a $105 billion SB Energy residual-va
 
 Spender cash remains tight. Amazon trailing-twelve-month free cash flow is -$7.6 billion. Alphabet printed -$5.9 billion of free cash flow in the second quarter. Meta printed $0.78 billion. Oracle printed -$5.4 billion of free cash flow in fiscal 2027 first quarter on $28.5 billion of capital expenditures. July capex guides moved up at three of the four hyperscalers and down at none.
 
-Rim credit is stressed and still current. CoreWeave carried about $35 billion of debt at 30 June 2026. The equity mark closed at $86.76 on 22 September 2026. That print is an equity mark, not a credit event. Financing still closed.
+Rim credit is stressed and still current. CoreWeave carried about $35 billion of debt at 30 June 2026. The equity mark closed at $86.90 on 23 September 2026. That print is an equity mark, not a credit event. Financing still closed.
 
-The hub equity mark is intact and closer to the high. NVIDIA closed at $228.87 on 22 September 2026, about 3.2 percent below the 14 May high of $236.54. The PHLX Semiconductor Index closed at 12,689.82. That mark is the collateral for the next circular round, and it is why the danger level is 3 rather than 4 or 5.
+The hub equity mark is intact and a little farther from the high than Tuesday. NVIDIA closed at $225.51 on 23 September 2026, about 4.7 percent below the 14 May high of $236.54. The PHLX Semiconductor Index closed at 12,534.27. That mark is the collateral for the next circular round, and it is why the danger level is 3 rather than 4 or 5.
 
 ### Clock table
 
 | Clock | State | Tag | Transmission into the loop |
 |---|---|---|---|
-| Token list prices | Official cards confirm the July GPT-5.6 cheap-tier stack and add an official GPT-6 flagship table. | Measured for provider cards. | A lower dollar-per-token rate is the cash the GPU prints. |
-| GPU rental | On 21 September 2026 CCIR guaranteed on-demand rates printed H100 at $11.25 hyperscaler / $3.37 neocloud / $3.20 marketplace. | Measured as a published series. | The race shows first at a neocloud that financed at 2025 residual assumptions. |
+| Token list prices | Official cards confirm the GPT-6 flagship table and the GPT-5.6 Sol promotional row. | Measured for provider cards. | A lower dollar-per-token rate is the cash the GPU prints. |
+| GPU rental | On 22 September 2026 CCIR guaranteed on-demand rates printed H100 at $11.25 hyperscaler / $3.38 neocloud / $3.19 marketplace. | Measured as a published series. | The race shows first at a neocloud that financed at 2025 residual assumptions. |
 | Circular paper | NVIDIA $105 billion SB Energy residual-value cap. Amazon $50 billion OpenAI equity and $100 billion AWS commitment. CoreWeave $3.7 billion converts. No guarantee drawn. | Measured | New paper is still being written at 2026 size. |
 | Spender cash | Amazon TTM FCF -$7.6 billion. Alphabet Q2 FCF -$5.9 billion. Meta Q2 FCF $0.78 billion. Oracle Q1 FY27 FCF -$5.4 billion. July guides three up, zero down. | Measured | Capex is being paid from the balance sheet and the capital markets. |
-| Rim credit | CoreWeave debt about $35 billion at 30 June 2026. Equity closed at $86.76 on 22 September 2026. Financing still closed. | Measured | A token or rental miss would show here as a payment miss first. That miss has not printed. |
-| Hub equity mark | NVIDIA closed at $228.87 on 22 September 2026 against a May high of $236.54, about 3.2 percent below. SOX closed at 12,689.82. | Measured | The mark is intact. That is why danger is 3, not 4 or 5. |
+| Rim credit | CoreWeave debt about $35 billion at 30 June 2026. Equity closed at $86.90 on 23 September 2026. Financing still closed. | Measured | A token or rental miss would show here as a payment miss first. That miss has not printed. |
+| Hub equity mark | NVIDIA closed at $225.51 on 23 September 2026 against a May high of $236.54, about 4.7 percent below. SOX closed at 12,534.27. | Measured | The mark is intact. That is why danger is 3, not 4 or 5. |
 
 ### What would move the level
 
@@ -58,3 +58,5 @@ The level would move to 1 if spender free cash flow recovers at the current cape
 - **2026-09-22 America/New_York.** The danger level held at 3, Stressed. NVIDIA closed at $227.38 on 21 September, about 3.9 percent below the May high. CoreWeave closed at $85.43. SOX closed at 12,433.17. CCIR 20 September neocloud H100 at $3.37. No guarantee was drawn and no rim payment was missed.
 
 - **2026-09-23 America/New_York.** The danger level held at 3, Stressed. NVIDIA closed at $228.87 on 22 September, about 3.2 percent below the May high. CoreWeave closed at $86.76. SOX closed at 12,689.82. Official GPT-6 flagship table lists Luna at $0.10 / $0.50. CCIR 21 September neocloud H100 at $3.37. No guarantee was drawn and no rim payment was missed. Hypothesis H4 remains a fail as regime change. Hypothesis H5 remains open and live on the cheap tier.
+
+- **2026-09-24 America/New_York.** The danger level held at 3, Stressed. NVIDIA closed at $225.51 on 23 September, about 4.7 percent below the May high. CoreWeave closed at $86.90. SOX closed at 12,534.27. CCIR 22 September neocloud H100 at $3.38. No guarantee was drawn and no rim payment was missed. Hypothesis H4 remains a fail as regime change. Hypothesis H5 remains open and live on the cheap tier.
