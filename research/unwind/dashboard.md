@@ -29,7 +29,7 @@ The full write-up lives in `loop-health.md`. Token and rental cards live in `tok
 | 7 | Mag7 weight in SPX | About 33.6% reconstructed from SPY weights on 2026-09-04. | Measured / Hypothesis path |
 | 8 | SOX | Closed 12,668.93 on 2026-09-25 versus ATH 14,655.29, about -13.6%. | Measured |
 | 9 | Equal-weight vs cap-weight | RSP still leads SPY on three-month and year-to-date prints last refreshed early September. | Measured |
-| 10 | Capex revision count | July: 3 up / 0 down. No later cut through 2026-09-27. | Measured |
+| 10 | Capex revision count | July: 3 up / 0 down. No later cut through 2026-09-28. | Measured |
 
 ## Tape context
 
@@ -39,7 +39,7 @@ The full write-up lives in `loop-health.md`. Token and rental cards live in `tok
 | SOX | 12,668.93 on 2026-09-25. | Measured |
 | CRWV last | Close $87.59 on 2026-09-25. | Measured |
 | Cheap-tier tokens | Official GPT-6 Luna $0.10/$0.50. GPT-5.6 Sol promo $4/$20 through at least 21 November. | Measured |
-| GPU rental | CCIR 2026-09-25 07:30 ET H100 $11.25 / $3.34 / $3.19. | Measured as a published series |
+| GPU rental | CCIR 2026-09-26 07:30 ET H100 $11.25 / $3.37 / $3.19. | Measured as a published series |
 
 H4 fails as regime change. H5 is open and live on the cheap tier. The danger level is 3, not 4 or 5.
 
@@ -50,3 +50,5 @@ H4 fails as regime change. H5 is open and live on the cheap tier. The danger lev
 - **2026-09-26 America/New_York (nightly).** No new hyperscaler 8-K or 10-Q printed, and no capex guide was cut. Official cards confirmed first-party. OpenAI flagship table still lists GPT-6 Astra $10/$50, GPT-6 Sol $2/$10, GPT-6 Luna $0.10/$0.50. CCIR rental is the 24 September 07:30 Eastern print. NVIDIA closed at $225.07 on 25 September 2026. SOX closed at 12,668.93. CoreWeave closed at $87.59. H4 remains a fail as regime change. H5 remains open and live on the cheap tier. The danger level held at 3, Stressed.
 
 - **2026-09-27 America/New_York (nightly).** Weekend markets closed. No new hyperscaler 8-K or 10-Q printed, and no capex guide was cut. Official cards confirmed first-party. OpenAI flagship table still lists GPT-6 Astra $10/$50, GPT-6 Sol $2/$10, GPT-6 Luna $0.10/$0.50. CCIR rental is the 25 September 07:30 Eastern print. Last close NVIDIA $225.07, SOX 12,668.93, CoreWeave $87.59. H4 remains a fail as regime change. H5 remains open and live on the cheap tier. The danger level held at 3, Stressed.
+
+- **2026-09-28 America/New_York (nightly).** Weekend markets closed. No new hyperscaler 8-K or 10-Q printed, and no capex guide was cut. Official cards confirmed first-party. OpenAI flagship table still lists GPT-6 Astra $10/$50, GPT-6 Sol $2/$10, GPT-6 Luna $0.10/$0.50. CCIR rental is the 26 September 07:30 Eastern print. Last close NVIDIA $225.07, SOX 12,668.93, CoreWeave $87.59. H4 remains a fail as regime change. H5 remains open and live on the cheap tier. The danger level held at 3, Stressed.

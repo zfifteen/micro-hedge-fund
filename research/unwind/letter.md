@@ -1,6 +1,6 @@
 # The Unwind Letter
 
-**27 September 2026**
+**28 September 2026**
 Danger level: **3, Stressed** — unchanged
 
 This is a research letter, not a trading session and not a recommendation. Nothing in it is a short, a hedge, or an allocation.
@@ -9,9 +9,9 @@ This is a research letter, not a trading session and not a recommendation. Nothi
 
 Good morning.
 
-Cash is closed for the weekend. The last print that matters is Friday. NVIDIA finished at two hundred twenty-five seven, a fraction of a percent higher on the day, and still sits about four and nine tenths percent below the mid-May high of two hundred thirty-six fifty-four. The semiconductor index closed Friday at twelve thousand six hundred sixty-nine. CoreWeave finished at eighty-seven fifty-nine after giving back Thursday's upgrade bounce. Those are marks. They are not a token that got more expensive and they are not a rim payment that cleared.
+Cash remains closed over the weekend. The last print that matters is still Friday. NVIDIA finished at two hundred twenty-five seven, a fraction of a percent higher on the day, and still sits about four and nine tenths percent below the mid-May high of two hundred thirty-six fifty-four. The semiconductor index closed Friday at twelve thousand six hundred sixty-nine. CoreWeave finished at eighty-seven fifty-nine. Those are marks. They are not a token that got more expensive and they are not a rim payment that cleared.
 
-Official cheap-tier cards did not move overnight. OpenAI still lists the GPT-6 flagship table, with GPT-6 Luna at ten cents of input and fifty cents of output per million tokens on short context. The named rental series is now dated the twenty-fifth of September. The public ladder shows the neocloud H100 hour at three dollars thirty-four.
+Official cheap-tier cards did not move overnight. OpenAI still lists the GPT-6 flagship table, with GPT-6 Luna at ten cents of input and fifty cents of output per million tokens on short context. The named rental series is now dated the twenty-sixth of September. The public ladder shows the neocloud H100 hour at three dollars thirty-seven.
 
 The danger level stays at three, Stressed. The hub is still inside the line that would force a move on the mark alone. No guarantee was drawn. No rim payment was missed.
 
@@ -27,9 +27,9 @@ These are list prices. A lower list on a new name is not a recovery of the rate 
 
 ## The price of an hour
 
-The CCIR series is now stamped the twenty-fifth of September at seven thirty Eastern. The public ladder on that dated print shows a guaranteed H100 at eleven dollars twenty-five an hour on a hyperscaler, three dollars thirty-four at a neocloud, and three dollars nineteen on the marketplace. H200 printed ten thirty, four twenty-nine, and four forty-seven. B200 printed fourteen twenty-four, six eighty-two, and six seventy-nine. An interruptible H100 at a neocloud cleared at two two.
+The CCIR series is now stamped the twenty-sixth of September at seven thirty Eastern. The public ladder on that dated print shows a guaranteed H100 at eleven dollars twenty-five an hour on a hyperscaler, three dollars thirty-seven at a neocloud, and three dollars nineteen on the marketplace. H200 printed ten thirty, four twenty-nine, and four forty. B200 printed fourteen twenty-four, six eighty-two, and six seventy-nine. An interruptible H100 at a neocloud cleared at two three.
 
-The twenty-fifth's neocloud H100 cell ticked three cents down from the twenty-fourth's three thirty-seven. Marketplace H100 held at three nineteen. That is another hold inside the same cheap band, not a new regime. Hyperscaler H100 held at eleven twenty-five. A higher sticker at the large clouds does not rescue a neocloud that financed at the low print. The first place this race becomes cash is not NVIDIA's mark. It is a payment date at the rim.
+The twenty-sixth's neocloud H100 cell ticked three cents up from the twenty-fifth's three thirty-four. Marketplace H100 held at three nineteen. That is another hold inside the same cheap band, not a new regime. Hyperscaler H100 held at eleven twenty-five. A higher sticker at the large clouds does not rescue a neocloud that financed at the low print. The first place this race becomes cash is not NVIDIA's mark. It is a payment date at the rim.
 
 ## Circular paper and spender cash
 
@@ -51,7 +51,7 @@ The score moves to five if a residual-value guarantee is drawn, if a hyperscaler
 
 The score moves to two only if mid-tier token prices stop falling for two quarters, neocloud rental holds, and the circular book stops growing.
 
-The weekend confirmed a closed cash tape, unchanged official cheap cards, and a rental series dated the twenty-fifth that now shows three thirty-four on the public neocloud H100 cell. The conversion rate did not recover.
+The weekend confirmed a closed cash tape, unchanged official cheap cards, and a rental series dated the twenty-sixth that now shows three thirty-seven on the public neocloud H100 cell. The conversion rate did not recover.
 
 ## The open question
 
