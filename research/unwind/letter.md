@@ -1,6 +1,6 @@
 # The Unwind Letter
 
-**28 September 2026**
+**29 September 2026**
 Danger level: **3, Stressed** — unchanged
 
 This is a research letter, not a trading session and not a recommendation. Nothing in it is a short, a hedge, or an allocation.
@@ -9,9 +9,9 @@ This is a research letter, not a trading session and not a recommendation. Nothi
 
 Good morning.
 
-Cash remains closed over the weekend. The last print that matters is still Friday. NVIDIA finished at two hundred twenty-five seven, a fraction of a percent higher on the day, and still sits about four and nine tenths percent below the mid-May high of two hundred thirty-six fifty-four. The semiconductor index closed Friday at twelve thousand six hundred sixty-nine. CoreWeave finished at eighty-seven fifty-nine. Those are marks. They are not a token that got more expensive and they are not a rim payment that cleared.
+Monday's cash session left the hub mark higher and the rim equity lower. NVIDIA closed at two hundred twenty-eight eighty-six, up about one and seven tenths percent on the day and now roughly three and two tenths percent below the mid-May high of two hundred thirty-six fifty-four. The semiconductor index finished at twelve thousand four hundred sixty-five, down about one and six tenths percent. CoreWeave closed at eighty-five seven, down nearly three percent and still about forty-four and a half percent below its fifty-two-week high of one hundred fifty-three twenty. Those are marks on the collateral and on the rim. They are not a token that got more expensive and they are not a payment that cleared because conversion improved.
 
-Official cheap-tier cards did not move overnight. OpenAI still lists the GPT-6 flagship table, with GPT-6 Luna at ten cents of input and fifty cents of output per million tokens on short context. The named rental series is now dated the twenty-sixth of September. The public ladder shows the neocloud H100 hour at three dollars thirty-seven.
+Official cheap-tier cards did not move. OpenAI still lists the GPT-6 flagship table with Luna at ten cents of input and fifty cents of output per million tokens on short context. The named rental series remains the twenty-sixth of September print. The public ladder still shows the neocloud H100 hour at three dollars thirty-seven.
 
 The danger level stays at three, Stressed. The hub is still inside the line that would force a move on the mark alone. No guarantee was drawn. No rim payment was missed.
 
@@ -27,21 +27,21 @@ These are list prices. A lower list on a new name is not a recovery of the rate 
 
 ## The price of an hour
 
-The CCIR series is now stamped the twenty-sixth of September at seven thirty Eastern. The public ladder on that dated print shows a guaranteed H100 at eleven dollars twenty-five an hour on a hyperscaler, three dollars thirty-seven at a neocloud, and three dollars nineteen on the marketplace. H200 printed ten thirty, four twenty-nine, and four forty. B200 printed fourteen twenty-four, six eighty-two, and six seventy-nine. An interruptible H100 at a neocloud cleared at two three.
+The CCIR series remains stamped the twenty-sixth of September at seven thirty Eastern. The public ladder on that dated print shows a guaranteed H100 at eleven dollars twenty-five an hour on a hyperscaler, three dollars thirty-seven at a neocloud, and three dollars nineteen on the marketplace. H200 printed ten thirty, four twenty-nine, and four forty. B200 printed fourteen twenty-four, six eighty-two, and six seventy-nine. An interruptible H100 at a neocloud cleared at two three.
 
-The twenty-sixth's neocloud H100 cell ticked three cents up from the twenty-fifth's three thirty-four. Marketplace H100 held at three nineteen. That is another hold inside the same cheap band, not a new regime. Hyperscaler H100 held at eleven twenty-five. A higher sticker at the large clouds does not rescue a neocloud that financed at the low print. The first place this race becomes cash is not NVIDIA's mark. It is a payment date at the rim.
+No newer daily stamp was public at the time of this letter. The twenty-sixth's neocloud H100 cell stays inside the same cheap band. A higher sticker at the large clouds does not rescue a neocloud that financed at the low print. The first place this race becomes cash is not NVIDIA's mark. It is a payment date at the rim.
 
 ## Circular paper and spender cash
 
-NVIDIA's August filing still caps residual-value guarantees at the SB Energy Ohio site at one hundred five billion dollars, with OpenAI as the tenant. Amazon has closed fifty billion of OpenAI equity and added one hundred billion of AWS commercial commitment over eight years. That paper did not shrink over the weekend. Announced is not funded is not drawn. Drawn is the print that would move this letter from three to five.
+NVIDIA's August filing still caps residual-value guarantees at the SB Energy Ohio site at one hundred five billion dollars, with OpenAI as the tenant. Amazon has closed fifty billion of OpenAI equity and added one hundred billion of AWS commercial commitment over eight years. That paper did not shrink on Monday. Announced is not funded is not drawn. Drawn is the print that would move this letter from three to five.
 
 Spender free cash flow remains the live tension. Amazon's trailing free cash flow is still negative seven point six billion. Alphabet printed negative five point nine billion in the second quarter. Meta printed seven hundred eighty million. Oracle printed negative five point four billion of free cash flow in the just-reported quarter, spent twenty-eight and a half billion of capital, and sold twenty billion of common stock through an at-the-market program. Full-year capital spending is still guided at ninety to ninety-five billion. July's envelopes moved up at three of the four large spenders and none cut them.
 
-CoreWeave equity closed Friday at eighty-seven fifty-nine, about forty-three percent below the fifty-two-week high of one hundred fifty-three twenty. Debt stock remains about thirty-five billion. The company priced an upsized three-point-seven-billion-dollar issue of two-point-eight-seven-five-percent convertible senior notes due two thousand thirty-three on the eighteenth. An equity mark is not the same thing as a payment that cleared because tokens got more expensive. Financing last week still closed.
+CoreWeave equity closed Monday at eighty-five seven, about forty-four and a half percent below the fifty-two-week high of one hundred fifty-three twenty. Debt stock remains about thirty-five billion. The company priced an upsized three-point-seven-billion-dollar issue of two-point-eight-seven-five-percent convertible senior notes due two thousand thirty-three on the eighteenth. An equity mark is not the same thing as a payment that cleared because tokens got more expensive. Financing still closed.
 
 ## Hub mark and the collateral
 
-NVIDIA last closed at two hundred twenty-five seven, about four and nine tenths percent below the mid-May high of two hundred thirty-six fifty-four. The semiconductor index last closed at twelve thousand six hundred sixty-nine, still below the June high of fourteen thousand six hundred fifty-five. The hub mark is the collateral for the next circular round. It remains intact enough that the danger level stays at three rather than moving to four.
+NVIDIA last closed at two hundred twenty-eight eighty-six, about three and two tenths percent below the mid-May high of two hundred thirty-six fifty-four. The semiconductor index last closed at twelve thousand four hundred sixty-five, still below the June high of fourteen thousand six hundred fifty-five. The hub mark is the collateral for the next circular round. It remains intact enough that the danger level stays at three rather than moving to four.
 
 ## What would change the letter
 
@@ -51,7 +51,7 @@ The score moves to five if a residual-value guarantee is drawn, if a hyperscaler
 
 The score moves to two only if mid-tier token prices stop falling for two quarters, neocloud rental holds, and the circular book stops growing.
 
-The weekend confirmed a closed cash tape, unchanged official cheap cards, and a rental series dated the twenty-sixth that now shows three thirty-seven on the public neocloud H100 cell. The conversion rate did not recover.
+Monday confirmed a higher hub mark, a softer rim equity print, unchanged official cheap cards, and a rental series that still rests on the twenty-sixth. The conversion rate did not recover.
 
 ## The open question
 
