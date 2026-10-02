@@ -1,6 +1,6 @@
 # WS-T — Token prices and GPU rental
 
-As-of: 2026-10-01. Process note, not a book.
+As-of: 2026-10-02. Process note, not a book.
 
 These are the output prices of the finance loop. Filings tell you what was promised. This file tells you what the installed silicon can charge today. Announced is not funded is not a token. A rate card is not utilization.
 
@@ -23,25 +23,25 @@ Units: USD per 1 million tokens. Standard processing, not batch, not priority, u
 
 | Model | Provider | Input | Output | As-of | Tag | Source |
 |---|---|---:|---:|---|---|---|
-| GPT-6 Astra | OpenAI | 10.00 | 50.00 | 2026-10-01 official card | Measured | developers.openai.com/api/docs/pricing |
-| GPT-6.1 Sol | OpenAI | 2.00 | 10.00 | 2026-10-01 official flagship table | Measured | developers.openai.com/api/docs/pricing |
-| GPT-6 Luna | OpenAI | 0.10 | 0.50 | 2026-10-01 official flagship table | Measured | developers.openai.com/api/docs/pricing |
-| GPT-5.6 Sol | OpenAI | 4.00 short-context promo (long-context 8.00); company language calls this promotional through at least 2026-11-21 | 20.00 short (30.00 long) | 2026-10-01 | Measured | official pricing page |
-| GPT-5.6 Terra | OpenAI | 2.00 | 12.00 | 2026-07-30 cut, last confirmed 2026-10-01 | Measured | OpenAI 2026-07-30 announcement; official pricing page |
-| GPT-5.6 Luna | OpenAI | 0.20 | 1.20 | 2026-07-30 cut, last confirmed 2026-10-01 | Measured | OpenAI 2026-07-30; official pricing page |
-| Claude Opus 5.5 | Anthropic | 4.00 | 20.00 | 2026-10-01 last confirmed official card | Measured | platform.claude.com/docs |
-| Claude Opus 5 | Anthropic | 5.00 | 25.00 | 2026-10-01 last confirmed official card | Measured | platform.claude.com/docs |
-| Claude Sonnet 5.5 | Anthropic | 2.00 | 10.00 | 2026-10-01 official card; same list as Sonnet 5 | Measured | platform.claude.com/docs |
-| Claude Sonnet 5 | Anthropic | 2.00 | 10.00 | 2026-10-01 last confirmed official card | Measured | platform.claude.com/docs |
-| Claude Haiku 4.5 | Anthropic | 1.00 | 5.00 | 2026-10-01 last confirmed official card | Measured | platform.claude.com/docs |
-| Claude Fable 5.1 | Anthropic | 10.00 | 50.00 | 2026-10-01 last confirmed official card; cache hits $0.25 / 1M | Measured | platform.claude.com/docs |
-| Gemini 3.1 Pro | Google | 2.00 (<=200k tokens); 4.00 above 200k | 12.00 (<=200k); 18.00 above 200k | 2026-10-01 official page | Measured | ai.google.dev/gemini-api/docs/pricing |
-| Gemini 3.8 Flash | Google | 0.75 intro through 2026-12-31; 1.50 starting 2027-01-01 | 3.75 intro through 2026-12-31; 7.50 starting 2027-01-01 | 2026-10-01 official page | Measured | ai.google.dev/gemini-api/docs/pricing |
-| Grok 4.7 | xAI | 2.00 | 6.00 | 2026-10-01 official model page | Measured | docs.x.ai model pricing |
+| GPT-6 Astra | OpenAI | 10.00 | 50.00 | 2026-10-02 official card | Measured | developers.openai.com/api/docs/pricing |
+| GPT-6.1 Sol | OpenAI | 2.00 | 10.00 | 2026-10-02 official flagship table | Measured | developers.openai.com/api/docs/pricing |
+| GPT-6 Luna | OpenAI | 0.10 | 0.50 | 2026-10-02 official flagship table | Measured | developers.openai.com/api/docs/pricing |
+| GPT-5.6 Sol | OpenAI | 4.00 short-context promo (long-context 8.00); company language calls this promotional through at least 2026-11-21 | 20.00 short (30.00 long) | 2026-10-02 | Measured | official pricing page |
+| GPT-5.6 Terra | OpenAI | 2.00 | 12.00 | 2026-07-30 cut, last confirmed 2026-10-02 | Measured | OpenAI 2026-07-30 announcement; official pricing page |
+| GPT-5.6 Luna | OpenAI | 0.20 | 1.20 | 2026-07-30 cut, last confirmed 2026-10-02 | Measured | OpenAI 2026-07-30; official pricing page |
+| Claude Opus 5.5 | Anthropic | 4.00 | 20.00 | 2026-10-02 last confirmed official card | Measured | platform.claude.com/docs |
+| Claude Opus 5 | Anthropic | 5.00 | 25.00 | 2026-10-02 last confirmed official card | Measured | platform.claude.com/docs |
+| Claude Sonnet 5.5 | Anthropic | 2.00 | 10.00 | 2026-10-02 official card; same list as Sonnet 5 | Measured | platform.claude.com/docs |
+| Claude Sonnet 5 | Anthropic | 2.00 | 10.00 | 2026-10-02 last confirmed official card | Measured | platform.claude.com/docs |
+| Claude Haiku 4.5 | Anthropic | 1.00 | 5.00 | 2026-10-02 last confirmed official card | Measured | platform.claude.com/docs |
+| Claude Fable 5.1 | Anthropic | 10.00 | 50.00 | 2026-10-02 last confirmed official card; cache hits $0.25 / 1M | Measured | platform.claude.com/docs |
+| Gemini 3.1 Pro | Google | 2.00 (<=200k tokens); 4.00 above 200k | 12.00 (<=200k); 18.00 above 200k | 2026-10-02 official page, page last updated 2026-10-01 UTC | Measured | ai.google.dev/gemini-api/docs/pricing |
+| Gemini 3.8 Flash | Google | 0.75 intro through 2026-12-31; 1.50 starting 2027-01-01 | 3.75 intro through 2026-12-31; 7.50 starting 2027-01-01 | 2026-10-02 official page, page last updated 2026-10-01 UTC | Measured | ai.google.dev/gemini-api/docs/pricing |
+| Grok 4.7 | xAI | 2.00 | 6.00 | 2026-10-02 official model page | Measured | docs.x.ai model pricing |
 
-OpenAI 2026-07-30 is still the last first-party cheap-tier shock on the GPT-5.6 rows. The official flagship table on 2026-10-01 still lists a GPT-6 family at Astra $10 / $50, GPT-6.1 Sol $2 / $10, and Luna $0.10 / $0.50 on short context. That is a Measured new-name stack at a lower list than the July GPT-5.6 cheap tier. Sol short-context promo remains labeled through at least 21 November 2026.
+OpenAI 2026-07-30 is still the last first-party cheap-tier shock on the GPT-5.6 rows. The official flagship table on 2026-10-02 still lists a GPT-6 family at Astra $10 / $50, GPT-6.1 Sol $2 / $10, and Luna $0.10 / $0.50 on short context. That is a Measured new-name stack at a lower list than the July GPT-5.6 cheap tier. Sol short-context promo remains labeled through at least 21 November 2026.
 
-Google Gemini 3.8 Flash introductory rate of $0.75 / $3.75 is a dated promo that reverts on 1 January 2027.
+Google Gemini 3.8 Flash introductory rate of $0.75 / $3.75 is a dated promo that reverts on 1 January 2027. The official page was last updated 2026-10-01 UTC.
 
 Anthropic official page last confirmed Claude Opus 5.5 at $4.00 / $20.00 while Claude Opus 5 remains $5.00 / $25.00. Claude Sonnet 5.5 lists at the same $2.00 / $10.00 as Sonnet 5.
 
@@ -56,18 +56,18 @@ BenchLM Token Price Index, released 2026-09-03 for September 2026:
 - Mid-tier index 50, median blended $3.00.
 - Budget index 116.3, median blended $0.58.
 
-Tag: **Hypothesis** (constructed index). Use it as a slope, not as a filing.
+Tag: **Hypothesis** (constructed index). Use it as a slope, not as a filing. Do not treat 2023-to-now deflation as a 2026 bind by itself.
 
-## GPU rental — 2026-09-29 series, read 2026-10-01
+## GPU rental — 2026-09-30 series, read 2026-10-02
 
-CCIR guaranteed on-demand, US & EU, USD/GPU-hr, as of 2026-09-29 07:30 ET. Tag: **Measured as a published series, not as a company filing.** No newer daily CCIR stamp was public at the time of this report on 2026-10-01.
+CCIR guaranteed on-demand, US & EU, USD/GPU-hr, as of 2026-09-30 07:30 ET. Tag: **Measured as a published series, not as a company filing.** No newer public daily stamp was available at the time of this report on 2026-10-02.
 
 | Silicon | Hyperscaler | Neocloud | Marketplace |
 |---|---:|---:|---:|
 | B300 | — | 7.72 | 7.89 |
-| B200 | 14.24 | 6.88 | 6.79 |
-| H200 | 10.30 | 4.14 | 4.29 |
-| H100 | 11.25 | 3.36 | 3.07 |
+| B200 | 14.24 | 6.92 | 6.79 |
+| H200 | 10.30 | 4.14 | 4.31 |
+| H100 | 11.25 | 3.35 | 3.07 |
 | A100 | 4.45 | 1.65 | 1.49 |
 
 Interruptible (same source, not a substitute for guaranteed):
@@ -80,12 +80,12 @@ Interruptible (same source, not a substitute for guaranteed):
 | H100 | 2.79 | 2.03 |
 | A100 | 2.65 | 1.14 |
 
-Neocloud H100 guaranteed printed $3.36 on the 29 September series. Marketplace H100 printed $3.07. Those are holds inside the same cheap band, not a regime change in rental.
+Neocloud H100 guaranteed printed $3.35 on the 30 September series, a penny under the 29 September cell of $3.36. Marketplace H100 printed $3.07. B200 neocloud printed $6.92, up four cents from $6.88. Those are holds inside the same cheap band, not a regime change in rental.
 
 ## Transmission into H2 / H3 / H5
 
 - H2: cheaper tokens can raise volume and still leave FCF compressed if the capex to serve the volume was already spent.
-- H3: the $105B NVDA residual-value cap sits after the 2026-07-30 OpenAI cheap-tier cut. CoreWeave priced $3.7 billion of 2.875% converts due 2033 on 18 September.
+- H3: the $105B NVDA residual-value cap sits after the 2026-07-30 OpenAI cheap-tier cut. CoreWeave priced $3.7 billion of 2.875% converts due 2033 on 18 September. A 1 October Reuters report on pipeline guarantees is Hypothesis and is not a draw on that cap.
 - H5: live on the cheap tier. Not proven as a bind on hub paper. Missing: a filing that restates residual value, or a rim payment that does not clear.
 
 ## Refresh rules
