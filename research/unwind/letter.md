@@ -1,6 +1,6 @@
 # The Unwind Letter
 
-**4 October 2026**
+**5 October 2026**
 Danger level: **3, Stressed** — unchanged
 
 This is a research letter, not a trading session and not a recommendation. Nothing in it is a short, a hedge, or an allocation.
@@ -9,34 +9,34 @@ This is a research letter, not a trading session and not a recommendation. Nothi
 
 Good morning.
 
-Cash markets were closed for the weekend, so the hub mark is still Friday's print. NVIDIA last closed at $233.95, about one and one tenth percent below the mid-May high of $236.54, after a Friday session high of $237.88 that cleared that line and set a new fifty-two-week high. The semiconductor index last closed at 13,136.67, about ten and four tenths percent below the June high near 14,655. CoreWeave last closed at $89.62, about forty-one and a half percent below its fifty-two-week high of $153.20. A closed tape does not clear a payment, and it does not repair a conversion rate.
+Cash has not opened. The hub mark is still Friday's close. NVIDIA last closed at $233.95, about one and one tenth percent below the mid-May high of $236.54, after a Friday session high of $237.88 that cleared that line and set a new fifty-two-week high. The semiconductor index last closed at 13,136.67, about ten and four tenths percent below the June high of 14,655.29. CoreWeave last closed at $89.62, about forty-one and a half percent below its fifty-two-week high of $153.20. A closed tape does not clear a payment, and it does not repair a conversion rate.
 
-The rental series did move. The public CCIR ladder is now stamped the second of October at seven thirty Eastern, one day newer than the print in yesterday's letter. Guaranteed H100 rental still shows eleven dollars twenty-five an hour at a hyperscaler, three dollars thirty-five at a neocloud, and three dollars seven on the marketplace. The cheap Hopper cell held. The neocloud B200 cell rose seven cents, to seven dollars six. A higher sticker on newer silicon does not change what a neocloud that financed Hopper can charge for an hour.
+The rental series did move. The public CCIR ladder is now stamped the third of October at seven thirty Eastern, one day newer than the print in yesterday's letter. Guaranteed H100 rental still shows eleven dollars twenty-five an hour at a hyperscaler and three dollars seven on the marketplace. The neocloud cell printed three dollars thirty-four, a penny under Saturday's prior reading of three thirty-five. The cheap Hopper band held. A one-cent move on newer silicon's older cousin does not change what a neocloud that financed Hopper can charge for an hour.
 
-Official cheap-tier cards did not cut. OpenAI still lists GPT-6 Luna at ten cents of input and fifty cents of output per million tokens on short context, and GPT-6.1 Sol at two dollars and ten dollars. Anthropic still lists Claude Sonnet 5.5 at two dollars and ten dollars. The danger level stays at three, Stressed. No guarantee was drawn. No rim payment was missed. Thursday's Reuters report, that lenders want stronger backing on chip-financed deals still in the pipeline, is still a conversation about paper that has not yet been written.
+Official cheap-tier cards did not cut. OpenAI still lists GPT-6 Luna at ten cents of input and fifty cents of output per million tokens on short context, and GPT-6.1 Sol at two dollars and ten dollars. Billing for a limited research model, GPT-Rosalind, begins today at five dollars and twenty-five dollars, and access stays inside an approved program. That is a billing start, not a flagship list cut. The danger level stays at three, Stressed. No guarantee was drawn. No rim payment was missed. Thursday's Reuters report, that lenders want stronger backing on chip-financed deals still in the pipeline, is still a conversation about paper that has not yet been written.
 
 ## Tokens and the conversion rate
 
 OpenAI's official pricing page still lists GPT-6 Astra at ten dollars and fifty dollars, GPT-6.1 Sol at two dollars and ten dollars, and GPT-6 Luna at ten cents and fifty cents, on short context. GPT-5.6 Sol remains on promotional pricing of four dollars and twenty dollars through at least the twenty-first of November. Those are list prices, not realized revenue.
 
-The same page says billing for a limited research model, GPT-Rosalind, begins on the fifth of October, and that access is limited to an approved program. A research billing start is not a flagship list cut, and it is not a volume offset for the cheap tier.
+The same page says billing for gpt-rosalind-research begins on the fifth of October, at five dollars of input and twenty-five dollars of output per million tokens. Access is limited to an approved program. A research billing start is not a flagship list cut, and it is not a volume offset for the cheap tier.
 
 A new family at a lower list is another conversion-rate print. It is not the same event as the thirty July cut of GPT-5.6 Luna. Volume can still rescue the dollar total if buyers consume enough of the cheap tokens. No primary filing has yet shown that volume offset.
 
-Anthropic's official cards still list Claude Opus 5.5 at four and twenty, Sonnet 5.5 at two and ten, Haiku 4.5 at one and five, and Fable 5.1 at ten and fifty. Opus 5 remains at five and twenty-five on the same card. Google still lists Gemini 3.1 Pro at two and twelve for prompts at or below two hundred thousand tokens, and Gemini 3.8 Flash at an introductory seventy-five cents and three dollars seventy-five through the end of the year. The Google page still carries a first-of-October update stamp. xAI still lists Grok 4.7 at two dollars and six dollars on the public card for prompts below two hundred thousand tokens.
+Anthropic's official cards still list Claude Opus 5.5 at four and twenty, Sonnet 5.5 at two and ten, Haiku 4.5 at one and five, and Fable 5.1 at ten and fifty. Opus 5 remains at five and twenty-five on the same card. Google still lists Gemini 3.8 Flash at an introductory seventy-five cents and three dollars seventy-five through the end of the year. The Google page still carries a first-of-October update stamp. xAI still lists Grok 4.7 at two dollars of input and six dollars of output on the public card for prompts below two hundred thousand tokens.
 
 These are list prices. A lower list on a new name is not a recovery of the rate that 2025 and early-2026 paper assumed. The long decline from 2023 is a slope. It is not, by itself, the 2026 bind.
 
 ## The price of an hour
 
-The newest public CCIR series is stamped the second of October at seven thirty Eastern. The public ladder on that dated print shows a guaranteed H100 at eleven dollars twenty-five an hour on a hyperscaler, three dollars thirty-five at a neocloud, and three dollars seven on the marketplace. H200 printed ten thirty, four fourteen, and four forty-five. B200 printed fourteen twenty-four, seven oh six, and six seventy-nine. An interruptible H100 at a neocloud cleared at two oh one, a penny under Friday's reading of that cell.
+The newest public CCIR series is stamped the third of October at seven thirty Eastern. The public ladder on that dated print shows a guaranteed H100 at eleven dollars twenty-five an hour on a hyperscaler, three dollars thirty-four at a neocloud, and three dollars seven on the marketplace. H200 printed ten thirty, four fourteen, and four thirty-eight. B200 printed fourteen twenty-four, seven oh six, and six seventy-nine. An interruptible H100 at a neocloud cleared at two dollars even, a penny under the second of October reading of that cell.
 
-The second's neocloud H100 cell held at three dollars thirty-five, the same cheap band as the first and the thirtieth. The marketplace cell held at three dollars seven. The neocloud B200 cell rose seven cents, to seven dollars six, and the marketplace H200 cell rose thirty cents, to four forty-five. Those are moves inside the same cheap band, not a regime change in rental. A higher sticker at the large clouds does not rescue a neocloud that financed at the low print. The first place this race becomes cash is not NVIDIA's mark. It is a payment date at the rim.
+The third's neocloud H100 cell slipped a penny, to three dollars thirty-four, and stayed inside the same cheap band as the second, the first, and the thirtieth. The marketplace cell held at three dollars seven. The neocloud B200 cell held at seven dollars six. The marketplace H200 cell fell seven cents, to four thirty-eight. Those are holds and small moves inside the same cheap band, not a regime change in rental. A higher sticker at the large clouds does not rescue a neocloud that financed at the low print. The first place this race becomes cash is not NVIDIA's mark. It is a payment date at the rim.
 
 | Silicon | Hyperscaler | Neocloud | Marketplace |
 | --- | ---: | ---: | ---: |
-| H100 | 11.25 | 3.35 | 3.07 |
-| H200 | 10.30 | 4.14 | 4.45 |
+| H100 | 11.25 | 3.34 | 3.07 |
+| H200 | 10.30 | 4.14 | 4.38 |
 | B200 | 14.24 | 7.06 | 6.79 |
 
 ## Circular paper and spender cash
@@ -53,7 +53,7 @@ CoreWeave equity last closed at eighty-nine sixty-two, about forty-one and a hal
 
 ## Hub mark and the collateral
 
-NVIDIA last closed at two hundred thirty-three dollars and ninety-five cents, about one and one tenth percent below the mid-May high of two hundred thirty-six fifty-four. Friday's session high of two hundred thirty-seven eighty-eight cleared that May mark and set a new fifty-two-week high. The close did not. The semiconductor index last closed at thirteen thousand one hundred thirty-six, still below the June high near fourteen thousand six hundred fifty-five. The hub mark is the collateral for the next circular round. It remains intact enough that the danger level stays at three rather than moving to four. A firmer mark, even one that traded through the old high, does not repair the conversion rate.
+NVIDIA last closed at two hundred thirty-three dollars and ninety-five cents, about one and one tenth percent below the mid-May high of two hundred thirty-six fifty-four. Friday's session high of two hundred thirty-seven eighty-eight cleared that May mark and set a new fifty-two-week high. The close did not. The semiconductor index last closed at thirteen thousand one hundred thirty-six, still below the June high of fourteen thousand six hundred fifty-five. The hub mark is the collateral for the next circular round. It remains intact enough that the danger level stays at three rather than moving to four. A firmer mark, even one that traded through the old high, does not repair the conversion rate.
 
 ## What would change the letter
 
@@ -63,7 +63,7 @@ The score moves to five if a residual-value guarantee is drawn, if a hyperscaler
 
 The score moves to two only if mid-tier token prices stop falling for two quarters, neocloud rental holds, and the circular book stops growing.
 
-The weekend confirmed a closed tape, official cheap cards that held their lists, and a rental series that advanced one day without leaving the cheap Hopper band. The conversion rate did not recover. Pipeline talk about stronger guarantees is not a draw.
+Monday's open has not printed. The weekend confirmed a closed tape, official cheap cards that held their lists, a research billing start that is not a flagship cut, and a rental series that advanced one day without leaving the cheap Hopper band. The conversion rate did not recover. Pipeline talk about stronger guarantees is not a draw.
 
 ## The open question
 
