@@ -13,7 +13,7 @@ The full write-up lives in `loop-health.md`. Token and rental cards live in `tok
 | Field | Print | Tag |
 |---|---|---|
 | Danger level | **3 — Stressed** | Judgment over Measured clocks |
-| Why | Cheap-tier token prices and neocloud H100 rental have already fallen, while NVIDIA $105 billion residual-value cap is still on the books and the hub equity mark is intact. Friday close put NVIDIA at $210.96, about 11 percent below the May high. The 23 October CCIR stamp put neocloud H100 at $3.37 and marketplace H100 at $3.48. CoreWeave equity closed at $54.24 with unsecured notes at yields near 15 percent. | Mixed |
+| Why | Cheap-tier token prices and neocloud H100 rental have already fallen, while NVIDIA $105 billion residual-value cap is still on the books and the hub equity mark is intact. Friday close put NVIDIA at $210.96, about 11 percent below the May high. The 24 October CCIR stamp put neocloud H100 at $3.33 and marketplace H100 at $3.35. CoreWeave equity closed at $54.24 with unsecured notes at yields near 15 percent. | Mixed |
 | H5 | Hypothesis H5 is open. It is live on the cheap tier and is not yet a bind on hub paper. | See hypotheses.md |
 
 ## Ten-number panel
@@ -29,7 +29,7 @@ The full write-up lives in `loop-health.md`. Token and rental cards live in `tok
 | 7 | Mag7 weight in SPX | About 33.6% reconstructed from SPY weights on 2026-09-04. | Measured / Hypothesis path |
 | 8 | SOX | Closed 10,779.46 on 2026-10-23 versus June high 14,655.29, about -26.5%. | Measured |
 | 9 | Equal-weight vs cap-weight | RSP still leads SPY on three-month and year-to-date prints last refreshed early September. | Measured |
-| 10 | Capex revision count | July: 3 up / 0 down. No later cut through 2026-10-25. | Measured |
+| 10 | Capex revision count | July: 3 up / 0 down. No later cut through 2026-10-26. | Measured |
 
 ## Tape context
 
@@ -39,13 +39,13 @@ The full write-up lives in `loop-health.md`. Token and rental cards live in `tok
 | SOX | 10,779.46 on 2026-10-23. | Measured |
 | CRWV last | Close $54.24 on 2026-10-23. | Measured |
 | Cheap-tier tokens | Official GPT-6 Luna $0.10/$0.50. GPT-6.1 Sol $2/$10. GPT-5.6 Sol promo $4/$20 through at least 21 November. GPT-Rosalind billing began 5 October at $5/$25, approved program only. Claude Haiku 5.5 $0.10/$0.50 up to 100k prompt tokens. Gemini 4 Argon introductory $2/$10 through 30 November. | Measured |
-| GPU rental | CCIR 2026-10-23 07:30 ET H100 $11.25 / $3.37 / $3.48. Neocloud B200 $8.27. | Measured as a published series |
+| GPU rental | CCIR 2026-10-24 07:30 ET H100 $11.25 / $3.33 / $3.35. Neocloud B200 $8.19. | Measured as a published series |
 | Pipeline guarantees | Reuters 2026-10-01: unnamed lenders want stronger guarantees on chip-backed deals still in the pipeline. Not a draw on the $105B cap. Commentary that no further backstop is required is Hypothesis. | Hypothesis |
 
 H4 fails as regime change. H5 is open and live on the cheap tier. The danger level is 3, not 4 or 5.
 
 ## Nightly snapshot log
 
-- **2026-10-24 America/New_York (nightly).** No new hyperscaler 8-K or 10-Q printed, and no capex guide was cut. Official cards confirmed first-party. OpenAI flagship table lists GPT-6 Astra $10/$50, GPT-6.1 Sol $2/$10, GPT-6 Luna $0.10/$0.50. GPT-Rosalind billing began 5 October at $5/$25 inside an approved program and is not a flagship cut. Anthropic official card still lists Haiku 5.5 at $0.10/$0.50 for prompts up to 100,000 tokens. Google lists Gemini 4 Argon at introductory $2/$10 through 30 November. CCIR rental is the 22 October 07:30 Eastern print. Markets closed. Last close NVIDIA $212.21 on 22 October 2026. SOX closed at 10,731.98. CoreWeave closed at $55.60. H4 remains a fail as regime change. H5 remains open and live on the cheap tier. The danger level held at 3, Stressed.
-
 - **2026-10-25 America/New_York (nightly).** No new hyperscaler 8-K or 10-Q printed, and no capex guide was cut. Official cards confirmed first-party. OpenAI flagship table lists GPT-6 Astra $10/$50, GPT-6.1 Sol $2/$10, GPT-6 Luna $0.10/$0.50. GPT-Rosalind billing began 5 October at $5/$25 inside an approved program and is not a flagship cut. Anthropic official card still lists Haiku 5.5 at $0.10/$0.50 for prompts up to 100,000 tokens. Google lists Gemini 4 Argon at introductory $2/$10 through 30 November. CCIR rental is the 23 October 07:30 Eastern print. Markets closed. Last close NVIDIA $210.96 on 23 October 2026. SOX closed at 10,779.46. CoreWeave closed at $54.24. H4 remains a fail as regime change. H5 remains open and live on the cheap tier. The danger level held at 3, Stressed.
+
+- **2026-10-26 America/New_York (nightly).** No new hyperscaler 8-K or 10-Q printed, and no capex guide was cut. Official cards confirmed first-party. OpenAI flagship table lists GPT-6 Astra $10/$50, GPT-6.1 Sol $2/$10, GPT-6 Luna $0.10/$0.50. GPT-Rosalind billing began 5 October at $5/$25 inside an approved program and is not a flagship cut. Anthropic official card still lists Haiku 5.5 at $0.10/$0.50 for prompts up to 100,000 tokens. Google lists Gemini 4 Argon at introductory $2/$10 through 30 November. CCIR rental is the 24 October 07:30 Eastern print. Markets closed. Last close NVIDIA $210.96 on 23 October 2026. SOX closed at 10,779.46. CoreWeave closed at $54.24. H4 remains a fail as regime change. H5 remains open and live on the cheap tier. The danger level held at 3, Stressed.
