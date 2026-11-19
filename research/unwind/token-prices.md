@@ -1,13 +1,14 @@
-# Token prices and GPU rental — 2026-11-18
+# Token prices and GPU rental — 2026-11-19
 
 **Measured** = official provider rate cards and the named CCIR series. **Hypothesis** = secondary commentary or volume-offset inference.
 
-As-of: official cards unchanged as of 2026-11-18 00:00 ET. CCIR stamp 2026-11-16 07:30 ET.
+As-of: official cards as of 2026-11-19 00:00 ET. CCIR stamp 2026-11-17 07:30 ET.
 
 ## Official flagship cards (Measured)
 
 OpenAI (developers.openai.com/api/docs/pricing):
-- GPT-6 Astra: $10 / $50 short context
+- GPT-6.2 Astra: $8 / $40 short context
+- GPT-6 Astra: $10 / $50
 - GPT-6.1 Sol: $2 / $10
 - GPT-6 Luna: $0.10 / $0.50
 - GPT-5.6 Sol promotional $4 / $20 through at least 2026-11-30
@@ -26,19 +27,19 @@ Google:
 xAI:
 - Grok 4.7: $2 / $6 below 200k
 
-No flagship list cut on this pass. Cheap-tier names remain on first-party cards. No primary volume offset printed.
+No cheap-tier list cut on this pass. Cheap-tier names remain on first-party cards. No primary volume offset printed.
 
 ## GPU rental — CCIR (Measured)
 
-Stamp 2026-11-16 07:30 ET, guaranteed on-demand U.S. & Europe:
+Stamp 2026-11-17 07:30 ET, guaranteed on-demand U.S. & Europe:
 
 | Silicon | Hyperscaler | Neocloud | Marketplace |
 | --- | ---: | ---: | ---: |
-| H100 | 11.25 | 3.37 | 2.54 |
-| H200 | 10.30 | 4.63 | 4.34 |
-| B200 | 14.24 | 8.50 | 6.50 |
+| H100 | 11.25 | 3.37 | 2.34 |
+| H200 | 10.30 | 4.85 | 4.46 |
+| B200 | 14.24 | 8.50 | 7.87 |
 
-Neocloud H100 unchanged from the 2026-11-15 cell. Marketplace H100 printed $2.54. Still inside the cheap band. Interruptible neocloud H100 $2.15.
+Neocloud H100 unchanged from the 2026-11-16 cell. Marketplace H100 printed $2.34. Still inside the cheap band. Interruptible neocloud H100 $2.15.
 
 ## Notes
 
