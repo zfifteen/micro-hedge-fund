@@ -1,14 +1,14 @@
-# Dashboard — ten-number panel — 2026-11-21
+# Dashboard — ten-number panel — 2026-11-22
 
-**Measured** unless labeled Hypothesis. As-of cash 2026-11-19 close / rental 2026-11-19 CCIR stamp / cards as of 2026-11-21.
+**Measured** unless labeled Hypothesis. As-of cash 2026-11-20 close / rental 2026-11-20 CCIR stamp / cards as of 2026-11-22.
 
-1. NVDA close: $145.98 (Measured, 2026-11-19)
-2. NVDA vs May high $236.54: −38.3% (Measured)
-3. SOX close: ~9,419.72 (Measured, 2026-11-19)
-4. SOX vs June high ~14,655: −35.7% (Measured)
-5. CRWV close: $44.91 (Measured, 2026-11-19)
-6. CRWV vs 52-week high ~$138: −67.5% (Measured)
-7. CCIR neocloud H100: $3.37 (Measured, 2026-11-19 stamp)
+1. NVDA close: $125.53 (Measured, 2026-11-20)
+2. NVDA vs May high $236.54: −46.9% (Measured)
+3. SOX close: 8,408.59 (Measured, 2026-11-20)
+4. SOX vs June high ~14,655: −42.6% (Measured)
+5. CRWV close: $39.51 (Measured, 2026-11-20)
+6. CRWV vs 52-week high ~$138: −71.4% (Measured)
+7. CCIR neocloud H100: $3.37 (Measured, 2026-11-20 stamp)
 8. OpenAI GPT-6 Luna list: $0.10 / $0.50 (Measured, official card)
 9. Anthropic Claude Haiku 5.5 list: $0.10 / $0.50 up to 100k (Measured, official card)
 10. Danger level: 4 Fragile (synthesis of Measured inputs above; held)

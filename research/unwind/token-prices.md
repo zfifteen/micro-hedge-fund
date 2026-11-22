@@ -1,8 +1,8 @@
-# Token prices and GPU rental — 2026-11-21
+# Token prices and GPU rental — 2026-11-22
 
 **Measured** = official provider rate cards and the named CCIR series. **Hypothesis** = secondary commentary or volume-offset inference.
 
-As-of: official cards as of 2026-11-21 00:00 ET. CCIR stamp 2026-11-19 07:30 ET.
+As-of: official cards as of 2026-11-22 00:00 ET. CCIR stamp 2026-11-20 07:30 ET.
 
 ## Official flagship cards (Measured)
 
@@ -31,15 +31,15 @@ No cheap-tier list cut on this pass. Cheap-tier names remain on first-party card
 
 ## GPU rental — CCIR (Measured)
 
-Stamp 2026-11-19 07:30 ET, guaranteed on-demand U.S. & Europe:
+Stamp 2026-11-20 07:30 ET, guaranteed on-demand U.S. & Europe:
 
 | Silicon | Hyperscaler | Neocloud | Marketplace |
 | --- | ---: | ---: | ---: |
 | H100 | 11.25 | 3.37 | 2.34 |
-| H200 | 10.30 | 5.40 | 4.56 |
-| B200 | 14.24 | 8.50 | 7.36 |
+| H200 | 10.30 | 5.40 | 4.61 |
+| B200 | 14.24 | 8.55 | 7.24 |
 
-Neocloud H100 unchanged from the 2026-11-18 cell. Marketplace H100 printed $2.34. Still inside the cheap band. Interruptible neocloud H100 $2.19.
+Neocloud H100 unchanged from the 2026-11-19 cell. Marketplace H100 printed $2.34. Still inside the cheap band. Interruptible neocloud H100 $2.15.
 
 ## Notes
 

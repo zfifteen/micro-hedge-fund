@@ -1,6 +1,6 @@
 # The Unwind Letter
 
-**21 November 2026**
+**22 November 2026**
 Danger level: **4, Fragile** — held
 
 This is a research letter, not a trading session and not a recommendation. Nothing in it is a short, a hedge, or an allocation.
@@ -9,11 +9,11 @@ This is a research letter, not a trading session and not a recommendation. Nothi
 
 Good morning.
 
-Markets stayed closed over the weekend. The last cash print remains Thursday's close. NVIDIA finished at one hundred forty-five dollars and ninety-eight cents, still about thirty-eight percent below the mid-May high of two hundred thirty-six fifty-four. That mark stays past the fifteen-percent line this letter has treated as the equity threshold for Fragile. The semiconductor index closed near nine thousand four hundred twenty, about thirty-six percent under its June high. CoreWeave closed at forty-four dollars and ninety-one cents, about sixty-seven percent below its high near one hundred thirty-eight. A lower hub mark is still an equity price. It is not a recovered conversion rate.
+Markets stayed closed over the weekend. The last cash print is Friday's close. NVIDIA finished at one hundred twenty-five dollars and fifty-three cents, about forty-seven percent below the mid-May high of two hundred thirty-six fifty-four. That is a further drop from Thursday's one hundred forty-five ninety-eight. The semiconductor index closed at eight thousand four hundred eight, about forty-three percent under its June high near fourteen thousand six hundred fifty-five. CoreWeave closed at thirty-nine dollars and fifty-one cents, about seventy-one percent below its high near one hundred thirty-eight. A lower hub mark is still an equity price. It is not a recovered conversion rate.
 
-The rental series advanced to the nineteenth of November stamp. The public CCIR ladder on that dated print shows a guaranteed H100 at eleven dollars twenty-five an hour on a hyperscaler, three dollars thirty-seven at a neocloud, and two dollars thirty-four on the marketplace. The neocloud Hopper hour held at three thirty-seven. The marketplace cell printed two thirty-four, down from two forty on the prior stamp. The large-cloud sticker did not move. H200 neocloud printed five dollars forty and marketplace four dollars fifty-six. Neocloud B200 printed eight dollars fifty.
+The rental series advanced to the twentieth of November stamp. The public CCIR ladder on that dated print shows a guaranteed H100 at eleven dollars twenty-five an hour on a hyperscaler, three dollars thirty-seven at a neocloud, and two dollars thirty-four on the marketplace. The neocloud Hopper hour held at three thirty-seven. The marketplace cell printed two thirty-four. The large-cloud sticker did not move. H200 neocloud printed five dollars forty and marketplace four dollars sixty-one. Neocloud B200 printed eight dollars fifty-five.
 
-Official flagship cards did not cut the cheap tier. OpenAI still lists GPT-6 Luna at ten cents of input and fifty cents of output per million tokens on short context. Anthropic's official card still lists Claude Haiku 5.5 at ten cents and fifty cents for prompts up to one hundred thousand tokens. Those cheap names remain on first-party cards. They are not a volume offset, and they are not a draw on the August residual-value cap. The danger level holds at four, Fragile. The hub mark, now about thirty-eight percent under the May high, remains past the equity line that this letter has used while capital-spending guides stay up. No guarantee was drawn. No rim payment was missed. The cheap neocloud hour, the still-cheaper marketplace hour, the cheap token names, and the still-stressed rim equity mark remain in place.
+Official flagship cards did not cut the cheap tier. OpenAI still lists GPT-6 Luna at ten cents of input and fifty cents of output per million tokens on short context. Anthropic's official card still lists Claude Haiku 5.5 at ten cents and fifty cents for prompts up to one hundred thousand tokens. Those cheap names remain on first-party cards. They are not a volume offset, and they are not a draw on the August residual-value cap. The danger level holds at four, Fragile. The hub mark, now about forty-seven percent under the May high, remains past the equity line that this letter has used while capital-spending guides stay up. No guarantee was drawn. No rim payment was missed. The cheap neocloud hour, the still-cheaper marketplace hour, the cheap token names, and the still-stressed rim equity mark remain in place.
 
 ## Tokens and the conversion rate
 
@@ -27,15 +27,15 @@ Google still lists Gemini 3.8 Flash at an introductory seventy-five cents of inp
 
 ## The price of an hour
 
-The newest public CCIR series confirmed on this pass is stamped the nineteenth of November at seven thirty Eastern. The public ladder on that dated print shows a guaranteed H100 at eleven dollars twenty-five an hour on a hyperscaler, three dollars thirty-seven at a neocloud, and two dollars thirty-four on the marketplace. H200 printed ten thirty, five forty, and four fifty-six. B200 printed fourteen twenty-four, eight fifty, and seven thirty-six. An interruptible H100 at a neocloud cleared at two dollars nineteen.
+The newest public CCIR series confirmed on this pass is stamped the twentieth of November at seven thirty Eastern. The public ladder on that dated print shows a guaranteed H100 at eleven dollars twenty-five an hour on a hyperscaler, three dollars thirty-seven at a neocloud, and two dollars thirty-four on the marketplace. H200 printed ten thirty, five forty, and four sixty-one. B200 printed fourteen twenty-four, eight fifty-five, and seven twenty-four. An interruptible H100 at a neocloud cleared at two dollars fifteen.
 
-The nineteenth's neocloud H100 cell printed three dollars thirty-seven, unchanged from the prior stamp. The marketplace cell printed two dollars thirty-four. The hyperscaler cell held at eleven twenty-five. Holding inside the cheap band is still a price inside the cheap band. It is not a recovered conversion rate, and it is not a payment that cleared because tokens got more expensive. The first place this race becomes cash is not NVIDIA's mark. It is a payment date at the rim.
+The twentieth's neocloud H100 cell printed three dollars thirty-seven, unchanged from the prior stamp. The marketplace cell printed two dollars thirty-four. The hyperscaler cell held at eleven twenty-five. Holding inside the cheap band is still a price inside the cheap band. It is not a recovered conversion rate, and it is not a payment that cleared because tokens got more expensive. The first place this race becomes cash is not NVIDIA's mark. It is a payment date at the rim.
 
 | Silicon | Hyperscaler | Neocloud | Marketplace |
 | --- | ---: | ---: | ---: |
 | H100 | 11.25 | 3.37 | 2.34 |
-| H200 | 10.30 | 5.40 | 4.56 |
-| B200 | 14.24 | 8.50 | 7.36 |
+| H200 | 10.30 | 5.40 | 4.61 |
+| B200 | 14.24 | 8.55 | 7.24 |
 
 ## Circular paper and spender cash
 
@@ -45,11 +45,11 @@ The first of October Reuters report still sits in a different drawer. Bankers an
 
 Spender free cash flow remains the live tension. Amazon's trailing free cash flow is still negative seven point six billion. Alphabet printed negative five point nine billion in the second quarter. Meta printed seven hundred eighty million. Oracle printed negative five point four billion of free cash flow in the just-reported quarter, spent twenty-eight and a half billion of capital, and sold twenty billion of common stock through an at-the-market program. Full-year capital spending is still guided at ninety to ninety-five billion. July's envelopes moved up at three of the four large spenders and none cut them. No later cut has printed.
 
-CoreWeave equity closed at forty-four dollars and ninety-one cents, about sixty-seven percent below the fifty-two-week high near one hundred thirty-eight, after a third-quarter revenue print of three point six six billion and a raised 2026 guide. Debt and lease obligations remain about fifty-two billion at the end of June. The company priced an upsized three-point-seven-billion-dollar issue of two-point-eight-seven-five-percent convertible senior notes due two thousand thirty-three on the eighteenth of September. Unsecured notes due 2032 continued to trade at yields near fifteen percent. An equity mark is not the same thing as a payment that cleared because tokens got more expensive. Financing still closed earlier. A move in the equity and bond marks is a price, not a missed coupon. No rim payment was missed.
+CoreWeave equity closed at thirty-nine dollars and fifty-one cents, about seventy-one percent below the fifty-two-week high near one hundred thirty-eight, after a third-quarter revenue print of three point six six billion and a raised 2026 guide. Debt and lease obligations remain large. The company priced an upsized three-point-seven-billion-dollar issue of two-point-eight-seven-five-percent convertible senior notes due two thousand thirty-three on the eighteenth of September. Unsecured notes due 2032 have continued to trade at yields near fifteen percent. An equity mark is not the same thing as a payment that cleared because tokens got more expensive. Financing still closed earlier. A move in the equity and bond marks is a price, not a missed coupon. No rim payment was missed.
 
 ## Hub mark and the collateral
 
-NVIDIA closed at one hundred forty-five dollars and ninety-eight cents, about thirty-eight percent below the mid-May high of two hundred thirty-six fifty-four. The semiconductor index closed near nine thousand four hundred twenty, about thirty-six percent below the June high of fourteen thousand six hundred fifty-five. The hub mark is the collateral for the next circular round. It remains past the fifteen-percent line that this letter has treated as the equity threshold for Fragile while capital-spending guides remain up. That is why the danger level holds at four rather than returning to three. A mark about thirty-eight percent under the May high does not repair the conversion rate. The neocloud hour stayed inside the cheap band, and the marketplace hour stayed inside it.
+NVIDIA closed at one hundred twenty-five dollars and fifty-three cents, about forty-seven percent below the mid-May high of two hundred thirty-six fifty-four. The semiconductor index closed at eight thousand four hundred eight, about forty-three percent below the June high of fourteen thousand six hundred fifty-five. The hub mark is the collateral for the next circular round. It remains past the fifteen-percent line that this letter has treated as the equity threshold for Fragile while capital-spending guides remain up. That is why the danger level holds at four rather than returning to three. A mark about forty-seven percent under the May high does not repair the conversion rate. The neocloud hour stayed inside the cheap band, and the marketplace hour stayed inside it.
 
 ## What would change the letter
 
@@ -59,7 +59,7 @@ The score moves to five if a residual-value guarantee is drawn, if a hyperscaler
 
 The score moves back to three only if the hub mark recovers inside the fifteen-percent line, mid-tier token prices stop falling, neocloud rental holds, and the circular book stops growing. A marketplace cell that stayed inside the cheap band is not that recovery. A Haiku name at ten cents is the other direction.
 
-Thursday's cash and the nineteenth's rental stamp confirmed a hub close about thirty-eight percent under the May high, a semiconductor index about thirty-six percent under its June high, a rim equity mark still well under its high with unsecured notes at distressed yields, official flagship cards that held their cheap-tier lists, a cheap Haiku name still on the Anthropic card, and a rental series that left the neocloud H100 cell at three dollars thirty-seven and the marketplace cell at two dollars thirty-four. The conversion rate did not recover. Pipeline talk about stronger guarantees is not a draw. Commentary that no further backstop is required is not a filing.
+Friday's cash and the twentieth's rental stamp confirmed a hub close about forty-seven percent under the May high, a semiconductor index about forty-three percent under its June high, a rim equity mark still well under its high with unsecured notes at distressed yields, official flagship cards that held their cheap-tier lists, a cheap Haiku name still on the Anthropic card, and a rental series that left the neocloud H100 cell at three dollars thirty-seven and the marketplace cell at two dollars thirty-four. The conversion rate did not recover. Pipeline talk about stronger guarantees is not a draw. Commentary that no further backstop is required is not a filing.
 
 ## The open question
 
