@@ -1,4 +1,4 @@
-# Loop health — 2026-11-22
+# Loop health — 2026-11-23
 
 Danger level: **4 Fragile** — held from prior letter.
 
@@ -9,7 +9,7 @@ Danger level: **4 Fragile** — held from prior letter.
 - Hub: NVDA closed $125.53 on 2026-11-20, ~46.9% below mid-May high $236.54. SOX closed 8,408.59, ~42.6% below June high ~14,655. Still past the 15% hub line. Markets closed over the weekend.
 - Rim: CRWV closed $39.51, ~71.4% below 52-week high ~$138. Unsecured notes near 15% yield. No missed payment found. Q3 revenue $3.66B, backlog $132.5B, 2026 guide raised.
 - Tokens: flagship lists held on the cheap tier. Cheap Haiku 5.5 still $0.10/$0.50 on Anthropic card. GPT-6 Luna still $0.10/$0.50. New GPT-6.2 Astra lists $8/$40. Gemini 4 Argon still introductory $2/$10.
-- Rental: CCIR 2026-11-20 neocloud H100 $3.37 (unchanged), marketplace $2.34, hyperscaler $11.25. Still cheap band. H200 neocloud $5.40, marketplace $4.61. B200 neocloud $8.55, marketplace $7.24.
+- Rental: CCIR 2026-11-21 neocloud H100 $3.37 (unchanged), marketplace $2.34, hyperscaler $11.25. Still cheap band. H200 neocloud $5.40, marketplace $4.20. B200 neocloud $8.70, marketplace $6.43.
 - Circular paper: August residual-value cap $105B still filed. No draw. Amazon OpenAI equity and commercial commitment unchanged on this pass. No hyperscaler capex cut.
 
 ## Why the score holds at 4
