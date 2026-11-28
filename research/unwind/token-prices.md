@@ -1,8 +1,8 @@
-# Token prices and GPU rental — 2026-11-27
+# Token prices and GPU rental — 2026-11-28
 
 **Measured** = official provider rate cards and the named CCIR series. **Hypothesis** = secondary commentary or volume-offset inference.
 
-As-of: official cards as of 2026-11-27 00:00 ET. CCIR stamp 2026-11-25 07:30 ET.
+As-of: official cards as of 2026-11-28 00:00 ET. CCIR stamp 2026-11-25 07:30 ET.
 
 ## Official flagship cards (Measured)
 
